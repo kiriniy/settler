@@ -42,6 +42,8 @@
 
     <script type="text/javascript">
 
+      console.log( "Page is ready!" );
+
     </script>
 
   </body>
