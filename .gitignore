@@ -1,10 +1,24 @@
 ._*
 
 .DS_Store
-.sass-cache
-.Spotlight-V100
+.AppleDB
+.AppleDesktop
+.AppleDouble
+.LSOverride
 .Trashes
+.Spotlight-V100
+.TemporaryItems
+.VolumeIcon.icns
+.DocumentRevisions-V100
+.com.apple.timemachine.donotpresent
+.fseventsd
+.apdisk
+.sass-cache
 
+Network Trash Folder
+Temporary Items
 Desktop.ini
 Thumbs.db
+
+config.codekit
 config.codekit3
