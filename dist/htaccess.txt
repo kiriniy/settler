@@ -1,0 +1,19 @@
+
+# This is INACTIVE config file that contain example rules for Apache server.
+# It must be invisible and without extension. DO NOT USE IT if you have no idea what it means.
+
+# --- Deny Index Access --- #
+
+Options All -Indexes
+
+# --- Remove WWW From Domain Name --- #
+
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+# --- Custom Error Pages --- #
+
+ErrorDocument 403 /assets/errors/403.php
+ErrorDocument 404 /assets/errors/404.php
