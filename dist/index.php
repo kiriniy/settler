@@ -36,6 +36,8 @@
 
   <body class="<?php echo $page_id; ?>" id="page-top">
 
+    <?php include $inc_path . 'misc_global-alert-no-js.php'; ?>
+
     <!-- PAGE CONTENT START -->
 
 
