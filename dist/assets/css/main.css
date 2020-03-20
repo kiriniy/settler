@@ -4,3 +4,54 @@
    height: 100%;
    
    }
+
+ /* Your styles */
+
+
+
+
+
+
+
+
+
+ /* Custom styles for error pages */
+
+.error-403 { }
+.error-404 { }
+
+ /* Styles for smartphones in landscape mode */
+
+ @media only screen and (min-width: 480px) {
+
+
+ }
+
+ /* Styles for tablets in portrait mode */
+
+ @media only screen and (min-width: 768px) {
+
+
+ }
+
+ /* Styles for tablets in landscape mode */
+
+ @media only screen and (min-width: 992px) {
+
+
+ }
+
+ /* Styles for desktops and other screens */
+
+ @media only screen and (min-width: 1200px) {
+
+
+ }
+
+ /* Print styles */
+
+ @media print {
+ 
+
+ }
+ 
