@@ -1,9 +1,17 @@
 
- html, body {
-   
-   height: 100%;
-   
-   }
+html, body {
+  
+  height: 100%;
+  
+  }
+
+ /* Correct cursor for clickable elements */
+
+.is-clickable {
+  
+  cursor: pointer;
+  
+  }
 
  /* Your styles */
 
