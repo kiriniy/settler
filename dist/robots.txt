@@ -5,6 +5,7 @@
 User-agent: *
 
 Disallow: /assets/css/
+Disallow: /assets/errors/
 Disallow: /assets/fonts/
 Disallow: /assets/js/
 
