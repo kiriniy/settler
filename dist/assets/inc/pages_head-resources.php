@@ -8,6 +8,7 @@
 
     <link rel="dns-prefetch" href="//mc.yandex.ru">
     <link rel="dns-prefetch" href="//www.googletagmanager.com">
+    <link rel="dns-prefetch" href="//browser-update.org">
 
     <!-- Site Icons -->
 
