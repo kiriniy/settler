@@ -18,4 +18,10 @@
 
   $inc_path = dirname(__FILE__) . '/';
 
+  // Social networks snippets default data.
+  
+  $net_title_default    = 'Settler';
+  $net_desc_default     = 'A blank PHP based web-project template for developers.';
+  $net_locale_default   = 'en_US';
+
   // This is a place for any permanent PHP code. Defines, variables etc.

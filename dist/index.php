@@ -11,6 +11,11 @@
       $page_title    = 'Settler';
       $page_desc     = 'A blank PHP based web-project template for developers.';
 
+      $net_url       = $base_url;
+      $net_title     = $net_title_default;
+      $net_desc      = $net_desc_default;
+      $net_locale    = $net_locale_default;
+
       ?>
 
 <html lang="">
@@ -18,6 +23,7 @@
     <base href="<?php echo $base_url; ?>">
 
     <?php include $inc_path . 'pages_head-meta.php';
+          include $inc_path . 'pages_head-snippets.php';
           include $inc_path . 'pages_head-resources.php';
 
           ?>
