@@ -39,7 +39,22 @@
 
     <!-- PAGE CONTENT START -->
 
+    <?php include $inc_path . 'pages_body-menu.php'; ?>
 
+    <!-- Example 404 content (markup based on Bootstrap 3 framework) -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Error 404
+          <br>Page not found!</h1>
+          <p>Oops! Seems like the page you are looking for no longer exists.
+          <br>You may go <a href='javascript:history.back(1)'>back</a> or <a href='<?php echo $base_url; ?>'>start over</a>.</p>
+          <hr>
+          <p class="small text-muted">Rename and edit <code>htaccess</code> file to activate custom error pages.</p>
+        </div>
+      </div>
+    </div>
 
     <!-- PAGE CONTENT END -->
 

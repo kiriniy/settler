@@ -39,7 +39,22 @@
 
     <!-- PAGE CONTENT START -->
 
+    <?php include $inc_path . 'pages_body-menu.php'; ?>
 
+    <!-- Example 403 content (markup based on Bootstrap 3 framework) -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Error 403
+          <br>Access denied!</h1>
+          <p>The page you are looking for never exist or very, very secret.
+          <br>You may go <a href='javascript:history.back(1)'>back</a> or <a href='<?php echo $base_url; ?>'>start over</a>.</p>
+          <hr>
+          <p class="small text-muted">Rename and edit <code>htaccess</code> file to activate custom error pages.</p>
+        </div>
+      </div>
+    </div>
 
     <!-- PAGE CONTENT END -->
 
