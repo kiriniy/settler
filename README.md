@@ -6,8 +6,7 @@ A blank PHP based web-project template for developers — when future website ar
  - Obviously, code and graphic editors.
 
 ## Setting Up
- - Download, unzip, and rename as you like.
- - Place dist folder on local or remote server root.
+ - Download and unzip on local or remote server.
  - Go to '/assets/inc/pages_config.php' and setup "base_url" variable.
  - Done! You're ready to write some code...
 
@@ -24,4 +23,4 @@ Are optional set of stylesheets, font files and scripts. Components set is legac
 
 ## LICENSE
 
-Released by [Kirill Nikitin](https://github.com/Kiriniy) under MIT License, 2019
+Released by [Kirill Nikitin](https://github.com/Kiriniy) under MIT License, 2020
