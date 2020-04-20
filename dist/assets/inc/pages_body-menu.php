@@ -15,8 +15,15 @@
               <a href="<?php echo $base_url; ?>"><i class="fa fa-home"></i></a>
             </li>
             
-            <li><a href="assets/errors/403.php">Custom 403</a></li>
-            <li><a href="assets/errors/404.php">Custom 404</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Error Pages <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="assets/errors/401.php">Custom 401</a></li>
+                  <li><a href="assets/errors/403.php">Custom 403</a></li>
+                  <li><a href="assets/errors/404.php">Custom 404</a></li>
+                  <li><a href="assets/errors/500.php">Custom 500</a></li>
+                </ul>
+            </li>
           </ul>
         </div>
       </div>

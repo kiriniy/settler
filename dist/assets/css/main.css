@@ -38,8 +38,10 @@ html, body {
 
  /* Custom styles for error pages */
 
+.error-401 { }
 .error-403 { }
 .error-404 { }
+.error-500 { }
 
  /* Styles for smartphones in landscape mode */
 
