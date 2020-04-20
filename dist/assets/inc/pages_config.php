@@ -1,12 +1,17 @@
 <?php
 
-  // Replace 'localhost:8888' with your local server domain or IP. 
-  // Replace 'project_settler/dist' with your current directory name on local server.
-  // Replace 'example.com' with future site domain if you have one.
+  // Replace, leave as is or add your correct 'localhost' domain or IP if there is not.
+  // Replace 'project_settler/dist' with your own directory path to your project on local server.
+  // Replace 'dev.example.com' with your dev server if you have one. Just leave as is if don't.
+  // Replace 'example.com' with future site domain if you already have one.
 
-  if ($_SERVER['HTTP_HOST'] == 'localhost:8888') { 
+  if ($_SERVER['HTTP_HOST'] == 'localhost' or 'localhost:8888' or '127.0.0.1') { 
 
       $base_url = '/project_settler/dist/';
+
+  } elseif ($_SERVER['HTTP_HOST'] == 'dev.example.com') { 
+
+      $base_url = 'https://dev.example.com/';
 
   } else {
 
