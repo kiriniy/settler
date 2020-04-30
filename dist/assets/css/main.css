@@ -13,18 +13,14 @@ html, body {
   
   }
 
- /* JavaScript OFF alert styles */
+ /* JavaScript OFF and IE alerts styles */
 
-.js-off {
+.js-off, .ie-browser {
   
   padding: 50px 0;
   background-color: #eee;
   
   }
-
- /* Old browsers alert custom styles. More info at Browser-Update.org */
-
-
 
  /* Your site styles */
 

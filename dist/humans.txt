@@ -42,8 +42,6 @@
 	Name       : Respond
 	Site       : https://github.com/scottjehl/Respond
 
-	Name       : Browser Update
-	Site       : https://browser-update.org
 
 
 	/* SITE */

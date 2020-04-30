@@ -39,6 +39,7 @@
     <!-- PAGE CONTENT START -->
 
     <?php include $inc_path . 'misc_global-alert-no-js.php';
+          include $inc_path . 'misc_global-alert-ie.php';
           include $inc_path . 'pages_body-menu.php';
 
           ?>
