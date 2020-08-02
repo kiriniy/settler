@@ -1,11 +1,11 @@
 <?php
 
-  // Replace, leave as is or add your correct 'localhost' domain or IP if there is not.
+  // Replace 'localhost' with your correct domain or IP for local server.
   // Replace 'project_settler/dist' with your own directory path to your project on local server.
   // Replace 'dev.example.com' with your dev server if you have one. Just leave as is if don't.
   // Replace 'example.com' with future site domain if you already have one.
 
-  if ($_SERVER['HTTP_HOST'] == 'localhost' or 'localhost:8888' or '127.0.0.1') { 
+  if ($_SERVER['HTTP_HOST'] == 'localhost') { 
 
       $base_url = '/project_settler/dist/';
 
