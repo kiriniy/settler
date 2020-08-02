@@ -5,6 +5,8 @@
 
     <meta http-equiv="x-dns-prefetch-control" content="on">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta http-equiv="cache-control" content="<?php echo $page_cache; ?>">
+    <meta http-equiv="expires" content="<?php echo $page_expiry; ?>">
     <meta http-equiv="cleartype" content="on">
 
     <title><?php echo $page_title; ?></title>

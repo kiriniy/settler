@@ -7,9 +7,11 @@
 <?php require './assets/inc/pages_config.php';
 
       $page_id       = 'home';
-//    $page_dir      = '';
+      $page_dir      = '';
       $page_title    = 'Settler';
       $page_desc     = 'A blank PHP based web-project template for developers.';
+      $page_cache    = 'no-cache';
+      $page_expiry   = '0';
 
       $net_url       = $base_url;
       $net_title     = $net_title_default;
