@@ -3,7 +3,6 @@
 
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/bootstrap.js"></script>
-    <script src="assets/js/easing.js"></script>
 
     <!-- Settler default scripts file -->
 

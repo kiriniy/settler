@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 
-<!--  Settler (beta)              >>> https://github.com/Kiriniy/Settler
-      Licensed under MIT          >>> https://github.com/Kiriniy/Settler/blob/master/LICENSE
+<!--  Settler (beta)              >>> https://github.com/kiriniy/settler
+      Licensed under MIT          >>> https://github.com/kiriniy/settler/blob/master/LICENSE
       Created by Kirill Nikitin   >>> https://kiriniy.ru  -->
 
 <?php require './assets/inc/pages_config.php';

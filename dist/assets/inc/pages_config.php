@@ -5,7 +5,7 @@
   // Replace 'dev.example.com' with your dev server if you have one. Just leave as is if don't.
   // Replace 'example.com' with future site domain if you already have one.
 
-  if ($_SERVER['HTTP_HOST'] == 'localhost') { 
+  if ($_SERVER['HTTP_HOST'] == 'localhost:8888') { 
 
       $base_url = '/project_settler/dist/';
 
