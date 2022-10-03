@@ -15,7 +15,4 @@ RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
 
 # --- Custom Error Pages --- #
 
-ErrorDocument 401 /assets/errors/401.php
-ErrorDocument 403 /assets/errors/403.php
 ErrorDocument 404 /assets/errors/404.php
-ErrorDocument 500 /assets/errors/500.php
