@@ -33,15 +33,6 @@
 	Name       : Font Awesome
 	Site       : https://fontawesome.io
 
-	Name       : jQuery Easing
-	Site       : https://gsgd.co.uk/sandbox/jquery/easing
-
-	Name       : HTML5 Shiv
-	Site       : https://github.com/aFarkas/html5shiv
-
-	Name       : Respond
-	Site       : https://github.com/scottjehl/Respond
-
 
 
 	/* SITE */
