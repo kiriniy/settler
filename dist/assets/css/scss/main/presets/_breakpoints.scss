@@ -1,0 +1,134 @@
+
+// Default breakpoints
+
+   $xs-point:   480px;
+   $sm-point:   768px;
+   $md-point:   992px;
+   $lg-point:   1200px;
+   $xl-point:   1600px;
+   $xxl-point:  1900px;
+   $xxxl-point: 2500px;
+
+// Presets by @media points
+
+   @mixin for-xs {
+
+     @media (min-width: $xs-point) { @content; }
+
+     }
+
+   @mixin for-sm {
+
+     @media (min-width: $sm-point) { @content; }
+
+     }
+
+   @mixin for-md {
+
+     @media (min-width: $md-point) { @content; }
+
+     }
+
+   @mixin for-lg {
+
+     @media (min-width: $lg-point) { @content; }
+
+     }
+
+   @mixin for-xl {
+
+     @media (min-width: $xl-point) { @content; }
+
+     }
+
+   @mixin for-xxl {
+
+     @media (min-width: $xxl-point) { @content; }
+
+     }
+
+   @mixin for-xxxl {
+
+     @media (min-width: $xxxl-point) { @content; }
+
+     }
+
+// Presets by @media points range from Zero to Extra Large
+
+   @mixin for-xs-sm {
+
+     @media (max-width: $sm-point - 1) { @content; }
+
+     }
+
+   @mixin for-xs-md {
+
+     @media (max-width: $md-point - 1) { @content; }
+
+     }
+
+   @mixin for-xs-lg {
+
+     @media (max-width: $lg-point - 1) { @content; }
+
+     }
+
+   @mixin for-xs-xl {
+
+     @media (max-width: $xl-point - 1) { @content; }
+
+     }
+
+// Presets by @media points range from Small to Extra Large
+
+   @mixin for-sm-md {
+
+     @media (min-width: $sm-point) and (max-width: $md-point - 1) { @content; }
+
+     }
+
+   @mixin for-sm-lg {
+
+     @media (min-width: $sm-point) and (max-width: $lg-point - 1) { @content; }
+
+     }
+
+   @mixin for-sm-xl {
+
+     @media (min-width: $sm-point) and (max-width: $xl-point - 1) { @content; }
+
+     }
+
+// Presets by @media points range from Medium to Extra Large
+
+   @mixin for-md-lg {
+
+     @media (min-width: $md-point) and (max-width: $lg-point - 1) { @content; }
+
+     }
+
+   @mixin for-md-xl {
+
+     @media (min-width: $md-point) and (max-width: $xl-point - 1) { @content; }
+
+     }
+
+// Presets by @media points range for Extra Large screens
+
+   @mixin for-lg-xl {
+
+     @media (min-width: $lg-point) and (max-width: $xl-point - 1) { @content; }
+
+     }
+
+   @mixin for-xl-xxl {
+
+     @media (min-width: $xl-point) and (max-width: $xxl-point - 1) { @content; }
+
+     }
+
+   @mixin for-xxl-xxxl {
+
+     @media (min-width: $xxl-point) and (max-width: $xxxl-point - 1) { @content; }
+
+     }

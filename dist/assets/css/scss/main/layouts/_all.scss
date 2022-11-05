@@ -1,2 +1,7 @@
 
+// The 'layouts' folder contains stylesheets for the main parts of the site.
+// Header, footer, navigation, sidebar etc.
+
    @import '_base';
+   @import '_print';
+   @import '_notices';
