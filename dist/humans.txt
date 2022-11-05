@@ -24,6 +24,9 @@
 
 	/* COMPONENTS */
 
+	Name       : Settler
+	Site       : https://kiriniy.github.io/settler
+
 	Name       : jQuery
 	Site       : https://jquery.com
 
