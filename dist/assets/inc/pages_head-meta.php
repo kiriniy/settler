@@ -1,19 +1,17 @@
 
     <!-- Site Settings -->
 
-    <meta charset="utf-8">
+    <meta charset="<?php echo $page_charset; ?>">
 
-    <meta http-equiv="x-dns-prefetch-control" content="on">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta http-equiv="x-dns-prefetch-control" content="<?php echo $page_prefetch; ?>">
+    <meta http-equiv="content-security-policy" content="<?php echo $page_csp; ?>">
     <meta http-equiv="cache-control" content="<?php echo $page_cache; ?>">
-    <meta http-equiv="expires" content="<?php echo $page_expiry; ?>">
-    <meta http-equiv="cleartype" content="on">
 
-    <title><?php echo $page_title; ?></title>
+    <title><?php echo $page_pretitle . $page_title; ?></title>
 
-    <meta name="robots" content="index, follow">
-    <meta name="yandex-verification" content="">
-    <meta name="google-site-verification" content="">
+    <meta name="robots" content="<?php echo $page_robots; ?>">
     <meta name="description" content="<?php echo $page_desc; ?>">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="format-detection" content="telephone=no, address=no, date=no">
+    <meta name="viewport" content="<?php echo $page_viewport; ?>">
+    <meta name="format-detection" content="<?php echo $page_autoformat; ?>">
+    <meta name="google-site-verification" content="">
+    <meta name="yandex-verification" content="">

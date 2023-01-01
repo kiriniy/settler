@@ -1,28 +1,22 @@
-<!DOCTYPE HTML>
 
-<!--  Settler (beta)              >>> https://github.com/kiriniy/settler
-      Licensed under MIT          >>> https://github.com/kiriniy/settler/blob/master/LICENSE
-      Created by Kirill Nikitin   >>> https://kiriniy.ru  -->
+<?php $page_id      = 'home';
+      $page_ver     = '';
+      $page_path    = '';
+      $page_type    = 'pages';
+      $page_class   = 'home';
 
-<?php require './assets/inc/pages_config.php';
+      $page_title   = 'Settler';
+      $page_desc    = 'A blank php-based template.';
 
-      $page_id       = 'home';
-      $page_dir      = '';
-      $page_title    = 'Settler';
-      $page_desc     = 'A blank PHP based web-project template for developers.';
-      $page_cache    = 'no-cache';
-      $page_expiry   = '0';
-
-      $net_url       = $base_url;
-      $net_title     = $net_title_default;
-      $net_desc      = $net_desc_default;
-      $net_locale    = $net_locale_default;
+      require './assets/inc/pages_config.php';
 
       ?>
 
-<html lang="">
-  <head>
-    <base href="<?php echo $base_url; ?>">
+<!DOCTYPE HTML>
+
+<html <?php echo $page_html_attr; ?>>
+  <head <?php echo $page_head_attr; ?>>
+    <base <?php echo $page_base_attr; ?>>
 
     <?php include $inc_path . 'pages_head-meta.php';
           include $inc_path . 'pages_head-snippets.php';
@@ -36,50 +30,33 @@
 
   </head>
 
-  <body class="<?php echo $page_id; ?>" id="page-top">
+  <body <?php echo $page_body_attr; ?>>
 
     <!-- PAGE CONTENT START -->
 
-    <?php include $inc_path . 'misc_global-alert-no-js.php';
-          include $inc_path . 'misc_global-alert-ie.php';
-          include $inc_path . 'pages_body-menu.php';
+    <div class="alerts-container">
 
-          ?>
+      <?php include $inc_path . 'misc_global-alert-js.php';
+            include $inc_path . 'misc_global-alert-ie.php';
 
-    <!-- Example content (markup based on Bootstrap 3 framework) -->
+            ?>
 
-    <header class="head">
+    </div>
+
+    <?php include $inc_path . 'pages_body-menu.php'; ?>
+
+    <!-- Example content (markup based on Bootstrap 5 framework) -->
+
+    <main class="h-100 d-flex align-items-center">
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
-            <h1>Settler</h1>
-            <p class="lead">Blank PHP web-project template for developers.</p>
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <main class="content">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <p>Hello, looking for a base to start some new awesome web project? Great, everything is going just right. First of all you must open and edit main config file at <code>assets/inc/pages_config.php</code> for setup base path. jQuery 1.12.4, uncustomized Bootstrap 3 and Font Awesome 4 frameworks which are supports legacy browsers are included as components. This is optional and you may replace default components with another frameworks or remove them totally. Well, have fun and may the force be with you!</p>
+          <div class="col-md-8">
+            <h1 class="display-1">A Fresh Start</h1>
+            <p class="lead">Open and edit <span class="text-danger">pages_config.php</span> at <span class="text-danger">assets/inc</span> directory to setup base URL's.</p>
           </div>
         </div>
       </div>
     </main>
-
-    <footer class="copyright">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <hr>
-            <div class="small pull-left"><strong>Presettlement</strong> with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://github.com/Kiriniy" target="_blank"><strong>Kiriniy</strong></a></div>
-            <div class="small pull-right"><i class="fa fa-copyright" aria-hidden="true"></i> <?php echo date('Y'); ?></div>
-          </div>
-        </div>
-      </div>
-    </footer>
 
     <!-- PAGE CONTENT END -->
 
