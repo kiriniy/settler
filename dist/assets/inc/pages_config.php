@@ -31,6 +31,7 @@
   $page_cache      = 'no-cache';
 
   $page_pretitle   = '';
+  $page_posttitle  = '';
 
   $page_robots     = 'index, follow, noai, noimageai';
   $page_viewport   = 'width=device-width, height=device-height, initial-scale=1';
@@ -43,7 +44,7 @@
 
   // Microdata default values
 
-  $og_title        = $page_pretitle . $page_title;
+  $og_title        = $page_pretitle . $page_title . $page_posttitle;
   $og_desc         = $page_desc;
   $og_card         = 'summary';
   $og_type         = 'website';

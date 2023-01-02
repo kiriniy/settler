@@ -7,7 +7,7 @@
     <meta http-equiv="content-security-policy" content="<?php echo $page_csp; ?>">
     <meta http-equiv="cache-control" content="<?php echo $page_cache; ?>">
 
-    <title><?php echo $page_pretitle . $page_title; ?></title>
+    <title><?php echo $page_pretitle . $page_title . $page_posttitle; ?></title>
 
     <meta name="robots" content="<?php echo $page_robots; ?>">
     <meta name="description" content="<?php echo $page_desc; ?>">
