@@ -1,4 +1,6 @@
 
+    <?php if ($page_type != 'errors'): ?>
+
     <!-- Site Credits & Information -->
 
     <link rel="author" href="humans.txt">
@@ -10,6 +12,8 @@
 
     <link rel="dns-prefetch" href="//mc.yandex.ru">
     <link rel="dns-prefetch" href="//www.googletagmanager.com">
+
+    <?php endif; ?>
 
     <!-- Site Icons -->
 
