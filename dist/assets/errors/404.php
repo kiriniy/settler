@@ -1,64 +1,61 @@
+
+<?php $page_id      = '404';
+      $page_ver     = '';
+      $page_path    = '';
+      $page_type    = 'errors';
+      $page_class   = 'error-404';
+
+      $page_title   = 'Error 404';
+      $page_desc    = 'Page not found!';
+
+      require '../inc/pages_config.php';
+
+      $page_robots     = 'noindex, nofollow';
+      $page_head_attr  = '';
+
+      ?>
+
 <!DOCTYPE HTML>
 
-<?php require '../inc/pages_config.php'; ?>
+<html <?php echo $page_html_attr; ?>>
+  <head <?php echo $page_head_attr; ?>>
+    <base <?php echo $page_base_attr; ?>>
 
-<html lang="">
-  <head>
-    <base href="<?php echo $base_url; ?>">
+    <?php include $inc_path . 'pages_head-meta.php';
+          // include $inc_path . 'pages_head-snippets.php';
+          include $inc_path . 'pages_head-resources.php';
 
-    <meta charset="utf-8">
-
-    <meta name="robots" content="noindex, nofollow">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <title>Error 404</title>
-
-    <!-- Site Icons -->
-
-    <link rel="icon" sizes="16x16"   href="assets/img/icons/favicon-16.png">
-    <link rel="icon" sizes="32x32"   href="assets/img/icons/favicon-32.png">
-    <link rel="icon" sizes="48x48"   href="assets/img/icons/favicon-48.png">
-    <link rel="icon" sizes="64x64"   href="assets/img/icons/favicon-64.png">
-    <link rel="icon" sizes="128x128" href="assets/img/icons/favicon-128.png">
-    <link rel="icon" sizes="192x192" href="assets/img/icons/favicon-192.png">
-
-    <!-- Legacy Browsers -->
-
-    <!--[if lte IE 9]><script type="text/javascript" src="assets/js/html5.js"></script><![endif]-->
-    <!--[if lte IE 8]><script type="text/javascript" src="assets/js/respond.js"></script><![endif]-->
-
-    <!-- Site Resources -->
-
-    <link type="text/css" rel="stylesheet" href="assets/css/bootstrap.css">
-    <link type="text/css" rel="stylesheet" href="assets/css/font-awesome.css">
-    <link type="text/css" rel="stylesheet" href="assets/css/main.css">
+          ?>
 
   </head>
 
-  <body class="error-404">
+  <body <?php echo $page_body_attr; ?>>
 
     <!-- PAGE CONTENT START -->
 
     <?php include $inc_path . 'pages_body-menu.php'; ?>
 
-    <!-- Example 404 content (markup based on Bootstrap 3 framework) -->
+    <!-- Example 404 content (markup based on Bootstrap 5 framework) -->
 
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h1>Error 404
-          <br>Page not found!</h1>
-          <p>Oops! Seems like the page you are looking for no longer exists.
-          <br>You may go <a href='javascript:history.back(1)'>back</a> or <a href='<?php echo $base_url; ?>'>start over</a>.</p>
-          <hr>
-          <p class="small text-muted">Rename and edit <code>htaccess</code> file to activate custom error pages.</p>
+    <main class="h-100 d-flex align-items-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <h1>Error 404
+            <br>Page not found!</h1>
+            <p>Oops! Seems like the page you are looking for no longer exists.
+            <br>You may go <a href='javascript:history.back(1)'>back</a> or <a href='<?php echo $base_url; ?>'>start over</a>.</p>
+            <hr>
+            <p class="small text-muted">Rename and edit <code>htaccess</code> file to activate custom error pages.</p>
+          </div>
         </div>
       </div>
-    </div>
+    </main>
 
     <!-- PAGE CONTENT END -->
 
-    <?php include $inc_path . 'pages_body-scripts.php'; ?>
+    <?php include $inc_path . 'pages_body-alerts.php';
+          include $inc_path . 'pages_body-scripts.php'; ?>
 
   </body>
 </html>
