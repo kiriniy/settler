@@ -27,7 +27,7 @@
 
   $page_charset    = 'utf-8';
   $page_prefetch   = 'off';
-  $page_csp        = 'default-src * \'unsafe-inline\'';
+  $page_csp        = 'default-src * \'unsafe-inline\' data: blob:';
   $page_cache      = 'no-cache';
 
   $page_pretitle   = '';
