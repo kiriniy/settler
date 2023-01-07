@@ -1,0 +1,24 @@
+
+.notices-box {
+
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  
+  @include for-md {
+    
+    width: 50%;
+    padding: 15px;
+    
+  }
+  
+  @include for-lg {
+    
+    width: 30%;
+    padding: 30px;
+    
+  }
+
+}

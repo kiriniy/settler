@@ -5,6 +5,8 @@
       $page_type    = 'errors';
       $page_class   = 'error-404';
 
+      $page_notices = false;
+
       $page_title   = 'Error 404';
       $page_desc    = 'Page not found!';
 
@@ -54,7 +56,7 @@
 
     <!-- PAGE CONTENT END -->
 
-    <?php include $inc_path . 'pages_body-alerts.php';
+    <?php include $inc_path . 'pages_body-notices.php';
           include $inc_path . 'pages_body-scripts.php'; ?>
 
   </body>

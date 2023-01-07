@@ -5,6 +5,8 @@
       $page_type    = 'pages';
       $page_class   = 'home';
 
+      $page_notices = true;
+
       $page_title   = 'Settler';
       $page_desc    = 'A blank php-based template.';
 
@@ -34,15 +36,6 @@
 
     <!-- PAGE CONTENT START -->
 
-    <div class="alerts-container">
-
-      <?php include $inc_path . 'misc_global-alert-js.php';
-            include $inc_path . 'misc_global-alert-ie.php';
-
-            ?>
-
-    </div>
-
     <?php include $inc_path . 'pages_body-menu.php'; ?>
 
     <!-- Example content (markup based on Bootstrap 5 framework) -->
@@ -60,7 +53,8 @@
 
     <!-- PAGE CONTENT END -->
 
-    <?php include $inc_path . 'pages_body-scripts.php'; ?>
+    <?php include $inc_path . 'pages_body-notices.php';
+          include $inc_path . 'pages_body-scripts.php'; ?>
 
     <!-- This Page Only Scripts and Libraries (optional) -->
 
