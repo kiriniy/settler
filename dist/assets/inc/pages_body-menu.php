@@ -1,7 +1,7 @@
 
     <!-- Example navigation (markup based on Bootstrap 5 framework) -->
 
-    <nav class="navbar navbar-expand-lg fixed-top bg-light">
+    <nav class="navbar navbar-expand-lg fixed-top bg-light no-print">
       <div class="container">
 
         <a class="navbar-brand" href="<?php echo $base_url; ?>">Settler</a>
