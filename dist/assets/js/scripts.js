@@ -1,66 +1,49 @@
 
-  // CSS @media independent options for mobile users.
+  // MOBILE DEVICES DETECTOR
 
-  var gadget = navigator.userAgent.toLowerCase();
-  var mobile = gadget.match(/android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/);
+  let device = navigator.userAgent.toLowerCase();
+  let mobile = device.match(/mobi|mobile|android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/);
 
   if (mobile) {
 
-      // Scripts for mobile users only.
+      // SCRIPTS FOR MOBILE ONLY
 
       console.log( "We are on mobile!" );
-      
+
   }
 
   // END
   //
   // -------------------------------------------------------------------------------------
   //
-  // Window resize detector with page reload (off by default).
+  // RELOAD PAGE ON WINDOW RESIZE
+  // DISABLED BY DEFAULT
 
-  // $(window).resize(function() {
-  //     location.reload();
-  // });
+  // window.onresize = function() { location.reload(); };
 
   // END
   //
   // -------------------------------------------------------------------------------------
   //
-  // Scripts which are depends on window size.
+  // WINDOW SIZE DETECTORS TEMPLATES
 
-  if ($(window).width() < 480) {
+  if (window.innerWidth < 480) {
 
-      // 0px
+      // 0px+
 
       console.log( "We are under 480px!" );
 
   }
 
-  if ($(window).width() > 480 && $(window).width() < 768) {
+  if (window.innerWidth > 480 && window.innerWidth < 1200) {
 
       // 480px+
 
-      console.log( "We are between 480px and 768px!" );
+      console.log( "We are between 480px and 1200px!" );
 
   }
 
-  if ($(window).width() > 768 && $(window).width() < 992) {
-
-      // 768px+
-
-      console.log( "We are between 768px and 992px!" );
-
-  }
-
-  if ($(window).width() > 992 && $(window).width() < 1200) {
-
-      // 992px+
-
-      console.log( "We are between 992px and 1200px!" );
-
-  }
-
-  if ($(window).width() > 1200) {
+  if (window.innerWidth > 1200) {
 
       // 1200px+
 
@@ -72,24 +55,5 @@
   //
   // -------------------------------------------------------------------------------------
   //
-  // Clickability.
-
-  $(".is-clickable").click(function() {
-      window.location = $(this).find("a").attr("href");
-      return false;
-  });
-
-  // END
+  // INSERT YOUR JS HERE...
   //
-  // -------------------------------------------------------------------------------------
-  //
-  // Your custom scripts goes here...
-
-
-
-
-
-
-  // END
-  //
-  // -------------------------------------------------------------------------------------
