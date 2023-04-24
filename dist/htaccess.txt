@@ -1,18 +1,29 @@
 
-# This is INACTIVE config file that contain example rules for Apache server.
-# It must be invisible and without extension. DO NOT USE IT if you have no idea what it means.
+# THIS IS AN INACTIVE SAMPLE CONFIGURATION FILE FOR APACHE WEB-SERVER.
+# MAKE IT INVISIBLE AND REMOVE EXTENSION.
+# DO NOT USE IF YOU HAVE NO IDEA WHAT THIS FILE FOR.
 
-# --- Deny Index Access --- #
-
-Options All -Indexes
-
-# --- Remove WWW From Domain Name --- #
 
 RewriteEngine On
+
+# --- Redirect to Domain Without WWW --- #
+
 RewriteBase /
 RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
 RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
 
-# --- Custom Error Pages --- #
+
+# --- Redirect to HTTPS [ OFF ] --- #
+
+#RewriteCond %{ENV:HTTPS} !on
+#RewriteRule ^.*$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+
+# --- Custom 404-Error Page --- #
 
 ErrorDocument 404 /assets/errors/404.php
+
+
+# --- Prevent Directory Listings --- #
+
+Options All -Indexes
