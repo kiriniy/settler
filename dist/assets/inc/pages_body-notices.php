@@ -7,10 +7,10 @@
 
       <noscript>
 
-        <div class="js-off alert alert-warning" role="alert">
+        <div class="js-off alert alert-danger" role="alert">
           <h4 class="alert-heading">JavaScript is turned off!</h4>
 
-          Why? Here's <a href="http://www.enable-javascript.com" class="alert-link" target="_blank" rel="nofollow">how to enable JavaScript</a> in your browser.
+          Here's <a href="http://www.enable-javascript.com" class="alert-link" target="_blank" rel="nofollow">how to enable JavaScript</a> in your browser.
 
         </div>
 
@@ -19,10 +19,10 @@
       <!-- Example global messages (markup based on Bootstrap 5 framework) -->
 
       <div id="cookie-message" class="alert alert-info alert-dismissible" role="alert" data-cookie-expiry="7">
-        <h4 class="alert-heading">Free cookies to everyone!</h4>
+        <h4 class="alert-heading">We use cookies!</h4>
         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
 
-        We use cookies. Ok, not yet, but we will. Probably.
+        Ok, not yet, but we will. Probably.
         This notice works with a help of JS and appears every 7 days.
 
       </div>
@@ -44,7 +44,7 @@
         <h4 class="alert-heading">Hello, world!</h4>
         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
 
-        This is a sample notice on all pages.
+        This is a sample notification for all pages.
 
       </div>
 
@@ -61,6 +61,8 @@
       </div>
 
       <?php endif; ?>
+
+      <!-- END -->
 
     </aside>
 
