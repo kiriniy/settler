@@ -6,8 +6,6 @@
 
   if (mobile) {
 
-      // SCRIPTS FOR MOBILE ONLY
-
       console.log( "We are on mobile!" );
 
   }
@@ -29,23 +27,17 @@
 
   if (window.innerWidth < 480) {
 
-      // 0px+
-
       console.log( "We are under 480px!" );
 
   }
 
   if (window.innerWidth > 480 && window.innerWidth < 1200) {
 
-      // 480px+
-
       console.log( "We are between 480px and 1200px!" );
 
   }
 
   if (window.innerWidth > 1200) {
-
-      // 1200px+
 
       console.log( "We are on 1200px or more!" );
 
