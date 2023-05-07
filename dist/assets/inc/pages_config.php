@@ -1,5 +1,7 @@
 <?php
 
+  date_default_timezone_set('Europe/Moscow');
+
   // Replace 'localhost:8888' with your correct domain or IP for local server.
   // Replace '/project_settler/dist/' with correct path to your project on local server.
   // Replace 'dev.example.com' with your dev server if you have one. Just leave as is if don't.
@@ -54,4 +56,6 @@
   $og_img_fb       = $base_url . 'assets/img/social/thumbnail-fb.jpg';
   $og_img_vk       = $base_url . 'assets/img/social/thumbnail-vk.jpg';
 
-  // This is a place for any permanent PHP code. Defines, variables etc.
+
+  // This is a place for your PHP code. Defines, variables etc.
+
