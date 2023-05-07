@@ -1,7 +1,7 @@
 
 
 	This is example credits file.
-	More info at http://humanstxt.org
+	More info at https://humanstxt.org
 
 
 	/* TEAM */
@@ -36,6 +36,8 @@
 	Name       : Font Awesome
 	Site       : https://fontawesome.io
 
+	Name       : Cookies
+	Site       : https://www.quirksmode.org/js/cookies.html
 
 
 	/* SITE */
