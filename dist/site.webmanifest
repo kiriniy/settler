@@ -1,3 +1,11 @@
 {
-  "name": "Settler"
+  "name": "Settler",
+  "short_name": "Settler",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "A blank php-based template.",
+  "icons": [
+    { "src": "assets/img/icons/icon-192.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "assets/img/icons/icon-512.png", "type": "image/png", "sizes": "512x512" }
+  ]
 }

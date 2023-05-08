@@ -15,14 +15,11 @@
 
     <?php endif; ?>
 
-    <!-- Site Icons -->
+    <!-- Site Icons: https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs -->
 
-    <link rel="icon" sizes="16x16"   href="assets/img/icons/favicon-16.png">
-    <link rel="icon" sizes="32x32"   href="assets/img/icons/favicon-32.png">
-    <link rel="icon" sizes="48x48"   href="assets/img/icons/favicon-48.png">
-    <link rel="icon" sizes="64x64"   href="assets/img/icons/favicon-64.png">
-    <link rel="icon" sizes="128x128" href="assets/img/icons/favicon-128.png">
-    <link rel="icon" sizes="192x192" href="assets/img/icons/favicon-192.png">
+    <link rel="icon" sizes="any" href="favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="assets/img/icons/icon.svg" >
+    <link rel="apple-touch-icon" href="assets/img/icons/apple-touch-icon.png">
 
     <!-- Site Resources -->
 
