@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://kiriniy.github.io/settler/">
+    <img src="https://kiriniy.github.io/settler/assets/img/settler-repo-logo.png" alt="Settler Logotype" width="200" height="200">
+  </a>
+</p>
+
 # Settler
 A blank PHP based web-project template for developers — when future website are too big and complicated for static HTML, but not dynamic enough for CMS and database.
 
