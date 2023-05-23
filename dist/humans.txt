@@ -37,7 +37,7 @@
 	Site       : https://fontawesome.io
 
 	Name       : Cookies
-	Site       : https://www.quirksmode.org/js/cookies.html
+	Site       : https://github.com/studio24/cookie-message
 
 
 	/* SITE */
