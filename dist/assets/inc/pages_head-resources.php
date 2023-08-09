@@ -17,7 +17,7 @@
 
     <!-- Site Icons: https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs -->
 
-    <link rel="icon" sizes="any" href="favicon.ico">
+    <link rel="icon" sizes="32x32" href="favicon.ico">
     <link rel="icon" type="image/svg+xml" href="assets/img/icons/icon.svg" >
     <link rel="apple-touch-icon" href="assets/img/icons/apple-touch-icon.png">
 
@@ -26,4 +26,5 @@
     <link type="text/css" rel="stylesheet" href="assets/css/bootstrap.css">
     <link type="text/css" rel="stylesheet" href="assets/css/bootstrap-icons.css">
     <link type="text/css" rel="stylesheet" href="assets/css/font-awesome.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/animate.css">
     <link type="text/css" rel="stylesheet" href="assets/css/main.css">
