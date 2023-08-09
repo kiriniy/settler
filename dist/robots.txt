@@ -2,6 +2,8 @@
 # This is example config file.
 # More info at https://www.robotstxt.org
 
+Sitemap: http://example.com/sitemap.xml
+
 User-agent: *
 
 Disallow: /assets/css/
@@ -9,5 +11,8 @@ Disallow: /assets/errors/
 Disallow: /assets/fonts/
 Disallow: /assets/js/
 
-Host: example.com
-Sitemap: http://example.com/sitemap.xml
+# https://platform.openai.com/docs/gptbot
+
+User-agent: GPTBot
+
+Disallow: /
