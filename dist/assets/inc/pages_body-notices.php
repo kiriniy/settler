@@ -6,58 +6,35 @@
       <!-- Example JS-OFF warning (markup based on Bootstrap 5 framework) -->
 
       <noscript>
-
-        <div class="js-off alert alert-danger" role="alert">
-          <h4 class="alert-heading">JavaScript is turned off!</h4>
-
-          Here's <a href="http://www.enable-javascript.com" class="alert-link" target="_blank" rel="nofollow">how to enable JavaScript</a> in your browser.
-
+        <div class="js-off alert text-bg-danger d-flex align-items-center" role="alert">
+          <i class="fa-brands fa-square-js display-1 pe-4"></i>
+          <span>Warning! JavaScript is turned off and here's <a href="http://www.enable-javascript.com" class="alert-link" target="_blank" rel="nofollow">how to enable JavaScript</a> in your browser.</span>
         </div>
-
       </noscript>
 
       <!-- Example global messages (markup based on Bootstrap 5 framework) -->
 
-      <div id="cookie-message" class="alert alert-info alert-dismissible" role="alert" data-cookie-expiry="7">
-        <h4 class="alert-heading">We use cookies!</h4>
-        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-
-        Ok, not yet, but we will. Probably.
-        This notice works with a help of JS and appears every 7 days.
-
+      <div id="cookie-message" data-cookie-expiry="7">
+        <div class="no-js alert alert-primary alert-dismissible fade show d-flex align-items-center" role="alert">
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          <i class="fa-solid fa-cookie-bite display-1 pe-3"></i>
+          <span>We serve cookies on this site! This notice works with a help of JS and appears every 7 days.</span>
+        </div>
       </div>
 
-      <!--[if IE]>		
-
-      <div class="ie-browser alert alert-warning alert-dismissible fade show" role="alert">
-        <h4 class="alert-heading">Necromancer!</h4>
+      <div class="no-js alert alert-info alert-dismissible fade show" role="alert">
         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
- 
-        You are using a dead browser!
-        But there is a <a href="https://browsehappy.com/" class="alert-link" target="_blank" rel="nofollow">choice.</a>
-
-      </div>
-
-      <![endif]-->
-
-      <div class="alert alert-info alert-dismissible fade show" role="alert">
         <h4 class="alert-heading">Hello, world!</h4>
-        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-
-        This is a sample notification for all pages.
-
+        <span>This is a sample notification for all pages.</span>
       </div>
 
       <!-- Example specific by page ID message (markup based on Bootstrap 5 framework) -->
 
       <?php if ($page_id == 'home'): ?>
 
-      <div class="alert alert-info alert-dismissible fade show" role="alert">
+      <div class="no-js alert alert-info alert-dismissible fade show" role="alert">
         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
- 
-        This is a sample notice which appears on a specific page only.
-        Check <code>assets/inc/pages_body-notices.php</code> for details.
- 
+        <span>This is a sample notice which appears on a specific page only. Check <code>assets/inc/pages_body-notices.php</code> for details.</span>
       </div>
 
       <?php endif; ?>
