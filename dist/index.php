@@ -11,7 +11,7 @@
       $page_desc    = 'A blank php-based template.';
 
       require './assets/inc/pages_config.php';
-
+      
       ?>
 
 <!DOCTYPE HTML>
@@ -23,8 +23,24 @@
     <?php include $inc_path . 'pages_head-meta.php';
           include $inc_path . 'pages_head-snippets.php';
           include $inc_path . 'pages_head-resources.php';
+          include $inc_path . 'pages_head-noscript.php';
 
           ?>
+
+    <!-- JSON Schema Markup Example -->
+
+    <script type="application/ld+json">
+
+    {
+      "@context": "https://schema.org",
+      "@type": "Project",
+      "name": "Settler",
+      "url": "",
+      "logo": "",
+      "sameAs": ""
+    }
+
+    </script>
 
     <!-- This Page Only Stylesheets (optional) -->
 
