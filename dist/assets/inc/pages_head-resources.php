@@ -5,7 +5,7 @@
 
     <link rel="author" href="humans.txt">
     <link rel="sitemap" href="sitemap.xml">
-    <link rel="canonical" href="<?php echo $base_url . $page_path; ?>">
+    <link rel="canonical" href="<?php echo $page_canonical; ?>">
     <link rel="manifest" href="site.webmanifest">
 
     <!-- Forcing lookup of specific hostnames -->

@@ -38,6 +38,7 @@
   $page_robots     = 'index, follow, noai, noimageai';
   $page_viewport   = 'width=device-width, height=device-height, initial-scale=1';
   $page_autoformat = 'telephone=no, address=no, date=no';
+  $page_canonical  = $base_url . $page_path;
 
   $page_html_attr  = 'lang="en"';
   $page_head_attr  = 'prefix="og: https://ogp.me/ns#"';
