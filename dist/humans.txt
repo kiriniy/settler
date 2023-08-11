@@ -36,6 +36,9 @@
 	Name       : Font Awesome
 	Site       : https://fontawesome.io
 
+	Name       : Animate.css
+	Site       : https://animate.style
+
 	Name       : Cookies
 	Site       : https://github.com/studio24/cookie-message
 
