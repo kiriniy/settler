@@ -26,6 +26,7 @@
     <?php include $inc_path . 'pages_head-meta.php';
           // include $inc_path . 'pages_head-snippets.php';
           include $inc_path . 'pages_head-resources.php';
+          include $inc_path . 'pages_head-noscript.php';
 
           ?>
 
