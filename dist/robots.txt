@@ -6,10 +6,9 @@ Sitemap: http://example.com/sitemap.xml
 
 User-agent: *
 
-Disallow: /assets/css/
-Disallow: /assets/errors/
-Disallow: /assets/fonts/
-Disallow: /assets/js/
+Disallow: /assets/errors
+Disallow: /assets/inc
+Disallow: /extras
 
 # https://platform.openai.com/docs/gptbot
 
