@@ -45,6 +45,9 @@ dist/
 │  ├─ img/        — images and icons
 │  ├─ inc/        — php includes
 │  └─ js/         — javascript files
+├─ extras/
+│  ├─ blank.html  — blank html-template
+│  └─ blank.php   — blank php-template
 ├─ favicon.ico
 ├─ htaccess.txt
 ├─ humans.txt
@@ -56,4 +59,4 @@ dist/
 
 ## License
 
-Released by [Kirill Nikitin](https://github.com/Kiriniy) under [MIT](https://github.com/kiriniy/settler/blob/master/LICENSE), 2020
+Released by [Kirill Nikitin](https://github.com/Kiriniy) under [MIT](https://github.com/kiriniy/settler/blob/master/LICENSE), 2020-2023
