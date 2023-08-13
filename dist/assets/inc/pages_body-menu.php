@@ -1,13 +1,22 @@
 
     <!-- Example navigation (markup based on Bootstrap 5 framework) -->
 
-    <nav class="navbar navbar-expand-lg fixed-top bg-light no-print">
+    <nav class="navbar  fixed-top bg-body no-print">
       <div class="container">
 
         <a class="navbar-brand" href="<?php echo $base_url; ?>">Settler</a>
 
-        <div class="navbar-nav ms-auto">
-          <a class="nav-link" href="assets/errors/404.php">Custom 404</a>
+        <button class="navbar-toggler me-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="bi bi-three-dots-vertical"></i></button>
+
+        <button class="btn" type="button" id="themeSwitch"><i class="fa-solid fa-circle-half-stroke"></i></button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="navbar-nav">
+            <a class="nav-link" href="assets/errors/404.php">Custom 404</a>
+            <a class="nav-link" href="extras/blank.html">Blank HTML Template</a>
+            <a class="nav-link" href="extras/blank.php">Blank PHP Template</a>
+          </div>
         </div>
+
       </div>
     </nav>

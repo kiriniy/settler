@@ -40,7 +40,7 @@
   $page_autoformat = 'telephone=no, address=no, date=no';
   $page_canonical  = $base_url . $page_path;
 
-  $page_html_attr  = 'lang="en"';
+  $page_html_attr  = 'lang="en" data-bs-theme="auto"';
   $page_head_attr  = 'prefix="og: https://ogp.me/ns#"';
   $page_base_attr  = 'href="' . $base_url . '"';
   $page_body_attr  = 'class="' . $page_type . ' ' . $page_class . '" id="page-top"';
