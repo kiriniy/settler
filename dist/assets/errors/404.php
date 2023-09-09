@@ -7,12 +7,17 @@
 
       $page_notices = false;
 
-      $page_title   = 'Error 404';
-      $page_desc    = 'Page not found!';
+      $page_title   = 'Page not found!';
+      $page_desc    = '';
 
       require '../inc/pages_config.php';
-
+      
+      $page_prefetch   = '';
+      $page_csp        = '';
+      $page_cache      = '';
       $page_robots     = 'noindex, nofollow';
+      $page_autoformat = '';
+      $page_canonical  = '';
       $page_head_attr  = '';
 
       ?>
