@@ -3,7 +3,7 @@
       $page_ver     = '';
       $page_path    = '';
       $page_type    = 'pages';
-      $page_class   = 'home';
+      $page_class   = 'main';
 
       $page_notices = true;
 
@@ -61,7 +61,7 @@
         <div class="row">
           <div class="col-md-8">
             <h1 class="display-1">A Fresh Start</h1>
-            <p class="lead">Open and edit <span class="text-danger">pages_config.php</span> at <span class="text-danger">assets/inc</span> directory to setup base URL's.</p>
+            <p class="lead">Open and edit <span class="text-danger">pages_config.php</span> at <span class="text-danger">assets/inc</span> directory to setup <strong>&lt;base&gt;</strong> tag.</p>
           </div>
         </div>
       </div>
