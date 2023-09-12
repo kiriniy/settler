@@ -39,15 +39,17 @@ Are optional set of stylesheets, font files, and scripts.
   ```text
 dist/
 ├─ assets/
-│  ├─ css/        — stylesheets and source files
-│  ├─ errors/     — errors response layouts 
-│  ├─ fonts/      — icon libraries files 
-│  ├─ img/        — images and icons
-│  ├─ inc/        — php includes
-│  └─ js/         — javascript files
+│  ├─ css/           — stylesheets and source files
+│  ├─ errors/        — errors response layouts 
+│  ├─ fonts/         — icon libraries files 
+│  ├─ img/           — images and icons
+│  ├─ inc/           — php includes
+│  └─ js/            — javascript files
 ├─ extras/
-│  ├─ blank.html  — blank html-template
-│  └─ blank.php   — blank php-template
+│  ├─ blank.html     — blank html-template
+│  ├─ blank.php      — blank php-template
+│  ├─ bs-grid.php    — bootstrap grid cheatsheet
+│  └─ bs-theming.php – bootstrap components preview
 ├─ favicon.ico
 ├─ htaccess.txt
 ├─ humans.txt
