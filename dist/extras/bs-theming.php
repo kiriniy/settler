@@ -54,162 +54,283 @@
       </div>
     </header>
 
-    <main class="py-5">
-      <section class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <h2>Colors</h2>
-          </div>
+    <main>
 
-          <div class="col-lg-7">
-            <h3 class="mb-5 text-secondary">Backgrounds</h3>
-            <div class="row g-2">
-              <div class="col-7"><div class="p-3 mb-2 bg-primary text-white">.bg-primary .text-white</div></div>
-              <div class="col-5"><div class="p-3 mb-2 text-bg-primary">.text-bg-primary</div></div>
-            </div>
-            <div class="p-3 mb-2 bg-primary-subtle text-emphasis-primary">.bg-primary-subtle .text-emphasis-primary</div>
-            <div class="row g-2">
-              <div class="col-7"><div class="p-3 mb-2 bg-secondary text-white">.bg-secondary .text-white</div></div>
-              <div class="col-5"><div class="p-3 mb-2 text-bg-secondary">.text-bg-secondary</div></div>
-            </div>
-            <div class="p-3 mb-2 bg-secondary-subtle text-emphasis-secondary">.bg-secondary-subtle .text-emphasis-secondary</div>
-            <div class="row g-2">
-              <div class="col-7"><div class="p-3 mb-2 bg-success text-white">.bg-success .text-white</div></div>
-              <div class="col-5"><div class="p-3 mb-2 text-bg-success">.text-bg-success</div></div>
-            </div>
-            <div class="p-3 mb-2 bg-success-subtle text-emphasis-success">.bg-success-subtle .text-emphasis-success</div>
-            <div class="row g-2">
-              <div class="col-7"><div class="p-3 mb-2 bg-danger text-white">.bg-danger .text-white</div></div>
-              <div class="col-5"><div class="p-3 mb-2 text-bg-danger">.text-bg-danger</div></div>
-            </div>
-            <div class="p-3 mb-2 bg-danger-subtle text-emphasis-danger">.bg-danger-subtle .text-emphasis-danger</div>
-            <div class="row g-2">
-              <div class="col-7"><div class="p-3 mb-2 bg-warning text-black">.bg-warning .text-black</div></div>
-              <div class="col-5"><div class="p-3 mb-2 text-bg-warning">.text-bg-warning</div></div>
-            </div>
-            <div class="p-3 mb-2 bg-warning-subtle text-emphasis-warning">.bg-warning-subtle .text-emphasis-warning</div>
-            <div class="row g-2">
-              <div class="col-7"><div class="p-3 mb-2 bg-info text-black">.bg-info .text-black</div></div>
-              <div class="col-5"><div class="p-3 mb-2 text-bg-info">.text-bg-info</div></div>
-            </div>
-            <div class="p-3 mb-2 bg-info-subtle text-emphasis-info">.bg-info-subtle .text-emphasis-info</div>
-            <div class="row g-2">
-              <div class="col-7"><div class="p-3 mb-2 bg-light text-black">.bg-light .text-black</div></div>
-              <div class="col-5"><div class="p-3 mb-2 text-bg-light">.text-bg-light</div></div>
-            </div>
-            <div class="p-3 mb-2 bg-light-subtle text-emphasis-light">.bg-light-subtle .text-emphasis-light</div>
-            <div class="row g-2">
-              <div class="col-7"><div class="p-3 mb-2 bg-dark text-white">.bg-dark .text-white</div></div>
-              <div class="col-5"><div class="p-3 mb-2 text-bg-dark">.text-bg-dark</div></div>
-            </div>
-            <div class="p-3 mb-2 bg-dark-subtle text-emphasis-dark">.bg-dark-subtle .text-emphasis-dark</div>
-            <div class="p-3 mb-2 bg-body-secondary">.bg-body-secondary</div>
-            <div class="p-3 mb-2 bg-body-tertiary">.bg-body-tertiary</div>
-            <div class="p-3 mb-2 bg-body text-body">.bg-body .text-body</div>
-            <div class="p-3 mb-2 bg-black text-white">.bg-black .text-white</div>
-            <div class="p-3 mb-2 bg-white text-dark">.bg-white .text-dark</div>
-            <div class="p-3 mb-2 bg-transparent text-body">.bg-transparent .text-body</div>
-          </div>
+      <section class="py-5" id="typography">
+        <div class="container">
+          <div class="row">
 
-          <div class="col-lg-5">
-            <h3 class="mb-5 text-secondary">Gradient</h3>
-            <div class="p-3 mb-2 bg-gradient bg-primary text-white">.bg-primary .bg-gradient .text-white</div>
-            <div class="p-3 mb-2 bg-gradient bg-primary-subtle text-emphasis-primary">.bg-primary-subtle .bg-gradient .text-emphasis-primary</div>
-            <div class="p-3 mb-2 bg-gradient bg-secondary text-white">.bg-secondary .bg-gradient .text-white</div>
-            <div class="p-3 mb-2 bg-gradient bg-secondary-subtle text-emphasis-secondary">.bg-secondary-subtle .bg-gradient .text-emphasis-secondary</div>
-            <div class="p-3 mb-2 bg-gradient bg-success text-white">.bg-success .bg-gradient .text-white</div>
-            <div class="p-3 mb-2 bg-gradient bg-success-subtle text-emphasis-success">.bg-success-subtle .bg-gradient .text-emphasis-success</div>
-            <div class="p-3 mb-2 bg-gradient bg-danger text-white">.bg-danger .bg-gradient .text-white</div>
-            <div class="p-3 mb-2 bg-gradient bg-danger-subtle text-emphasis-danger">.bg-danger-subtle .bg-gradient .text-emphasis-danger</div>
-            <div class="p-3 mb-2 bg-gradient bg-warning text-dark">.bg-warning .bg-gradient .text-dark</div>
-            <div class="p-3 mb-2 bg-gradient bg-warning-subtle text-emphasis-warning">.bg-warning-subtle .bg-gradient .text-emphasis-warning</div>
-            <div class="p-3 mb-2 bg-gradient bg-info text-dark">.bg-info .bg-gradient .text-dark</div>
-            <div class="p-3 mb-2 bg-gradient bg-info-subtle text-emphasis-info">.bg-info-subtle .bg-gradient .text-emphasis-info</div>
-            <div class="p-3 mb-2 bg-gradient bg-light text-dark">.bg-light .bg-gradient .text-dark</div>
-            <div class="p-3 mb-2 bg-gradient bg-light-subtle text-emphasis-light">.bg-light-subtle .bg-gradient .text-emphasis-light</div>
-            <div class="p-3 mb-2 bg-gradient bg-dark text-white">.bg-dark .bg-gradient .text-white</div>
-            <div class="p-3 mb-2 bg-gradient bg-dark-subtle text-emphasis-dark">.bg-dark-subtle .bg-gradient .text-emphasis-dark</div>
-            <div class="p-3 mb-2 bg-gradient bg-body-secondary">.bg-body-secondary .bg-gradient</div>
-            <div class="p-3 mb-2 bg-gradient bg-body-tertiary">.bg-body-tertiary .bg-gradient</div>
-            <div class="p-3 mb-2 bg-gradient bg-body text-body">.bg-body .bg-gradient .text-body</div>
-            <div class="p-3 mb-2 bg-gradient bg-black text-white">.bg-black .bg-gradient .text-white</div>
-            <div class="p-3 mb-2 bg-gradient bg-white text-dark">.bg-white .bg-gradient .text-dark</div>
-            <div class="p-3 mb-2 bg-gradient bg-transparent text-body">.bg-transparent .bg-gradient .text-body</div>
-          </div>
+            <div class="col-md-12">
+              <h2>Typography</h2>
+            </div>
 
-          <div class="col-md-7">
-            <h3 class="my-5 text-secondary">Text & Links</h3>
-            <div class="row g-3">
-              <div class="col-7"><p class="p-3 border border-2 text-primary">.text-primary</p></div>
-              <div class="col-5"><p class="p-3 border border-2"><a href="#" class="link-primary">.link-primary</a></p></div>
-            </div>            
-            <p class="p-3 border border-2 text-primary-emphasis">.text-primary-emphasis</p>
-            <div class="row g-3">
-              <div class="col-7"><p class="p-3 border border-2 text-secondary">.text-secondary</p></div>
-              <div class="col-5"><p class="p-3 border border-2"><a href="#" class="link-secondary">.link-secondary</a></p></div>
-            </div>
-            <p class="p-3 border border-2 text-secondary-emphasis">.text-secondary-emphasis</p>
-            <div class="row g-3">
-              <div class="col-7"><p class="p-3 border border-2 text-success">.text-success</p></div>
-              <div class="col-5"><p class="p-3 border border-2"><a href="#" class="link-success">.link-success</a></p></div>
-            </div>
-            <p class="p-3 border border-2 text-success-emphasis">.text-success-emphasis</p>
-            <div class="row g-3">
-              <div class="col-7"><p class="p-3 border border-2 text-danger">.text-danger</p></div>
-              <div class="col-5"><p class="p-3 border border-2"><a href="#" class="link-danger">.link-danger</a></p></div>
-            </div>
-            <p class="p-3 border border-2 text-danger-emphasis">.text-danger-emphasis</p>
-            <div class="row g-3">
-              <div class="col-7"><p class="p-3 border border-2 text-warning">.text-warning</p></div>
-              <div class="col-5"><p class="p-3 border border-2"><a href="#" class="link-warning">.link-warning</a></p></div>
-            </div>
-            <p class="p-3 border border-2 text-warning-emphasis">.text-warning-emphasis</p>
-            <div class="row g-3">
-              <div class="col-7"><p class="p-3 border border-2 text-info">.text-info</p></div>
-              <div class="col-5"><p class="p-3 border border-2"><a href="#" class="link-info">.link-info</a></p></div>
-            </div>
-            <p class="p-3 border border-2 text-info-emphasis">.text-info-emphasis</p>
-            <div class="row g-3">
-              <div class="col-7"><p class="p-3 border border-2 text-light">.text-light</p></div>
-              <div class="col-5"><p class="p-3 border border-2"><a href="#" class="link-light">.link-light</a></p></div>
-            </div>
-            <p class="p-3 border border-2 text-light-emphasis">.text-light-emphasis</p>
-            <div class="row g-3">
-              <div class="col-7"><p class="p-3 border border-2 text-dark">.text-dark</p></div>
-              <div class="col-5"><p class="p-3 border border-2"><a href="#" class="link-dark">.link-dark</a></p></div>
-            </div>
-            <p class="p-3 border border-2 text-dark-emphasis">.text-dark-emphasis</p>
-            <p class="p-3 border border-2 text-black">.text-black</p>
-            <p class="p-3 border border-2 text-white">.text-white</p>
-            <p class="p-3 border border-2 text-body">.text-body</p>
-            <div class="row g-3">
-              <div class="col-7"><p class="p-3 border border-2 text-body-emphasis">.text-body-emphasis</p></div>
-              <div class="col-5"><p class="p-3 border border-2"><a href="#" class="link-body-emphasis">.link-body-emphasis</a></p></div>
-            </div>
-            <p class="p-3 border border-2 text-body-secondary">.text-body-secondary</p>
-            <p class="p-3 mb-5 border border-2 text-body-tertiary">.text-body-tertiary</p>
-          </div>
+            <div class="col-md-7">
 
-          <div class="col-md-5">
-            <h3 class="my-5 text-secondary">Borders</h3>
-            <p class="p-3 border-2 border border-primary">.border-primary</p>
-            <p class="p-3 border-2 border border-primary-subtle">.border-primary-subtle</p>
-            <p class="p-3 border-2 border border-secondary">.border-secondary</p>
-            <p class="p-3 border-2 border border-secondary-subtle">.border-secondary-subtle</p>
-            <p class="p-3 border-2 border border-success">.border-success</p>
-            <p class="p-3 border-2 border border-success-subtle">.border-success-subtle</p>
-            <p class="p-3 border-2 border border-danger">.border-danger</p>
-            <p class="p-3 border-2 border border-danger-subtle">.border-danger-subtle</p>
-            <p class="p-3 border-2 border border-warning">.border-warning</p>
-            <p class="p-3 border-2 border border-warning-subtle">.border-warning-subtle</p>
-            <p class="p-3 border-2 border border-info">.border-info</p>
-            <p class="p-3 border-2 border border-info-subtle">.border-info-subtle</p>
-            <p class="p-3 border-2 border border-light">.border-light</p>
-            <p class="p-3 border-2 border border-light-subtle">.border-light-subtle</p>
-            <p class="p-3 border-2 border border-dark">.border-dark</p>
-            <p class="p-3 border-2 border border-dark-subtle">.border-dark-subtle</p>
-            <p class="p-3 border-2 border border-black">.border-black</p>
-            <p class="p-3 border-2 border border-white">.border-white</p>
+              <hr>
+
+              <h1>Bootstrap H1</h1>
+              <h2>Bootstrap H2</h2>
+              <h3>Bootstrap H3</h3>
+              <h4>Bootstrap H4</h4>
+              <h5>Bootstrap H5</h5>
+              <h6>Bootstrap H6</h6>
+
+              <h1 class="my-5">This is Heading <br><small class="text-secondary">with faded secondary text</small></h1>
+
+              <p class="lead mb-5">This is a <code>lead</code> paragraph. It stands out from regular paragraphs.</p>
+
+              <p class="fw-bold">Bold text affected by <code>.fw-bold</code> class.</p>
+              <p class="fw-bolder">Bolder weight text affected by <code>.fw-bolder</code> class.</p>
+              <p class="fw-semibold">Semibold weight text affected by <code>.fw-semibold</code> class.</p>
+              <p class="fw-medium">Medium weight text affected by <code>.fw-medium</code> class.</p>
+              <p class="fw-normal">Normal weight text affected by <code>.fw-normal</code> class.</p>
+              <p class="fw-light">Light weight text affected by <code>.fw-light</code> class.</p>
+              <p class="fw-lighter">Lighter weight text affected by <code>.fw-lighter</code> class.</p>
+              <p class="fst-italic">Italic text affected by <code>.fst-italic</code> class.</p>
+              <p class="fst-normal">Text with normal font style affected by <code>.fst-normal</code> class.</p>
+              <p class="font-monospace">This is monospace text affected by <code>.font-monospace</code> class.</p>
+              <p class="text-decoration-underline">This text has a line underneath it by <code>.text-decoration-underline</code> class.</p>
+              <p class="text-decoration-line-through">This text has a line going through it by <code>.text-decoration-line-through</code> class.</p>
+              <p><a href="#" class="text-decoration-none">This link has its text decoration removed</a> by <code>.text-decoration-none</code> class.</p>
+              <p><a>This is a placeholder link without href or any class.</a></p>
+              <p><small>This line of text is meant to be treated as fine print affected by <code>&lt;small&gt;</code> tag.</small></p>
+              <p><strong>This line rendered as bold text affected by <code>&lt;strong&gt;</code> tag.</strong></p>
+              <p><samp>This text is sample output affected by <code>&lt;samp&gt;</code> tag.</samp></p>
+              <p>Use the <code>&lt;kbd&gt;</code> to indicate <kbd>input</kbd> that is typically entered via keyboard.</p>
+              <p>The <abbr title="HyperText Markup Language">HTML</abbr> abbreviation element affected by <code>&lt;abbr&gt;</code> tag.</p>
+              <p>You can use the <code>&lt;mark&gt;</code> tag to <mark>highlight</mark> text.</p>              
+
+              <hr class="my-5">
+
+              <ul class="list-unstyled mb-5">
+                <li>This is a list.</li>
+                <li>It appears completely unstyled.</li>
+                <li>Structurally, it's still a list.</li>
+                <li>However, this style only applies to immediate child elements.</li>
+                <li>Nested lists:
+                  <ul>
+                    <li>are unaffected by this style</li>
+                    <li>will still show a bullet</li>
+                    <li>and have appropriate left margin</li>
+                  </ul>
+                </li>
+                <li>This may still come in handy in some situations.</li>
+              </ul>
+
+              <ul class="list-inline">
+                <li class="list-inline-item">This is a list item.</li>
+                <li class="list-inline-item">And another one.</li>
+                <li class="list-inline-item">But they're displayed inline.</li>
+              </ul>              
+
+            </div>
+
+            <div class="col-md-5">
+
+              <hr>
+
+              <p class="display-1">Display 1</p>
+              <p class="display-2">Display 2</p>
+              <p class="display-3">Display 3</p>
+              <p class="display-4">Display 4</p>
+              <p class="display-5">Display 5</p>
+              <p class="display-6">Display 6</p>
+
+              <hr class="my-5">
+
+              <p class="fs-1">Font Size 1</p>
+              <p class="fs-2">Font Size 2</p>
+              <p class="fs-3">Font Size 3</p>
+              <p class="fs-4">Font Size 4</p>
+              <p class="fs-5">Font Size 5</p>
+              <p class="fs-6">Font Size 6</p>
+
+              <hr class="my-5">
+
+              <figure>
+                <blockquote class="blockquote"><p>A well-known quote, contained in a blockquote element.</p></blockquote>
+                <figcaption class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></figcaption>
+              </figure>
+
+              <hr class="my-5">
+ 
+              <p class="lh-1 pb-3">This is a long paragraph written to show how the line-height of an element is affected by <code>.lh-1</code> class. Classes are applied to the element itself or sometimes the parent element.</p>
+
+              <p class="lh-sm pb-3">This is a long paragraph written to show how the line-height of an element is affected by <code>.lh-sm</code> class. Classes are applied to the element itself or sometimes the parent element.</p>
+
+              <p class="lh-base pb-3">This is a long paragraph written to show how the line-height of an element is affected by <code>.lh-base</code> class. Classes are applied to the element itself or sometimes the parent element.</p>
+
+              <p class="lh-lg">This is a long paragraph written to show how the line-height of an element is affected by <code>.lh-lg</code> class. Classes are applied to the element itself or sometimes the parent element.</p>
+
+              <hr class="my-5">
+
+              <pre><code>&lt;p&gt;This is sample text affected by <code>&lt;pre&gt;</code> and <code>&lt;code&gt;</code> tags.&lt;/p&gt;<br>&lt;p&gt;And another line of sample text here...&lt;/p&gt;</code></pre>
+
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="py-5 bg-body-tertiary" id="colors">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-md-12">
+              <h2>Colors</h2>
+            </div>
+
+            <div class="col-lg-7">
+              <h3 class="mb-5 text-secondary">Backgrounds</h3>
+              <div class="row g-2">
+                <div class="col-7"><div class="p-3 mb-2 bg-primary text-white">.bg-primary .text-white</div></div>
+                <div class="col-5"><div class="p-3 mb-2 text-bg-primary">.text-bg-primary</div></div>
+              </div>
+              <div class="p-3 mb-2 bg-primary-subtle text-emphasis-primary">.bg-primary-subtle .text-emphasis-primary</div>
+              <div class="row g-2">
+                <div class="col-7"><div class="p-3 mb-2 bg-secondary text-white">.bg-secondary .text-white</div></div>
+                <div class="col-5"><div class="p-3 mb-2 text-bg-secondary">.text-bg-secondary</div></div>
+              </div>
+              <div class="p-3 mb-2 bg-secondary-subtle text-emphasis-secondary">.bg-secondary-subtle .text-emphasis-secondary</div>
+              <div class="row g-2">
+                <div class="col-7"><div class="p-3 mb-2 bg-success text-white">.bg-success .text-white</div></div>
+                <div class="col-5"><div class="p-3 mb-2 text-bg-success">.text-bg-success</div></div>
+              </div>
+              <div class="p-3 mb-2 bg-success-subtle text-emphasis-success">.bg-success-subtle .text-emphasis-success</div>
+              <div class="row g-2">
+                <div class="col-7"><div class="p-3 mb-2 bg-danger text-white">.bg-danger .text-white</div></div>
+                <div class="col-5"><div class="p-3 mb-2 text-bg-danger">.text-bg-danger</div></div>
+              </div>
+              <div class="p-3 mb-2 bg-danger-subtle text-emphasis-danger">.bg-danger-subtle .text-emphasis-danger</div>
+              <div class="row g-2">
+                <div class="col-7"><div class="p-3 mb-2 bg-warning text-black">.bg-warning .text-black</div></div>
+                <div class="col-5"><div class="p-3 mb-2 text-bg-warning">.text-bg-warning</div></div>
+              </div>
+              <div class="p-3 mb-2 bg-warning-subtle text-emphasis-warning">.bg-warning-subtle .text-emphasis-warning</div>
+              <div class="row g-2">
+                <div class="col-7"><div class="p-3 mb-2 bg-info text-black">.bg-info .text-black</div></div>
+                <div class="col-5"><div class="p-3 mb-2 text-bg-info">.text-bg-info</div></div>
+              </div>
+              <div class="p-3 mb-2 bg-info-subtle text-emphasis-info">.bg-info-subtle .text-emphasis-info</div>
+              <div class="row g-2">
+                <div class="col-7"><div class="p-3 mb-2 bg-light text-black">.bg-light .text-black</div></div>
+                <div class="col-5"><div class="p-3 mb-2 text-bg-light">.text-bg-light</div></div>
+              </div>
+              <div class="p-3 mb-2 bg-light-subtle text-emphasis-light">.bg-light-subtle .text-emphasis-light</div>
+              <div class="row g-2">
+                <div class="col-7"><div class="p-3 mb-2 bg-dark text-white">.bg-dark .text-white</div></div>
+                <div class="col-5"><div class="p-3 mb-2 text-bg-dark">.text-bg-dark</div></div>
+              </div>
+              <div class="p-3 mb-2 bg-dark-subtle text-emphasis-dark">.bg-dark-subtle .text-emphasis-dark</div>
+              <div class="p-3 mb-2 bg-body-secondary">.bg-body-secondary</div>
+              <div class="p-3 mb-2 bg-body-tertiary">.bg-body-tertiary</div>
+              <div class="p-3 mb-2 bg-body text-body">.bg-body .text-body</div>
+              <div class="p-3 mb-2 bg-black text-white">.bg-black .text-white</div>
+              <div class="p-3 mb-2 bg-white text-dark">.bg-white .text-dark</div>
+              <div class="p-3 mb-2 bg-transparent text-body">.bg-transparent .text-body</div>
+            </div>
+
+            <div class="col-lg-5">
+              <h3 class="mb-5 text-secondary">With Gradient</h3>
+              <div class="p-3 mb-2 bg-gradient bg-primary text-white">.bg-primary .bg-gradient .text-white</div>
+              <div class="p-3 mb-2 bg-gradient bg-primary-subtle text-emphasis-primary">.bg-primary-subtle .bg-gradient .text-emphasis-primary</div>
+              <div class="p-3 mb-2 bg-gradient bg-secondary text-white">.bg-secondary .bg-gradient .text-white</div>
+              <div class="p-3 mb-2 bg-gradient bg-secondary-subtle text-emphasis-secondary">.bg-secondary-subtle .bg-gradient .text-emphasis-secondary</div>
+              <div class="p-3 mb-2 bg-gradient bg-success text-white">.bg-success .bg-gradient .text-white</div>
+              <div class="p-3 mb-2 bg-gradient bg-success-subtle text-emphasis-success">.bg-success-subtle .bg-gradient .text-emphasis-success</div>
+              <div class="p-3 mb-2 bg-gradient bg-danger text-white">.bg-danger .bg-gradient .text-white</div>
+              <div class="p-3 mb-2 bg-gradient bg-danger-subtle text-emphasis-danger">.bg-danger-subtle .bg-gradient .text-emphasis-danger</div>
+              <div class="p-3 mb-2 bg-gradient bg-warning text-dark">.bg-warning .bg-gradient .text-dark</div>
+              <div class="p-3 mb-2 bg-gradient bg-warning-subtle text-emphasis-warning">.bg-warning-subtle .bg-gradient .text-emphasis-warning</div>
+              <div class="p-3 mb-2 bg-gradient bg-info text-dark">.bg-info .bg-gradient .text-dark</div>
+              <div class="p-3 mb-2 bg-gradient bg-info-subtle text-emphasis-info">.bg-info-subtle .bg-gradient .text-emphasis-info</div>
+              <div class="p-3 mb-2 bg-gradient bg-light text-dark">.bg-light .bg-gradient .text-dark</div>
+              <div class="p-3 mb-2 bg-gradient bg-light-subtle text-emphasis-light">.bg-light-subtle .bg-gradient .text-emphasis-light</div>
+              <div class="p-3 mb-2 bg-gradient bg-dark text-white">.bg-dark .bg-gradient .text-white</div>
+              <div class="p-3 mb-2 bg-gradient bg-dark-subtle text-emphasis-dark">.bg-dark-subtle .bg-gradient .text-emphasis-dark</div>
+              <div class="p-3 mb-2 bg-gradient bg-body-secondary">.bg-body-secondary .bg-gradient</div>
+              <div class="p-3 mb-2 bg-gradient bg-body-tertiary">.bg-body-tertiary .bg-gradient</div>
+              <div class="p-3 mb-2 bg-gradient bg-body text-body">.bg-body .bg-gradient .text-body</div>
+              <div class="p-3 mb-2 bg-gradient bg-black text-white">.bg-black .bg-gradient .text-white</div>
+              <div class="p-3 mb-2 bg-gradient bg-white text-dark">.bg-white .bg-gradient .text-dark</div>
+              <div class="p-3 mb-2 bg-gradient bg-transparent text-body">.bg-transparent .bg-gradient .text-body</div>
+            </div>
+
+            <div class="col-md-7">
+              <h3 class="my-5 text-secondary">Text & Links</h3>
+              <div class="row g-3">
+                <div class="col-7"><p class="p-3 border border-2 text-primary">.text-primary</p></div>
+                <div class="col-5"><p class="p-3 border border-2"><a href="#" class="link-primary">.link-primary</a></p></div>
+              </div>            
+              <p class="p-3 border border-2 text-primary-emphasis">.text-primary-emphasis</p>
+              <div class="row g-3">
+                <div class="col-7"><p class="p-3 border border-2 text-secondary">.text-secondary</p></div>
+                <div class="col-5"><p class="p-3 border border-2"><a href="#" class="link-secondary">.link-secondary</a></p></div>
+              </div>
+              <p class="p-3 border border-2 text-secondary-emphasis">.text-secondary-emphasis</p>
+              <div class="row g-3">
+                <div class="col-7"><p class="p-3 border border-2 text-success">.text-success</p></div>
+                <div class="col-5"><p class="p-3 border border-2"><a href="#" class="link-success">.link-success</a></p></div>
+              </div>
+              <p class="p-3 border border-2 text-success-emphasis">.text-success-emphasis</p>
+              <div class="row g-3">
+                <div class="col-7"><p class="p-3 border border-2 text-danger">.text-danger</p></div>
+                <div class="col-5"><p class="p-3 border border-2"><a href="#" class="link-danger">.link-danger</a></p></div>
+              </div>
+              <p class="p-3 border border-2 text-danger-emphasis">.text-danger-emphasis</p>
+              <div class="row g-3">
+                <div class="col-7"><p class="p-3 border border-2 text-warning">.text-warning</p></div>
+                <div class="col-5"><p class="p-3 border border-2"><a href="#" class="link-warning">.link-warning</a></p></div>
+              </div>
+              <p class="p-3 border border-2 text-warning-emphasis">.text-warning-emphasis</p>
+              <div class="row g-3">
+                <div class="col-7"><p class="p-3 border border-2 text-info">.text-info</p></div>
+                <div class="col-5"><p class="p-3 border border-2"><a href="#" class="link-info">.link-info</a></p></div>
+              </div>
+              <p class="p-3 border border-2 text-info-emphasis">.text-info-emphasis</p>
+              <div class="row g-3">
+                <div class="col-7"><p class="p-3 border border-2 text-light">.text-light</p></div>
+                <div class="col-5"><p class="p-3 border border-2"><a href="#" class="link-light">.link-light</a></p></div>
+              </div>
+              <p class="p-3 border border-2 text-light-emphasis">.text-light-emphasis</p>
+              <div class="row g-3">
+                <div class="col-7"><p class="p-3 border border-2 text-dark">.text-dark</p></div>
+                <div class="col-5"><p class="p-3 border border-2"><a href="#" class="link-dark">.link-dark</a></p></div>
+              </div>
+              <p class="p-3 border border-2 text-dark-emphasis">.text-dark-emphasis</p>
+              <p class="p-3 border border-2 text-black">.text-black</p>
+              <p class="p-3 border border-2 text-white">.text-white</p>
+              <p class="p-3 border border-2 text-body">.text-body</p>
+              <div class="row g-3">
+                <div class="col-7"><p class="p-3 border border-2 text-body-emphasis">.text-body-emphasis</p></div>
+                <div class="col-5"><p class="p-3 border border-2"><a href="#" class="link-body-emphasis">.link-body-emphasis</a></p></div>
+              </div>
+              <p class="p-3 border border-2 text-body-secondary">.text-body-secondary</p>
+              <p class="p-3 mb-5 border border-2 text-body-tertiary">.text-body-tertiary</p>
+            </div>
+
+            <div class="col-md-5">
+              <h3 class="my-5 text-secondary">Borders</h3>
+              <p class="p-3 border-2 border border-primary">.border-primary</p>
+              <p class="p-3 border-2 border border-primary-subtle">.border-primary-subtle</p>
+              <p class="p-3 border-2 border border-secondary">.border-secondary</p>
+              <p class="p-3 border-2 border border-secondary-subtle">.border-secondary-subtle</p>
+              <p class="p-3 border-2 border border-success">.border-success</p>
+              <p class="p-3 border-2 border border-success-subtle">.border-success-subtle</p>
+              <p class="p-3 border-2 border border-danger">.border-danger</p>
+              <p class="p-3 border-2 border border-danger-subtle">.border-danger-subtle</p>
+              <p class="p-3 border-2 border border-warning">.border-warning</p>
+              <p class="p-3 border-2 border border-warning-subtle">.border-warning-subtle</p>
+              <p class="p-3 border-2 border border-info">.border-info</p>
+              <p class="p-3 border-2 border border-info-subtle">.border-info-subtle</p>
+              <p class="p-3 border-2 border border-light">.border-light</p>
+              <p class="p-3 border-2 border border-light-subtle">.border-light-subtle</p>
+              <p class="p-3 border-2 border border-dark">.border-dark</p>
+              <p class="p-3 border-2 border border-dark-subtle">.border-dark-subtle</p>
+              <p class="p-3 border-2 border border-black">.border-black</p>
+              <p class="p-3 border-2 border border-white">.border-white</p>
+            </div>
+
           </div>
         </div>
       </section>
