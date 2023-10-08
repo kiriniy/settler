@@ -56,6 +56,8 @@
 
     <main>
 
+      <!-- Typography -->
+
       <section class="py-5" id="typography">
         <div class="container">
           <div class="row">
@@ -64,9 +66,9 @@
               <h2>Typography</h2>
             </div>
 
-            <div class="col-md-7">
+            <div class="col-lg-7">
 
-              <hr>
+              <hr class="my-5">
 
               <h1>Bootstrap H1</h1>
               <h2>Bootstrap H2</h2>
@@ -121,13 +123,13 @@
                 <li class="list-inline-item">This is a list item.</li>
                 <li class="list-inline-item">And another one.</li>
                 <li class="list-inline-item">But they're displayed inline.</li>
-              </ul>              
+              </ul>
 
             </div>
 
-            <div class="col-md-5">
+            <div class="col-lg-5">
 
-              <hr>
+              <hr class="my-5">
 
               <p class="display-1">Display 1</p>
               <p class="display-2">Display 2</p>
@@ -172,7 +174,137 @@
         </div>
       </section>
 
-      <section class="py-5 bg-body-tertiary" id="colors">
+      <!-- Tables -->
+
+      <section class="py-5" id="tables">
+        <div class="container">
+
+          <h2 class="mb-5">Tables</h2>
+
+          <table class="table table-striped mb-5">
+            <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">First</th>
+              <th scope="col">Last</th>
+              <th scope="col">Handle</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td colspan="2">Larry the Bird</td>
+              <td>@twitter</td>
+            </tr>
+            </tbody>
+          </table>
+
+          <table class="table table-borderless mb-5">
+            <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">First</th>
+              <th scope="col">Last</th>
+              <th scope="col">Handle</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td colspan="2">Larry the Bird</td>
+              <td>@twitter</td>
+            </tr>
+            </tbody>
+          </table>
+
+          <table class="table table-hover table-bordered">
+            <thead>
+            <tr>
+              <th scope="col">Class</th>
+              <th scope="col">Heading</th>
+              <th scope="col">Heading</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <th scope="row">Default</th>
+              <td>Cell</td>
+              <td>Cell</td>
+            </tr>
+            
+            <tr class="table-primary">
+              <th scope="row">Primary</th>
+              <td>Cell</td>
+              <td>Cell</td>
+            </tr>
+            <tr class="table-secondary">
+              <th scope="row">Secondary</th>
+              <td>Cell</td>
+              <td>Cell</td>
+            </tr>
+            <tr class="table-success">
+              <th scope="row">Success</th>
+              <td>Cell</td>
+              <td>Cell</td>
+            </tr>
+            <tr class="table-danger">
+              <th scope="row">Danger</th>
+              <td>Cell</td>
+              <td>Cell</td>
+            </tr>
+            <tr class="table-warning">
+              <th scope="row">Warning</th>
+              <td>Cell</td>
+              <td>Cell</td>
+            </tr>
+            <tr class="table-info">
+              <th scope="row">Info</th>
+              <td>Cell</td>
+              <td>Cell</td>
+            </tr>
+            <tr class="table-light">
+              <th scope="row">Light</th>
+              <td>Cell</td>
+              <td>Cell</td>
+            </tr>
+            <tr class="table-dark">
+              <th scope="row">Dark</th>
+              <td>Cell</td>
+              <td>Cell</td>
+            </tr>
+            </tbody>
+          </table>
+
+        </div>
+      </section>
+
+      <!-- Colors -->
+
+      <section class="py-5" id="colors">
         <div class="container">
           <div class="row">
 
@@ -332,6 +464,67 @@
             </div>
 
           </div>
+        </div>
+      </section>
+
+      <!-- Images -->
+
+      <section class="py-5" id="images">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-md-12">
+              <h2 class="mb-5">Images</h2>
+            </div>
+            
+            <div class="col-lg-7">
+              <figure class="figure w-100">
+                <svg class="figure-img rounded" xmlns="http://www.w3.org/2000/svg" width="100%" height="160">
+                  <rect fill="#ddd" width="100%" height="160"/>
+                  <text fill="rgba(0,0,0,0.5)" font-family="sans-serif" font-size="30" dy="10.5" font-weight="bold" x="50%" y="50%" text-anchor="middle">.figure-img</text>
+                </svg>
+                <figcaption class="figure-caption">A caption for the above image.</figcaption>
+              </figure>
+            </div>
+
+            <div class="col-lg-5">
+              <svg class="img-thumbnail img-fluid" xmlns="http://www.w3.org/2000/svg" width="100%" height="150">
+                <rect fill="#ddd" width="100%" height="150"/>
+                <text fill="rgba(0,0,0,0.5)" font-family="sans-serif" font-size="30" dy="10.5" font-weight="bold" x="50%" y="50%" text-anchor="middle">.img-thumbnail</text>
+              </svg>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- Shadows -->
+
+      <section class="py-5" id="shadows">
+        <div class="container">
+
+          <h2 class="mb-5">Shadows</h2>
+
+          <div class="shadow-sm p-3 mb-5 bg-body-tertiary rounded"><code>.shadow-sm</code></div>
+          <div class="shadow p-3 mb-5 bg-body-tertiary rounded"><code>.shadow</code></div>
+          <div class="shadow-lg p-3 mb-5 bg-body-tertiary rounded"><code>.shadow-lg</code></div>
+
+        </div>
+      </section>
+
+      <!-- Margin and padding -->
+
+      <section class="py-5" id="spacing">
+        <div class="container">
+
+          <h2 class="mb-5">Margin and padding</h2>
+ 
+          <div class="border border-primary-subtle mb-5"><div class="border border-primary m-1 p-1"><code>.m-1 .p-1</code></div></div>
+          <div class="border border-primary-subtle mb-5"><div class="border border-primary m-2 p-2"><code>.m-2 .p-2</code></div></div>
+          <div class="border border-primary-subtle mb-5"><div class="border border-primary m-3 p-3"><code>.m-3 .p-3</code></div></div>
+          <div class="border border-primary-subtle mb-5"><div class="border border-primary m-4 p-4"><code>.m-4 .p-4</code></div></div>
+          <div class="border border-primary-subtle mb-5"><div class="border border-primary m-5 p-5"><code>.m-5 .p-5</code></div></div>
+
         </div>
       </section>
 
