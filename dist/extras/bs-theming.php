@@ -50,6 +50,17 @@
           <h1>Theme Preview</h1>
           <p class="lead">Customize Bootstrap's components to get your very own version.</p>
           <p>In order to use your custom Sass code as CSS in the browser, you need a Sass <a href="https://sass-lang.com/install/" target="_blank">compiler</a>. Sass ships as a CLI package, but you can also compile it with other build tools like <a href="https://gulpjs.com/" target="_blank">Gulp</a> or <a href="https://webpack.js.org/" target="_blank">Webpack</a>, or with a GUI applications. Some IDEs also have Sass compilers built in or as downloadable extensions.</p>
+
+          <nav class="nav justify-content-center">
+            <a class="nav-link" href="extras/bs-theming.php#typography">Typography</a>
+            <a class="nav-link" href="extras/bs-theming.php#tables">Tables</a>
+            <a class="nav-link" href="extras/bs-theming.php#colors">Colors</a>
+            <a class="nav-link" href="extras/bs-theming.php#images">Images</a>
+            <a class="nav-link" href="extras/bs-theming.php#shadows">Shadows</a>
+            <a class="nav-link" href="extras/bs-theming.php#borders">Borders</a>
+            <a class="nav-link" href="extras/bs-theming.php#spacing">Spacing</a>
+          </nav>
+
         </div>
       </div>
     </header>
@@ -60,12 +71,10 @@
 
       <section class="py-5" id="typography">
         <div class="container">
+
+          <h2>Typography</h2>
+
           <div class="row">
-
-            <div class="col-md-12">
-              <h2>Typography</h2>
-            </div>
-
             <div class="col-lg-7">
 
               <hr class="my-5">
@@ -169,8 +178,8 @@
               <pre><code>&lt;p&gt;This is sample text affected by <code>&lt;pre&gt;</code> and <code>&lt;code&gt;</code> tags.&lt;/p&gt;<br>&lt;p&gt;And another line of sample text here...&lt;/p&gt;</code></pre>
 
             </div>
-
           </div>
+
         </div>
       </section>
 
@@ -241,7 +250,7 @@
             </tbody>
           </table>
 
-          <table class="table table-hover table-bordered">
+          <table class="table table-hover table-bordered mb-5">
             <thead>
             <tr>
               <th scope="col">Class</th>
@@ -255,7 +264,6 @@
               <td>Cell</td>
               <td>Cell</td>
             </tr>
-            
             <tr class="table-primary">
               <th scope="row">Primary</th>
               <td>Cell</td>
@@ -299,6 +307,36 @@
             </tbody>
           </table>
 
+          <table class="table table-sm table-bordered">
+            <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">First</th>
+              <th scope="col">Last</th>
+              <th scope="col">Handle</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td colspan="2">Larry the Bird</td>
+              <td>@twitter</td>
+            </tr>
+            </tbody>
+          </table>
+
         </div>
       </section>
 
@@ -306,14 +344,14 @@
 
       <section class="py-5" id="colors">
         <div class="container">
+
+          <h2>Colors</h2>
+
           <div class="row">
-
-            <div class="col-md-12">
-              <h2>Colors</h2>
-            </div>
-
             <div class="col-lg-7">
+
               <h3 class="mb-5 text-secondary">Backgrounds</h3>
+
               <div class="row g-2">
                 <div class="col-7"><div class="p-3 mb-2 bg-primary text-white">.bg-primary .text-white</div></div>
                 <div class="col-5"><div class="p-3 mb-2 text-bg-primary">.text-bg-primary</div></div>
@@ -363,7 +401,9 @@
             </div>
 
             <div class="col-lg-5">
+
               <h3 class="mb-5 text-secondary">With Gradient</h3>
+
               <div class="p-3 mb-2 bg-gradient bg-primary text-white">.bg-primary .bg-gradient .text-white</div>
               <div class="p-3 mb-2 bg-gradient bg-primary-subtle text-emphasis-primary">.bg-primary-subtle .bg-gradient .text-emphasis-primary</div>
               <div class="p-3 mb-2 bg-gradient bg-secondary text-white">.bg-secondary .bg-gradient .text-white</div>
@@ -389,7 +429,9 @@
             </div>
 
             <div class="col-md-7">
+
               <h3 class="my-5 text-secondary">Text & Links</h3>
+
               <div class="row g-3">
                 <div class="col-7"><p class="p-3 border border-2 text-primary">.text-primary</p></div>
                 <div class="col-5"><p class="p-3 border border-2"><a href="#" class="link-primary">.link-primary</a></p></div>
@@ -442,7 +484,9 @@
             </div>
 
             <div class="col-md-5">
+
               <h3 class="my-5 text-secondary">Borders</h3>
+
               <p class="p-3 border-2 border border-primary">.border-primary</p>
               <p class="p-3 border-2 border border-primary-subtle">.border-primary-subtle</p>
               <p class="p-3 border-2 border border-secondary">.border-secondary</p>
@@ -462,8 +506,8 @@
               <p class="p-3 border-2 border border-black">.border-black</p>
               <p class="p-3 border-2 border border-white">.border-white</p>
             </div>
-
           </div>
+
         </div>
       </section>
 
@@ -471,12 +515,10 @@
 
       <section class="py-5" id="images">
         <div class="container">
-          <div class="row">
 
-            <div class="col-md-12">
-              <h2 class="mb-5">Images</h2>
-            </div>
-            
+          <h2 class="mb-5">Images</h2>
+
+          <div class="row">            
             <div class="col-lg-7">
               <figure class="figure w-100">
                 <svg class="figure-img rounded" xmlns="http://www.w3.org/2000/svg" width="100%" height="160">
@@ -493,8 +535,8 @@
                 <text fill="rgba(0,0,0,0.5)" font-family="sans-serif" font-size="30" dy="10.5" font-weight="bold" x="50%" y="50%" text-anchor="middle">.img-thumbnail</text>
               </svg>
             </div>
-
           </div>
+
         </div>
       </section>
 
@@ -505,9 +547,25 @@
 
           <h2 class="mb-5">Shadows</h2>
 
-          <div class="shadow-sm p-3 mb-5 bg-body-tertiary rounded"><code>.shadow-sm</code></div>
-          <div class="shadow p-3 mb-5 bg-body-tertiary rounded"><code>.shadow</code></div>
-          <div class="shadow-lg p-3 mb-5 bg-body-tertiary rounded"><code>.shadow-lg</code></div>
+          <div class="shadow-sm p-5 mb-5 bg-body-tertiary rounded"><code>.shadow-sm</code></div>
+          <div class="shadow p-5 mb-5 bg-body-tertiary rounded"><code>.shadow</code></div>
+          <div class="shadow-lg p-5 mb-5 bg-body-tertiary rounded"><code>.shadow-lg</code></div>
+
+        </div>
+      </section>
+
+      <!-- Borders width and radius -->
+
+      <section class="py-5" id="borders">
+        <div class="container">
+
+          <h2 class="mb-5">Borders width and radius</h2>
+
+          <div class="border border-primary-subtle border-1 rounded-1 mb-5 p-5"><code>.border-1 .rounded-1</code></div>
+          <div class="border border-primary-subtle border-2 rounded-2 mb-5 p-5"><code>.border-2 .rounded-2</code></div>
+          <div class="border border-primary-subtle border-3 rounded-3 mb-5 p-5"><code>.border-3 .rounded-3</code></div>
+          <div class="border border-primary-subtle border-4 rounded-4 mb-5 p-5"><code>.border-4 .rounded-4</code></div>
+          <div class="border border-primary-subtle border-5 rounded-5 mb-5 p-5"><code>.border-5 .rounded-5</code></div>
 
         </div>
       </section>
@@ -519,11 +577,11 @@
 
           <h2 class="mb-5">Margin and padding</h2>
  
-          <div class="border border-primary-subtle mb-5"><div class="border border-primary m-1 p-1"><code>.m-1 .p-1</code></div></div>
-          <div class="border border-primary-subtle mb-5"><div class="border border-primary m-2 p-2"><code>.m-2 .p-2</code></div></div>
-          <div class="border border-primary-subtle mb-5"><div class="border border-primary m-3 p-3"><code>.m-3 .p-3</code></div></div>
-          <div class="border border-primary-subtle mb-5"><div class="border border-primary m-4 p-4"><code>.m-4 .p-4</code></div></div>
-          <div class="border border-primary-subtle mb-5"><div class="border border-primary m-5 p-5"><code>.m-5 .p-5</code></div></div>
+          <div class="border border-primary-subtle mb-5"><div class="border border-primary m-1 p-1"><code class="border">.m-1 .p-1</code></div></div>
+          <div class="border border-primary-subtle mb-5"><div class="border border-primary m-2 p-2"><code class="border">.m-2 .p-2</code></div></div>
+          <div class="border border-primary-subtle mb-5"><div class="border border-primary m-3 p-3"><code class="border">.m-3 .p-3</code></div></div>
+          <div class="border border-primary-subtle mb-5"><div class="border border-primary m-4 p-4"><code class="border">.m-4 .p-4</code></div></div>
+          <div class="border border-primary-subtle mb-5"><div class="border border-primary m-5 p-5"><code class="border">.m-5 .p-5</code></div></div>
 
         </div>
       </section>
