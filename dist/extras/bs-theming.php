@@ -54,6 +54,7 @@
           <nav class="nav justify-content-center">
             <a class="nav-link" href="extras/bs-theming.php#typography">Typography</a>
             <a class="nav-link" href="extras/bs-theming.php#tables">Tables</a>
+            <a class="nav-link" href="extras/bs-theming.php#forms">Forms</a>
             <a class="nav-link" href="extras/bs-theming.php#colors">Colors</a>
             <a class="nav-link" href="extras/bs-theming.php#images">Images</a>
             <a class="nav-link" href="extras/bs-theming.php#shadows">Shadows</a>
@@ -340,6 +341,216 @@
         </div>
       </section>
 
+      <!-- Forms -->
+
+      <section class="py-5" id="forms">
+        <div class="container">
+
+          <h2 class="mb-5">Forms</h2>
+
+          <div class="row">
+            <div class="col-lg-7">
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Input</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleSelect" class="form-label">Select menu</label>
+                  <select class="form-select" id="exampleSelect">
+                    <option selected>Open this select menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <fieldset class="mb-3">
+                  <legend>Radios buttons</legend>
+                  <div class="form-check">
+                    <input type="radio" name="radios" class="form-check-input" id="exampleRadio1">
+                    <label class="form-check-label" for="exampleRadio1">Default radio</label>
+                  </div>
+                  <div class="mb-3 form-check">
+                    <input type="radio" name="radios" class="form-check-input" id="exampleRadio2">
+                    <label class="form-check-label" for="exampleRadio2">Another radio</label>
+                  </div>
+                </fieldset>
+                <div class="mb-3">
+                  <label class="form-label" for="customFile">Upload</label>
+                  <input type="file" class="form-control" id="customFile">
+                </div>
+                <div class="mb-3 form-check form-switch">
+                  <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                  <label class="form-check-label" for="flexSwitchCheckChecked">Checked switch checkbox input</label>
+                </div>
+                <div class="mb-3">
+                  <label for="customRange3" class="form-label">Example range</label>
+                  <input type="range" class="form-range" min="0" max="5" step="0.5" id="customRange3">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+
+            <div class="col-lg-5">
+              <form>
+                <fieldset disabled aria-label="Disabled fieldset example">
+                  <div class="mb-3">
+                    <label for="disabledTextInput" class="form-label">Disabled input</label>
+                    <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input">
+                  </div>
+                  <div class="mb-3">
+                    <label for="disabledSelect" class="form-label">Disabled select menu</label>
+                    <select id="disabledSelect" class="form-select">
+                      <option>Disabled select</option>
+                    </select>
+                  </div>
+                  <div class="mb-3">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck" disabled>
+                      <label class="form-check-label" for="disabledFieldsetCheck">
+                        Can't check this
+                      </label>
+                    </div>
+                  </div>
+                  <fieldset class="mb-3">
+                    <legend>Disabled radios buttons</legend>
+                    <div class="form-check">
+                      <input type="radio" name="radios" class="form-check-input" id="disabledRadio1" disabled>
+                      <label class="form-check-label" for="disabledRadio1">Disabled radio</label>
+                    </div>
+                    <div class="mb-3 form-check">
+                      <input type="radio" name="radios" class="form-check-input" id="disabledRadio2" disabled>
+                      <label class="form-check-label" for="disabledRadio2">Another radio</label>
+                    </div>
+                  </fieldset>
+                  <div class="mb-3">
+                    <label class="form-label" for="disabledCustomFile">Disabled Upload</label>
+                    <input type="file" class="form-control" id="disabledCustomFile" disabled>
+                  </div>
+                  <div class="mb-3 form-check form-switch">
+                    <input class="form-check-input" type="checkbox" role="switch" id="disabledSwitchCheckChecked" checked disabled>
+                    <label class="form-check-label" for="disabledSwitchCheckChecked">Disabled checked switch checkbox input</label>
+                  </div>
+                  <div class="mb-3">
+                    <label for="disabledRange" class="form-label">Disabled range</label>
+                    <input type="range" class="form-range" min="0" max="5" step="0.5" id="disabledRange">
+                  </div>
+                  <button type="submit" class="btn btn-primary">Disabled Submit</button>
+                </fieldset>
+              </form>
+            </div>
+
+            <div class="col-lg-7">
+
+              <h3 class="py-5 text-secondary">Sizing</h3>
+
+              <div class="mb-3">
+                <input class="form-control form-control-lg" type="text" placeholder=".form-control-lg" aria-label=".form-control-lg example">
+              </div>
+
+              <div class="mb-3">
+                <select class="form-select form-select-lg" aria-label=".form-select-lg example">
+                  <option selected>Open this select menu</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+
+              <div class="mb-5">
+                <input type="file" class="form-control form-control-lg" aria-label="Large file input example">
+              </div>
+
+              <div class="mb-3">
+                <input class="form-control form-control-sm" type="text" placeholder=".form-control-sm" aria-label=".form-control-sm example">
+              </div>
+
+              <div class="mb-3">
+                <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                  <option selected>Open this select menu</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+ 
+              <div class="mb-3">
+                <input type="file" class="form-control form-control-sm" aria-label="Small file input example">
+              </div>
+            </div>
+
+            <div class="col-lg-5">
+
+              <h3 class="py-5 text-secondary">Input group</h3>
+
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">@</span>
+                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+ 
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <span class="input-group-text" id="basic-addon2">@example.com</span>
+              </div>
+
+              <label for="basic-url" class="form-label">Your vanity URL</label>
+
+              <div class="input-group mb-5">
+                <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+                <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+              </div>
+
+              <div class="input-group mb-3">
+                <span class="input-group-text">$</span>
+                <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                <span class="input-group-text">.00</span>
+              </div>
+
+              <div class="input-group">
+                <span class="input-group-text">With textarea</span>
+                <textarea class="form-control" aria-label="With textarea"></textarea>
+              </div>
+            </div>
+
+            <div class="col-lg-7">
+
+              <h3 class="py-5 text-secondary">Floating labels</h3>         
+
+              <form>
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                  <label for="floatingInput">Email address</label>
+                </div>
+                <div class="form-floating">
+                  <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                  <label for="floatingPassword">Password</label>
+                </div>
+              </form>
+            </div>
+
+            <div class="col-lg-5">
+
+              <h3 class="py-5 text-secondary">Validation</h3>
+
+              <div class="form-group mb-3">
+                <input type="text" value="Valid input" class="form-control is-valid" id="inputValid">
+                <div class="valid-feedback">Looks good!</div>
+              </div>
+
+              <div class="form-group">
+                <input type="text" value="Invalid input" class="form-control is-invalid" id="inputInvalid">
+                <div class="invalid-feedback">Please provide a valid input.</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
       <!-- Colors -->
 
       <section class="py-5" id="colors">
@@ -561,11 +772,11 @@
 
           <h2 class="mb-5">Borders width and radius</h2>
 
-          <div class="border border-primary-subtle border-1 rounded-1 mb-5 p-5"><code>.border-1 .rounded-1</code></div>
-          <div class="border border-primary-subtle border-2 rounded-2 mb-5 p-5"><code>.border-2 .rounded-2</code></div>
-          <div class="border border-primary-subtle border-3 rounded-3 mb-5 p-5"><code>.border-3 .rounded-3</code></div>
-          <div class="border border-primary-subtle border-4 rounded-4 mb-5 p-5"><code>.border-4 .rounded-4</code></div>
-          <div class="border border-primary-subtle border-5 rounded-5 mb-5 p-5"><code>.border-5 .rounded-5</code></div>
+          <div class="border border-primary border-1 rounded-1 mb-5 p-5"><code>.border-1 .rounded-1</code></div>
+          <div class="border border-primary border-2 rounded-2 mb-5 p-5"><code>.border-2 .rounded-2</code></div>
+          <div class="border border-primary border-3 rounded-3 mb-5 p-5"><code>.border-3 .rounded-3</code></div>
+          <div class="border border-primary border-4 rounded-4 mb-5 p-5"><code>.border-4 .rounded-4</code></div>
+          <div class="border border-primary border-5 rounded-5 mb-5 p-5"><code>.border-5 .rounded-5</code></div>
 
         </div>
       </section>
@@ -577,11 +788,11 @@
 
           <h2 class="mb-5">Margin and padding</h2>
  
-          <div class="border border-primary-subtle mb-5"><div class="border border-primary m-1 p-1"><code class="border">.m-1 .p-1</code></div></div>
-          <div class="border border-primary-subtle mb-5"><div class="border border-primary m-2 p-2"><code class="border">.m-2 .p-2</code></div></div>
-          <div class="border border-primary-subtle mb-5"><div class="border border-primary m-3 p-3"><code class="border">.m-3 .p-3</code></div></div>
-          <div class="border border-primary-subtle mb-5"><div class="border border-primary m-4 p-4"><code class="border">.m-4 .p-4</code></div></div>
-          <div class="border border-primary-subtle mb-5"><div class="border border-primary m-5 p-5"><code class="border">.m-5 .p-5</code></div></div>
+          <div class="border mb-5"><div class="border border-primary m-1 p-1"><code class="border">.m-1 .p-1</code></div></div>
+          <div class="border mb-5"><div class="border border-primary m-2 p-2"><code class="border">.m-2 .p-2</code></div></div>
+          <div class="border mb-5"><div class="border border-primary m-3 p-3"><code class="border">.m-3 .p-3</code></div></div>
+          <div class="border mb-5"><div class="border border-primary m-4 p-4"><code class="border">.m-4 .p-4</code></div></div>
+          <div class="border mb-5"><div class="border border-primary m-5 p-5"><code class="border">.m-5 .p-5</code></div></div>
 
         </div>
       </section>
