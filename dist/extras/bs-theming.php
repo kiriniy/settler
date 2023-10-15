@@ -65,6 +65,8 @@
                 <li><a class="dropdown-item" href="extras/bs-theming.php#badge">Badge</a></li>
                 <li><a class="dropdown-item" href="extras/bs-theming.php#breadcrumb">Breadcrumb</a></li>
                 <li><a class="dropdown-item" href="extras/bs-theming.php#buttons">Buttons</a></li>
+                <li><a class="dropdown-item" href="extras/bs-theming.php#card">Card</a></li>
+                <li><a class="dropdown-item" href="extras/bs-theming.php#carousel">Carousel</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
@@ -826,7 +828,7 @@
           <h2 class="mb-5">Alerts</h2>
 
           <div class="row">
-            <div class="col-6">
+            <div class="col-md-6">
               <div class="alert alert-primary alert-dismissible fade show" role="alert">
                 A simple primary alert with <a href="#" class="alert-link">an example link</a>.
                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
@@ -849,7 +851,7 @@
               </div>
             </div>
 
-            <div class="col-6">
+            <div class="col-md-6">
               <div class="alert alert-warning alert-dismissible fade show" role="alert">
                 <h4 class="alert-heading">Alert heading!</h4>
                 <p class="mb-0">A simple warning alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
@@ -884,7 +886,7 @@
           <h2 class="mb-5" id="badge">Badge</h2>
 
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-xl-6">
               <p>
                 <span class="badge text-bg-primary">Primary</span>
                 <span class="badge text-bg-secondary">Secondary</span>
@@ -908,13 +910,13 @@
               </p>
             </div>
 
-            <div class="col-lg-6">
-              <h1>Example heading <span class="badge bg-primary">New</span></h1>
-              <h2>Example heading <span class="badge bg-primary">New</span></h2>
-              <h3>Example heading <span class="badge bg-primary">New</span></h3>
-              <h4>Example heading <span class="badge bg-primary">New</span></h4>
-              <h5>Example heading <span class="badge bg-primary">New</span></h5>
-              <h6>Example heading <span class="badge bg-primary">New</span></h6>
+            <div class="col-xl-6">
+              <p class="h1">Example heading <span class="badge bg-primary">New</span></p>
+              <p class="h2">Example heading <span class="badge bg-secondary">New</span></p>
+              <p class="h3">Example heading <span class="badge bg-success">New</span></p>
+              <p class="h4">Example heading <span class="badge bg-danger">New</span></p>
+              <p class="h5">Example heading <span class="badge bg-warning">New</span></p>
+              <p class="h6">Example heading <span class="badge bg-info">New</span></p>
 
               <div class="my-4">
                 <button type="button" class="btn btn-primary">Notifications <span class="badge text-bg-danger">4</span></button>
@@ -971,55 +973,469 @@
 
           <h2 class="mb-5">Buttons</h2>
 
-          <div class="mb-3">
-            <button type="button" class="btn btn-primary">Primary</button>
-            <button type="button" class="btn btn-secondary">Secondary</button>
-            <button type="button" class="btn btn-success">Success</button>
-            <button type="button" class="btn btn-info">Info</button>
-            <button type="button" class="btn btn-warning">Warning</button>
-            <button type="button" class="btn btn-danger">Danger</button>
-            <button type="button" class="btn btn-light">Light</button>
-            <button type="button" class="btn btn-dark">Dark</button>
-            <button type="button" class="btn btn-link">Link</button>
+          <div class="row">
+            <div class="col-xl-8">
+              <div class="mb-3">
+                <button type="button" class="btn btn-primary">Primary</button>
+                <button type="button" class="btn btn-secondary">Secondary</button>
+                <button type="button" class="btn btn-success">Success</button>
+                <button type="button" class="btn btn-info">Info</button>
+                <button type="button" class="btn btn-warning">Warning</button>
+                <button type="button" class="btn btn-danger">Danger</button>
+                <button type="button" class="btn btn-light">Light</button>
+                <button type="button" class="btn btn-dark">Dark</button>
+                <button type="button" class="btn btn-link">Link</button>
+              </div>
+
+              <div class="mb-5">
+                <button type="button" class="btn btn-outline-primary">Primary</button>
+                <button type="button" class="btn btn-outline-secondary">Secondary</button>
+                <button type="button" class="btn btn-outline-success">Success</button>
+                <button type="button" class="btn btn-outline-info">Info</button>
+                <button type="button" class="btn btn-outline-warning">Warning</button>
+                <button type="button" class="btn btn-outline-danger">Danger</button>
+                <button type="button" class="btn btn-outline-light">Light</button>
+                <button type="button" class="btn btn-outline-dark">Dark</button>
+              </div>
+
+              <div class="mb-3">
+                <button type="button" class="btn btn-primary disabled">Primary</button>
+                <button type="button" class="btn btn-secondary disabled">Secondary</button>
+                <button type="button" class="btn btn-success disabled">Success</button>
+                <button type="button" class="btn btn-info disabled">Info</button>
+                <button type="button" class="btn btn-warning disabled">Warning</button>
+                <button type="button" class="btn btn-danger disabled">Danger</button>
+                <button type="button" class="btn btn-light disabled">Light</button>
+                <button type="button" class="btn btn-dark disabled">Dark</button>
+                <button type="button" class="btn btn-link disabled">Link</button>
+              </div>
+
+              <div class="mb-5">
+                <button type="button" class="btn btn-outline-primary disabled">Primary</button>
+                <button type="button" class="btn btn-outline-secondary disabled">Secondary</button>
+                <button type="button" class="btn btn-outline-success disabled">Success</button>
+                <button type="button" class="btn btn-outline-info disabled">Info</button>
+                <button type="button" class="btn btn-outline-warning disabled">Warning</button>
+                <button type="button" class="btn btn-outline-danger disabled">Danger</button>
+                <button type="button" class="btn btn-outline-light disabled">Light</button>
+                <button type="button" class="btn btn-outline-dark disabled">Dark</button>
+              </div>
+            </div>
+
+            <div class="col-xl-4">
+              <div class="mb-3">
+                <button type="button" class="btn btn-primary btn-lg me-3">Large button</button>
+                <button type="button" class="btn btn-outline-primary btn-lg">Large button</button>
+              </div>
+
+              <div class="mb-5">
+                <button type="button" class="btn btn-primary btn-sm me-3">Small button</button>
+                <button type="button" class="btn btn-outline-primary btn-sm">Small button</button>
+              </div>
+
+              <div class="mb-3">
+                <button type="button" class="btn btn-primary" data-bs-toggle="button">Toggle button</button>
+                <button type="button" class="btn btn-primary active" data-bs-toggle="button" aria-pressed="true">Active toggle button</button>
+              </div>
+
+              <div>
+                <button type="button" class="btn btn-outline-primary" data-bs-toggle="button">Toggle button</button>
+                <button type="button" class="btn btn-outline-primary active" data-bs-toggle="button" aria-pressed="true">Active toggle button</button>
+              </div>
+
+            </div>
           </div>
 
-          <div class="mb-5">
-            <button type="button" class="btn btn-outline-primary">Primary</button>
-            <button type="button" class="btn btn-outline-secondary">Secondary</button>
-            <button type="button" class="btn btn-outline-success">Success</button>
-            <button type="button" class="btn btn-outline-info">Info</button>
-            <button type="button" class="btn btn-outline-warning">Warning</button>
-            <button type="button" class="btn btn-outline-danger">Danger</button>
-            <button type="button" class="btn btn-outline-light">Light</button>
-            <button type="button" class="btn btn-outline-dark">Dark</button>
+          <div class="row">
+            <div class="col-lg-6">
+
+              <h3 class="my-5 text-secondary">Button group</h3>
+
+              <div class="mb-3">
+                <div class="btn-group me-2" role="group" aria-label="First group">
+                  <button type="button" class="btn btn-primary">1</button>
+                  <button type="button" class="btn btn-primary">2</button>
+                  <button type="button" class="btn btn-primary">3</button>
+                  <button type="button" class="btn btn-primary">4</button>
+                </div>
+
+                <div class="btn-group me-2" role="group" aria-label="Second group">
+                  <button type="button" class="btn btn-secondary">5</button>
+                  <button type="button" class="btn btn-secondary">6</button>
+                  <button type="button" class="btn btn-secondary">7</button>
+                </div>
+
+                <div class="btn-group" role="group" aria-label="Third group">
+                  <button type="button" class="btn btn-info">8</button>
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                  <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+                  <label class="btn btn-outline-primary" for="btncheck1">Checkbox 1</label>
+                
+                  <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+                  <label class="btn btn-outline-primary" for="btncheck2">Checkbox 2</label>
+                
+                  <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
+                  <label class="btn btn-outline-primary" for="btncheck3">Checkbox 3</label>
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                  <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                  <label class="btn btn-outline-primary" for="btnradio1">Radio 1</label>
+                
+                  <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                  <label class="btn btn-outline-primary" for="btnradio2">Radio 2</label>
+                
+                  <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+                  <label class="btn btn-outline-primary" for="btnradio3">Radio 3</label>
+                </div>
+              </div>
+
+              <div class="mb-5">
+                <div class="btn-group" role="group" aria-label="Basic example">
+                  <button type="button" class="btn btn-primary">Left</button>
+                  <button type="button" class="btn btn-primary">Middle</button>
+                  <button type="button" class="btn btn-primary">Right</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-lg-3">
+
+              <h3 class="my-5 text-secondary">Vertical</h3>
+
+              <div class="btn-group-vertical me-3" role="group" aria-label="Vertical button group">
+                <button type="button" class="btn btn-primary">Button</button>
+                <button type="button" class="btn btn-primary">Button</button>
+                <button type="button" class="btn btn-primary">Button</button>
+                <button type="button" class="btn btn-primary">Button</button>
+                <button type="button" class="btn btn-primary">Button</button>
+              </div>
+
+              <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+                <button type="button" class="btn btn-outline-primary">Button</button>
+                <button type="button" class="btn btn-outline-primary">Button</button>
+                <button type="button" class="btn btn-outline-primary">Button</button>
+                <button type="button" class="btn btn-outline-primary">Button</button>
+                <button type="button" class="btn btn-outline-primary">Button</button>
+              </div>
+            </div>
+
+            <div class="col-6 col-lg-3">
+
+              <h3 class="my-5 text-secondary">Dropdowns</h3>
+
+              <div class="btn-group">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  Single
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Separated link</a></li>
+                </ul>
+              </div>
+
+              <div class="btn-group">
+                <button type="button" class="btn btn-outline-primary">Split</button>
+                <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                  <span class="visually-hidden">Toggle Dropdown</span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Separated link</a></li>
+                </ul>
+              </div>
+            </div>
           </div>
 
-          <div class="mb-3">
-            <button type="button" class="btn btn-primary disabled">Primary</button>
-            <button type="button" class="btn btn-secondary disabled">Secondary</button>
-            <button type="button" class="btn btn-success disabled">Success</button>
-            <button type="button" class="btn btn-info disabled">Info</button>
-            <button type="button" class="btn btn-warning disabled">Warning</button>
-            <button type="button" class="btn btn-danger disabled">Danger</button>
-            <button type="button" class="btn btn-light disabled">Light</button>
-            <button type="button" class="btn btn-dark disabled">Dark</button>
-            <button type="button" class="btn btn-link disabled">Link</button>
-          </div>
+        </div>
+      </section>
 
-          <div class="mb-5">
-            <button type="button" class="btn btn-outline-primary disabled">Primary</button>
-            <button type="button" class="btn btn-outline-secondary disabled">Secondary</button>
-            <button type="button" class="btn btn-outline-success disabled">Success</button>
-            <button type="button" class="btn btn-outline-info disabled">Info</button>
-            <button type="button" class="btn btn-outline-warning disabled">Warning</button>
-            <button type="button" class="btn btn-outline-danger disabled">Danger</button>
-            <button type="button" class="btn btn-outline-light disabled">Light</button>
-            <button type="button" class="btn btn-outline-dark disabled">Dark</button>
-          </div>
+      <!-- Components / Card  -->
 
-          <div>
-            <button type="button" class="btn btn-primary btn-lg me-3">Large button</button>
-            <button type="button" class="btn btn-primary btn-sm">Small button</button>
+      <section class="py-5" id="card">
+        <div class="container">
+
+          <h2 class="mb-5">Card</h2>
+
+          <div class="row">
+            <div class="col-xl-6">
+
+              <div class="card mb-5">
+                <svg class="card-img-top" xmlns="http://www.w3.org/2000/svg" width="100%" height="200">
+                  <rect fill="#ddd" width="100%" height="100%"/>
+                  <text fill="rgba(0,0,0,0.5)" font-family="sans-serif" font-size="30" dy="10.5" font-weight="bold" x="50%" y="50%" text-anchor="middle">Image</text>
+                </svg>
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+
+              <div class="card mb-5">
+                <div class="card-header">Featured</div>
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+                <div class="card-footer text-body-secondary">2 days ago</div>
+              </div>
+
+              <div class="card text-bg-dark mb-5">
+                <svg class="card-img" xmlns="http://www.w3.org/2000/svg" width="100%" height="186">
+                  <rect fill="#333" width="100%" height="100%"/>
+                  <text fill="rgba(0,0,0,0.5)" font-family="sans-serif" font-size="30" dy="10.5" font-weight="bold" x="50%" y="50%" text-anchor="middle">Image Overlay</text>
+                </svg>
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+
+              <div class="card mb-5">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">An item</li>
+                  <li class="list-group-item">A second item</li>
+                  <li class="list-group-item">A third item</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">Card link</a>
+                  <a href="#" class="card-link">Another link</a>
+                </div>
+              </div>
+
+              <div class="card mb-5">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="250">
+                      <rect fill="#ddd" width="100%" height="100%"/>
+                      <text fill="rgba(0,0,0,0.5)" font-family="sans-serif" font-size="30" dy="10.5" font-weight="bold" x="50%" y="50%" text-anchor="middle">Image</text>
+                    </svg>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-xl-3">
+
+              <div class="card text-bg-primary mb-3">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                  <h5 class="card-title">Primary card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+
+              <div class="card text-bg-secondary mb-3">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                  <h5 class="card-title">Secondary card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+
+              <div class="card text-bg-success mb-3">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                  <h5 class="card-title">Success card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+
+              <div class="card text-bg-danger mb-3">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                  <h5 class="card-title">Danger card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+
+              <div class="card text-bg-warning mb-3">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                  <h5 class="card-title">Warning card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+
+              <div class="card text-bg-info mb-3">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                  <h5 class="card-title">Info card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+
+              <div class="card text-bg-light mb-3">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                  <h5 class="card-title">Light card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+
+              <div class="card text-bg-dark mb-3">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                  <h5 class="card-title">Dark card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-xl-3">
+
+              <div class="card border-primary mb-3">
+                <div class="card-header">Header</div>
+                <div class="card-body text-primary">
+                  <h5 class="card-title">Primary card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+
+              <div class="card border-secondary mb-3">
+                <div class="card-header">Header</div>
+                <div class="card-body text-secondary">
+                  <h5 class="card-title">Secondary card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+
+              <div class="card border-success mb-3">
+                <div class="card-header">Header</div>
+                <div class="card-body text-success">
+                  <h5 class="card-title">Success card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+
+              <div class="card border-danger mb-3">
+                <div class="card-header">Header</div>
+                <div class="card-body text-danger">
+                  <h5 class="card-title">Danger card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+
+              <div class="card border-warning mb-3">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                  <h5 class="card-title">Warning card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+
+              <div class="card border-info mb-3">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                  <h5 class="card-title">Info card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+
+              <div class="card border-light mb-3">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                  <h5 class="card-title">Light card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+
+              <div class="card border-dark mb-3">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                  <h5 class="card-title">Dark card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Components / Carousel  -->
+
+      <section class="py-5" id="carousel">
+        <div class="container">
+
+          <h2 class="mb-5">Carousel</h2>
+
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="460">
+                  <rect fill="#666" width="100%" height="100%"/>
+                  <text fill="rgba(0,0,0,0.5)" font-family="sans-serif" font-size="30" dy="10.5" font-weight="bold" x="50%" y="50%" text-anchor="middle">First slide image</text>
+                </svg>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="460">
+                  <rect fill="#666" width="100%" height="100%"/>
+                  <text fill="rgba(0,0,0,0.5)" font-family="sans-serif" font-size="30" dy="10.5" font-weight="bold" x="50%" y="50%" text-anchor="middle">Second slide image</text>
+                </svg>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="460">
+                  <rect fill="#666" width="100%" height="100%"/>
+                  <text fill="rgba(0,0,0,0.5)" font-family="sans-serif" font-size="30" dy="10.5" font-weight="bold" x="50%" y="50%" text-anchor="middle">Third slide image</text>
+                </svg>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
 
         </div>
