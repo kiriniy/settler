@@ -74,6 +74,11 @@
                 <li><a class="dropdown-item" href="extras/bs-theming.php#pagination">Pagination</a></li>
                 <li><a class="dropdown-item" href="extras/bs-theming.php#offcanvas">Offcanvas</a></li>
                 <li><a class="dropdown-item" href="extras/bs-theming.php#placeholders">Placeholders</a></li>
+                <li><a class="dropdown-item" href="extras/bs-theming.php#spinners">Spinners</a></li>
+                <li><a class="dropdown-item" href="extras/bs-theming.php#progress">Progress</a></li>
+                <li><a class="dropdown-item" href="extras/bs-theming.php#popovers">Popovers</a></li>
+                <li><a class="dropdown-item" href="extras/bs-theming.php#tooltips">Tooltips</a></li>
+                <li><a class="dropdown-item" href="extras/bs-theming.php#toasts">Toasts</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
@@ -1544,7 +1549,7 @@
           <h2 class="mb-5">Modal</h2>
 
           <button type="button" class="btn btn-primary me-3 mb-3" data-bs-toggle="modal" data-bs-target="#exampleModalDefault">Launch demo modal</button>
-          <button type="button" class="btn btn-primary me-3 mb-3" data-bs-toggle="modal" data-bs-target="#staticBackdropLive">Static backdrop</button>
+          <button type="button" class="btn btn-primary me-3 mb-3" data-bs-toggle="modal" data-bs-target="#staticBackdropLive">Static & backdrop</button>
           <button type="button" class="btn btn-primary me-3 mb-3" data-bs-toggle="modal" data-bs-target="#exampleModalCenteredScrollable">Vertically centered & scrollable</button>
           <button type="button" class="btn btn-primary me-3 mb-3" data-bs-toggle="modal" data-bs-target="#exampleModalFullscreen">Full screen</button>
 
@@ -1983,6 +1988,153 @@
         </div>
       </section>
 
+      <!-- Components / Spinners & Progress -->
+
+      <section class="py-5">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-6 col-xl-4">
+
+              <h2 class="my-5" id="spinners">Spinners</h2>
+
+              <div class="mb-3">
+                <div class="spinner-border text-primary" role="status"><span class="visually-hidden">Loading...</span></div>
+                <div class="spinner-border text-secondary" role="status"><span class="visually-hidden">Loading...</span></div>
+                <div class="spinner-border text-success" role="status"><span class="visually-hidden">Loading...</span></div>
+                <div class="spinner-border text-danger" role="status"><span class="visually-hidden">Loading...</span></div>
+                <div class="spinner-border text-warning" role="status"><span class="visually-hidden">Loading...</span></div>
+                <div class="spinner-border text-info" role="status"><span class="visually-hidden">Loading...</span></div>
+                <div class="spinner-border text-light" role="status"><span class="visually-hidden">Loading...</span></div>
+                <div class="spinner-border text-dark" role="status"><span class="visually-hidden">Loading...</span></div>
+              </div>
+
+              <div class="mb-3">
+                <div class="spinner-grow text-primary" role="status"><span class="visually-hidden">Loading...</span></div>
+                <div class="spinner-grow text-secondary" role="status"><span class="visually-hidden">Loading...</span></div>
+                <div class="spinner-grow text-success" role="status"><span class="visually-hidden">Loading...</span></div>
+                <div class="spinner-grow text-danger" role="status"><span class="visually-hidden">Loading...</span></div>
+                <div class="spinner-grow text-warning" role="status"><span class="visually-hidden">Loading...</span></div>
+                <div class="spinner-grow text-info" role="status"><span class="visually-hidden">Loading...</span></div>
+                <div class="spinner-grow text-light" role="status"><span class="visually-hidden">Loading...</span></div>
+                <div class="spinner-grow text-dark" role="status"><span class="visually-hidden">Loading...</span></div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-xl-7 offset-xl-1">
+
+              <h2 class="my-5" id="progress">Progress</h2>
+
+              <div class="progress mb-3" role="progressbar" aria-label="Example with label" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar">0%</div>
+              </div>
+
+              <div class="progress mb-3" role="progressbar" aria-label="Success example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar bg-success w-25">25%</div>
+              </div>
+
+              <div class="progress mb-3" role="progressbar" aria-label="Info example with label" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar text-bg-info w-50">50%</div>
+              </div>
+
+              <div class="progress mb-3" role="progressbar" aria-label="Warning example with label" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar text-bg-warning w-75">75%</div>
+              </div>
+
+              <div class="progress mb-3" role="progressbar" aria-label="Danger example with label" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar bg-danger w-100">100%</div>
+              </div>
+
+              <div class="progress-stacked">
+                <div class="progress" role="progressbar" aria-label="Segment one - default example" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar"></div>
+                </div>
+                <div class="progress" role="progressbar" aria-label="Segment two - animated striped success example" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated bg-success"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Components / Popovers -->
+
+      <section class="py-5" id="popovers">
+        <div class="container">
+
+          <h2>Popovers</h2>
+
+          <div class="row">
+            <div class="col-md-6 col-xl-4">
+              <p>Popovers rely on the third party library Popper for positioning. Popovers are opt-in for performance reasons, so you must initialize them yourself</p>
+            </div>
+
+            <div class="col-md-6 col-xl-7 offset-xl-1">
+              <button type="button" class="btn btn-primary me-1 mb-2" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">With title</button>
+              <button type="button" class="btn btn-secondary me-1 mb-2" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Top popover">On top</button>
+              <button type="button" class="btn btn-secondary me-1 mb-2" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Right popover">On right</button>
+              <button type="button" class="btn btn-secondary me-1 mb-2" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Bottom popover">On bottom</button>
+              <button type="button" class="btn btn-secondary me-1 mb-2" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Left popover">On left</button>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Components / Tooltips -->
+
+      <section class="py-5" id="tooltips">
+        <div class="container">
+
+          <h2>Tooltips</h2>
+
+          <div class="row">
+            <div class="col-md-6 col-xl-4">
+              <p>Tooltips rely on the third party library Popper for positioning. Tooltips are opt-in for performance reasons, so you must initialize them yourself</p>
+            </div>
+
+            <div class="col-md-6 col-xl-7 offset-xl-1">
+              <button type="button" class="btn btn-primary me-1 mb-2" data-bs-toggle="tooltip" data-bs-html="true" data-bs-title="<em>Tooltip</em> <u>with</u> <b>HTML</b>">With HTML</button>
+              <button type="button" class="btn btn-secondary me-1 mb-2" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top">On top</button>
+              <button type="button" class="btn btn-secondary me-1 mb-2" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Tooltip on right">On right</button>
+              <button type="button" class="btn btn-secondary me-1 mb-2" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Tooltip on bottom">On bottom</button>
+              <button type="button" class="btn btn-secondary me-1 mb-2" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left">On left</button>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Components / Toasts -->
+
+      <section class="py-5" id="toasts" style="background-color: #333">
+        <div class="container">
+
+          <h2 class="mb-5 text-light">Toasts</h2>
+
+          <div class="toast fade show mb-3" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+              <svg class="rounded me-2" width="20" height="20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#007aff"></rect></svg>
+              <strong class="me-auto">Bootstrap</strong>
+              <small>11 mins ago</small>
+            </div>
+            <div class="toast-body">Toasts are opt-in for performance reasons, <strong>so you must initialize them yourself.</strong></div>
+          </div>
+
+          <div class="toast fade show" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+              <svg class="rounded me-2" width="20" height="20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#007aff"></rect></svg>
+              <strong class="me-auto">Bootstrap</strong>
+              <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">Hello, world! This is a toast message.</div>
+          </div>
+
+        </div>
+      </section>
+
       <!-- Utilities / Shadows -->
 
       <section class="py-5" id="shadows">
@@ -2079,8 +2231,7 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <p>This is some placeholder content to show the scrolling behavior for modals. We use repeated line breaks to demonstrate how content can exceed minimum inner height, thereby showing inner scrolling. When content becomes longer than the predefined max-height of modal, content will be cropped and scrollable within the modal.</p>
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <p style="margin-bottom: 1600px">This is some placeholder content to show the scrolling behavior for modals. We use repeated line breaks to demonstrate how content can exceed minimum inner height, thereby showing inner scrolling. When content becomes longer than the predefined max-height of modal, content will be cropped and scrollable within the modal.</p>
             <p>This content should appear at the bottom after you scroll.</p>
           </div>
           <div class="modal-footer">
@@ -2110,6 +2261,26 @@
 
     <?php include $inc_path . 'pages_body-notices.php';
           include $inc_path . 'pages_body-scripts.php'; ?>
+
+    <script>
+
+      // Initialize popovers
+
+     const popoverElements = document.querySelectorAll('[data-bs-toggle="popover"]');
+
+     for (const popover of popoverElements) {
+       new bootstrap.Popover(popover);
+     }
+
+     // Initialize tooltips
+
+     const tooltipElements = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+
+     for (const tooltip of tooltipElements) {
+       new bootstrap.Tooltip(tooltip);
+     }
+ 
+    </script>
 
   </body>
 </html>
