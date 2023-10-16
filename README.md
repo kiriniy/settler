@@ -49,7 +49,8 @@ dist/
 │  ├─ blank.html     — blank html-template
 │  ├─ blank.php      — blank php-template
 │  ├─ bs-grid.php    — bootstrap grid cheatsheet
-│  └─ bs-theming.php – bootstrap components preview
+│  ├─ bs-theming.php – bootstrap components preview
+│  └─ info.php       – php's information
 ├─ favicon.ico
 ├─ htaccess.txt
 ├─ humans.txt
