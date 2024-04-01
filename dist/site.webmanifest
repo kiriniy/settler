@@ -1,11 +1,22 @@
+
+// This is an example config file.
+// More info at https://developer.mozilla.org/en-US/docs/Web/Manifest
+
 {
-  "name": "Settler",
-  "short_name": "Settler",
-  "display": "standalone",
-  "background_color": "#fff",
-  "description": "A blank php-based template.",
+  "name": "",
+  "short_name": "",
+  "description": "",
+  "background_color": "",
+  "theme_color": "",
+  "display": "",
   "icons": [
-    { "src": "assets/img/icons/icon-192.png", "type": "image/png", "sizes": "192x192" },
-    { "src": "assets/img/icons/icon-512.png", "type": "image/png", "sizes": "512x512" }
+    { "src": "assets/img/icons/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    { "src": "assets/img/icons/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
   ]
 }
