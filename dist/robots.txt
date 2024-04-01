@@ -1,8 +1,8 @@
 
-# This is example config file.
+# This is an example config file.
 # More info at https://www.robotstxt.org
 
-Sitemap: http://example.com/sitemap.xml
+Sitemap: https://example.com/sitemap.xml
 
 User-agent: *
 
