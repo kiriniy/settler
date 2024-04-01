@@ -1,6 +1,6 @@
 
 
-	This is example credits file.
+	This is an example file for knowing the people behind a website.
 	More info at https://humanstxt.org
 
 
@@ -9,9 +9,12 @@
 	Position   : Developer
 	Person     : John Doe
 	Site       : example.com
-	Twitter    : @twitter
 	Location   : City, Country
 
+	Position   : 
+	Person     : 
+	Site       : 
+	Location   : 
 
 
 	/* THANKS */
@@ -20,6 +23,9 @@
 	Comment    : Appreciation for something useful.
 	Site       : example.com
 
+	Person     : 
+	Comment    : 
+	Site       : 
 
 
 	/* COMPONENTS */
@@ -46,6 +52,6 @@
 	/* SITE */
 
 	Updated    : DD/MM/YYYY
-	Languages  : English
+	Languages  : 
 	Technology : 
 	Software   : 
