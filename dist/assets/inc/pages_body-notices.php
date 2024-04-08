@@ -7,7 +7,7 @@
 
       <noscript>
         <div class="js-off alert text-bg-danger d-flex align-items-center animate__animated animate__fadeInUp" role="alert">
-          <i class="fa-brands fa-square-js display-1 pe-4"></i>
+          <i class="bi bi-exclamation-triangle display-1 pe-4"></i>
           <span>Warning! JavaScript is turned off and here's <a href="http://www.enable-javascript.com" class="alert-link" target="_blank" rel="nofollow">how to enable JavaScript</a> in your browser.</span>
         </div>
       </noscript>
@@ -17,7 +17,7 @@
       <div id="cookie-message" data-cookie-expiry="7" class="animate__animated animate__fadeInUp">
         <div class="no-js alert alert-primary alert-dismissible fade show d-flex align-items-center" role="alert">
           <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-          <i class="fa-solid fa-cookie-bite display-1 pe-3"></i>
+          <i class="bi bi-cookie display-1 pe-3"></i>
           <span>We serve cookies on this site! This notice works with a help of JS and appears every 7 days.</span>
         </div>
       </div>

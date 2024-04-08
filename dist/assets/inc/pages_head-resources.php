@@ -21,6 +21,5 @@
 
     <link type="text/css" rel="stylesheet" href="assets/css/bootstrap.css">
     <link type="text/css" rel="stylesheet" href="assets/css/bootstrap-icons.css">
-    <link type="text/css" rel="stylesheet" href="assets/css/font-awesome.css">
     <link type="text/css" rel="stylesheet" href="assets/css/animate.css">
     <link type="text/css" rel="stylesheet" href="assets/css/main.css">

@@ -30,7 +30,6 @@ Are optional set of stylesheets, font files, and scripts.
   - [jQuery](https://jquery.com) 3.x — fast, small, and feature-rich JavaScript library.
   - [Bootstrap](https://getbootstrap.com) 5.x — is a popular mobile first CSS/JS framework.
   - [Bootstrap Icons](https://icons.getbootstrap.com) 1.x — free, high quality, open source icon library.
-  - [Font Awesome](https://fontawesome.com/) 6.x — a popular iconic font and CSS toolkit.
   - [Animate.css](https://animate.style) 4.x — is a library of ready-to-use, cross-browser animations.
   - [Cookie Message](https://github.com/studio24/cookie-message/) — display the EU Cookie law message.
 

@@ -39,9 +39,6 @@
 	Name       : Bootstrap
 	Site       : https://getbootstrap.com
 
-	Name       : Font Awesome
-	Site       : https://fontawesome.io
-
 	Name       : Animate.css
 	Site       : https://animate.style
 
