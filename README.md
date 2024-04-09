@@ -13,7 +13,8 @@
 A blank PHP-based project template for not-quite-developers — when future website is too complex for static HTML, but not complicated enough for CMS and database.
 
 ## Requirements
- - Local or remote HTTP server with PHP.
+ - Local (MAMP, WAMP, XAMPP etc) or remote HTTP server with PHP.
+### Optional
  - Code or Text editor.
  - SASS compiler for css-source files.
  - Graphic editor for icons, thumbnails etc.
@@ -30,7 +31,7 @@ Are optional set of stylesheets, font files, and scripts.
   - [jQuery](https://jquery.com) 3.x — fast, small, and feature-rich JavaScript library.
   - [Bootstrap](https://getbootstrap.com) 5.x — is a popular mobile first CSS/JS framework.
   - [Bootstrap Icons](https://icons.getbootstrap.com) 1.x — free, high quality, open source icon library.
-  - [Animate.css](https://animate.style) 4.x — is a library of ready-to-use, cross-browser animations.
+  - [Animate.css (without class prefix)](https://animate.style) 4.x — is a library of ready-to-use, cross-browser animations.
   - [Cookie Message](https://github.com/studio24/cookie-message/) — display the EU Cookie law message.
 
 **Template structure:**
