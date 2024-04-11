@@ -2,21 +2,24 @@
 
   date_default_timezone_set('Europe/Moscow');
 
-  // Replace 'localhost:8888' with your correct domain or IP for local server.
+  // Replace 'localhost:8888' with your correct domain or IP on local server.
   // Replace '/project_settler/dist/' with correct path to your project on local server.
   // Replace 'dev.example.com' with your dev server if you have one. Just leave as is if don't.
   // Replace 'example.com' with future site domain if you already have one.
 
   if ($_SERVER['HTTP_HOST'] == 'localhost:8888') { 
 
+      $base_env = 'dev';
       $base_url = '/project_settler/dist/';
 
   } elseif ($_SERVER['HTTP_HOST'] == 'dev.example.com') { 
 
+      $base_env = 'staging';
       $base_url = 'https://dev.example.com/';
 
   } else {
 
+      $base_env = 'prod';
       $base_url = 'https://example.com/';
 
   }
@@ -56,7 +59,6 @@
   $og_img_tw       = $base_url . 'assets/img/social/thumbnail-tw.jpg';
   $og_img_fb       = $base_url . 'assets/img/social/thumbnail-fb.jpg';
   $og_img_vk       = $base_url . 'assets/img/social/thumbnail-vk.jpg';
-
 
   // This is a place for your PHP code. Defines, variables etc.
 
