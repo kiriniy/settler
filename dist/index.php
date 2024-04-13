@@ -1,6 +1,6 @@
 
 <?php $page_id      = 'home';
-      $page_ver     = '';
+      $page_ver     = '?v=' . filemtime(__FILE__);
       $page_path    = '';
       $page_type    = 'pages';
       $page_class   = 'main';

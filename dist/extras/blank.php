@@ -1,6 +1,6 @@
 
 <?php $page_id         = '';
-      $page_ver        = '';
+      $page_ver        = '?v=' . filemtime(__FILE__);
       $page_path       = '';
       $page_type       = '';
       $page_class      = '';
@@ -25,10 +25,10 @@
       $page_autoformat = '';
       $page_canonical  = '';
 
-      $page_html_attr  = 'lang=""';
-      $page_head_attr  = 'prefix="og: https://ogp.me/ns#"';
-      $page_base_attr  = 'href="../"';
-      $page_body_attr  = 'class="" id="page-top"';
+      // $page_html_attr  = '';
+      // $page_head_attr  = '';
+      // $page_base_attr  = '';
+      // $page_body_attr  = '';
 
       $og_title        = '';
       $og_desc         = '';
