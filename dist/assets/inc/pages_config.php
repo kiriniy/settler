@@ -56,6 +56,10 @@
   $og_type         = 'website';
   $og_locale       = 'en_US';
   $og_url          = $base_url . $page_path . $page_ver;
+
+  $og_img_tw_alt   = '';
+  $og_img_fb_alt   = '';
+
   $og_img_tw       = $base_url . 'assets/img/social/thumbnail-tw.jpg';
   $og_img_fb       = $base_url . 'assets/img/social/thumbnail-fb.jpg';
   $og_img_vk       = $base_url . 'assets/img/social/thumbnail-vk.jpg';
