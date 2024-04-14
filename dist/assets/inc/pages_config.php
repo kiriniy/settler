@@ -3,7 +3,7 @@
   date_default_timezone_set('Europe/Moscow');
 
   // Replace 'localhost:8888' with your correct domain or IP on local server.
-  // Replace '/project_settler/dist/' with correct path to your project on local server.
+  // Replace '/project_settler/dist/' with correct path to your project dir on local server.
   // Replace 'dev.example.com' with your dev server if you have one. Just leave as is if don't.
   // Replace 'example.com' with future site domain if you already have one.
 
@@ -11,16 +11,20 @@
 
       $base_env = 'dev';
       $base_url = '/project_settler/dist/';
+      $base_csp = '';
+
 
   } elseif ($_SERVER['HTTP_HOST'] == 'dev.example.com') { 
 
       $base_env = 'staging';
       $base_url = 'https://dev.example.com/';
+      $base_csp = '';
 
   } else {
 
       $base_env = 'prod';
       $base_url = 'https://example.com/';
+      $base_csp = '';
 
   }
 
@@ -32,7 +36,7 @@
 
   $page_charset    = 'utf-8';
   $page_prefetch   = 'off';
-  $page_csp        = 'default-src * \'unsafe-inline\' data: blob:';
+  $page_csp        = $base_csp;
   $page_cache      = 'no-cache';
 
   $page_pretitle   = '';
