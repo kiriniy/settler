@@ -36,12 +36,11 @@
       $og_type         = '';
       $og_locale       = '';
       $og_url          = '';
-      $og_img_tw_alt   = '';
-      $og_img_fb_alt   = '';
       $og_img_tw       = '';
       $og_img_fb       = '';
       $og_img_vk       = '';
-
+      $og_img_tw_alt   = '';
+      $og_img_fb_alt   = '';
       ?>
 
 <!DOCTYPE HTML>
