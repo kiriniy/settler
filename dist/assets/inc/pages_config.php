@@ -13,7 +13,6 @@
       $base_url = '/project_settler/dist/';
       $base_csp = '';
 
-
   } elseif ($_SERVER['HTTP_HOST'] == 'dev.example.com') { 
 
       $base_env = 'staging';
@@ -60,13 +59,10 @@
   $og_type         = 'website';
   $og_locale       = 'en_US';
   $og_url          = $base_url . $page_path . $page_ver;
-
-  $og_img_tw_alt   = '';
-  $og_img_fb_alt   = '';
-
   $og_img_tw       = $base_url . 'assets/img/social/thumbnail-tw.jpg';
   $og_img_fb       = $base_url . 'assets/img/social/thumbnail-fb.jpg';
   $og_img_vk       = $base_url . 'assets/img/social/thumbnail-vk.jpg';
+  $og_img_tw_alt   = '';
+  $og_img_fb_alt   = '';
 
-  // This is a place for your PHP code. Defines, variables etc.
-
+  // This is a place for your own defines, variables etc.
