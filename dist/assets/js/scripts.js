@@ -2,7 +2,7 @@
   // MOBILE DEVICES DETECTOR
 
   let device = navigator.userAgent.toLowerCase();
-  let mobile = device.match(/mobi|mobile|android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/);
+  let mobile = device.match(/android|iphone|ipad|ipod/);
 
   if (mobile) {
 
@@ -12,16 +12,20 @@
 
   // END
   //
-  // -------------------------------------------------------------------------------------
+  // ------------------------------------------------------------------------
   //
   // RELOAD PAGE ON WINDOW RESIZE
-  // DISABLED BY DEFAULT
+  // DISABLED BY DEFAULT 
+  /*
 
-  // window.onresize = function() { location.reload(); };
+  window.onresize = function() {
+      location.reload();
+  };
 
+  */
   // END
   //
-  // -------------------------------------------------------------------------------------
+  // ------------------------------------------------------------------------
   //
   // WINDOW SIZE DETECTORS TEMPLATES
 
@@ -45,25 +49,21 @@
 
   // END
   //
-  // -------------------------------------------------------------------------------------
+  // ------------------------------------------------------------------------
   //
   // BOOTSTRAP 5 COLOR MODE SWITCH
 
-  document.getElementById('themeSwitch').addEventListener('click',()=>{
-
-      if (document.documentElement.getAttribute('data-bs-theme') == 'dark') {
-          document.documentElement.setAttribute('data-bs-theme','light')
-      }
-
-      else {
-          document.documentElement.setAttribute('data-bs-theme','dark')
-      }
-
+  document.getElementById('themeSwitch').addEventListener('click', () => {
+    if (document.documentElement.getAttribute('data-bs-theme') == 'dark') {
+        document.documentElement.setAttribute('data-bs-theme', 'light')
+    } else {
+        document.documentElement.setAttribute('data-bs-theme', 'dark')
+    }
   })
 
   // END
   //
-  // -------------------------------------------------------------------------------------
+  // ------------------------------------------------------------------------
   //
   // INSERT YOUR JS HERE...
   //
