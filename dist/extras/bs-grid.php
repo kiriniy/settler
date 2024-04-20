@@ -10,7 +10,9 @@
       $page_title      = 'Bootstrap Grid System';
       $page_desc       = '';
 
-      require '../assets/inc/pages_config.php';
+      // Relative path to the config file
+      
+      require '../site.php';
 
       $page_prefetch   = '';
       $page_csp        = '';
@@ -29,9 +31,9 @@
   <head <?php echo $page_head_attr; ?>>
     <base <?php echo $page_base_attr; ?>>
 
-    <?php include $inc_path . 'pages_head-meta.php';
-          include $inc_path . 'pages_head-resources.php';
-          include $inc_path . 'pages_head-noscript.php';
+    <?php include $assets . 'inc/pages_head-meta.php';
+          include $assets . 'inc/pages_head-resources.php';
+          include $assets . 'inc/pages_head-noscript.php';
 
           ?>
 
@@ -54,7 +56,7 @@
 
   <body <?php echo $page_body_attr; ?>>
 
-    <?php include $inc_path . 'pages_body-menu.php'; ?>
+    <?php include $assets . 'inc/pages_body-menu.php'; ?>
 
     <main class="py-5 mt-5">
 
@@ -342,8 +344,8 @@
       <a class="btn btn-outline-light" href="https://getbootstrap.com/docs/5.3/getting-started/" target="_blank">Bootstrap 5.x Documentation</a>
     </footer>
 
-    <?php include $inc_path . 'pages_body-notices.php';
-          include $inc_path . 'pages_body-scripts.php'; ?>
+    <?php include $assets . 'inc/pages_body-notices.php';
+          include $assets . 'inc/pages_body-scripts.php'; ?>
 
   </body>
 </html>

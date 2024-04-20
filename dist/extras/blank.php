@@ -10,7 +10,9 @@
       $page_title      = '';
       $page_desc       = '';
 
-      require '../assets/inc/pages_config.php';
+      // Relative path to the config file
+      
+      require '../site.php';
 
       $page_charset    = '';
       $page_prefetch   = '';
@@ -49,10 +51,10 @@
   <head <?php echo $page_head_attr; ?>>
     <base <?php echo $page_base_attr; ?>>
 
-    <?php include $inc_path . 'pages_head-meta.php';
-          include $inc_path . 'pages_head-snippets.php';
-          include $inc_path . 'pages_head-resources.php';
-          include $inc_path . 'pages_head-noscript.php';
+    <?php include $assets . 'inc/pages_head-meta.php';
+          include $assets . 'inc/pages_head-snippets.php';
+          include $assets . 'inc/pages_head-resources.php';
+          include $assets . 'inc/pages_head-noscript.php';
 
           ?>
 
@@ -81,8 +83,8 @@
 
     <!-- PAGE CONTENT END -->
 
-    <?php include $inc_path . 'pages_body-notices.php';
-          include $inc_path . 'pages_body-scripts.php'; ?>
+    <?php include $assets . 'inc/pages_body-notices.php';
+          include $assets . 'inc/pages_body-scripts.php'; ?>
 
   </body>
 </html>

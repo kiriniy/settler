@@ -29,7 +29,7 @@
 
   // Auto-path to 'assets/inc' directory.
 
-  $inc_path = dirname(__FILE__) . '/';
+  $assets = dirname(__FILE__) . '/assets/';
 
   // Pages default values
 

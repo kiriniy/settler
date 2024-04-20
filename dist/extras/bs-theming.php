@@ -10,7 +10,9 @@
       $page_title      = 'Bootstrap Theme Preview';
       $page_desc       = '';
 
-      require '../assets/inc/pages_config.php';
+      // Relative path to the config file
+      
+      require '../site.php';
 
       $page_prefetch   = '';
       $page_csp        = '';
@@ -29,9 +31,9 @@
   <head <?php echo $page_head_attr; ?>>
     <base <?php echo $page_base_attr; ?>>
 
-    <?php include $inc_path . 'pages_head-meta.php';
-          include $inc_path . 'pages_head-resources.php';
-          include $inc_path . 'pages_head-noscript.php';
+    <?php include $assets . 'inc/pages_head-meta.php';
+          include $assets . 'inc/pages_head-resources.php';
+          include $assets . 'inc/pages_head-noscript.php';
 
           ?>
 
@@ -39,7 +41,7 @@
 
   <body <?php echo $page_body_attr; ?>>
 
-    <?php include $inc_path . 'pages_body-menu.php'; ?>
+    <?php include $assets . 'inc/pages_body-menu.php'; ?>
 
     <header class="py-5 d-flex align-items-center" style="min-height: 50%; background-image: radial-gradient(circle at 40% 91%, rgba(251, 251, 251,0.04) 0%, rgba(251, 251, 251,0.04) 50%,rgba(229, 229, 229,0.04) 50%, rgba(229, 229, 229,0.04) 100%),radial-gradient(circle at 66% 97%, rgba(36, 36, 36,0.04) 0%, rgba(36, 36, 36,0.04) 50%,rgba(46, 46, 46,0.04) 50%, rgba(46, 46, 46,0.04) 100%),radial-gradient(circle at 86% 7%, rgba(40, 40, 40,0.04) 0%, rgba(40, 40, 40,0.04) 50%,rgba(200, 200, 200,0.04) 50%, rgba(200, 200, 200,0.04) 100%),radial-gradient(circle at 15% 16%, rgba(99, 99, 99,0.04) 0%, rgba(99, 99, 99,0.04) 50%,rgba(45, 45, 45,0.04) 50%, rgba(45, 45, 45,0.04) 100%),radial-gradient(circle at 75% 99%, rgba(243, 243, 243,0.04) 0%, rgba(243, 243, 243,0.04) 50%,rgba(37, 37, 37,0.04) 50%, rgba(37, 37, 37,0.04) 100%);">
       <div class="container">
@@ -2259,8 +2261,8 @@
       </div>
     </div>
 
-    <?php include $inc_path . 'pages_body-notices.php';
-          include $inc_path . 'pages_body-scripts.php'; ?>
+    <?php include $assets . 'inc/pages_body-notices.php';
+          include $assets . 'inc/pages_body-scripts.php'; ?>
 
     <script>
 
