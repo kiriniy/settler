@@ -7,7 +7,9 @@
       $page_title   = '';
       $page_desc    = '';
 
-      require '../assets/inc/pages_config.php';
+      // Relative path to the config file
+      
+      require '../site.php';
 
       if ($base_env != 'prod') {
 
