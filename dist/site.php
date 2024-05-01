@@ -10,7 +10,7 @@
   if ($_SERVER['HTTP_HOST'] == 'localhost:8888') { 
 
       $base_env = 'dev';
-      $base_url = '/project_settler/dist/';
+      $base_url = 'http://localhost:8888/project_settler/dist/';
       $base_csp = '';
 
   } elseif ($_SERVER['HTTP_HOST'] == 'dev.example.com') { 
@@ -46,7 +46,7 @@
   $page_autoformat = 'telephone=no, address=no, date=no';
   $page_canonical  = $base_url . $page_path;
 
-  $page_html_attr  = 'lang="en" data-bs-theme="auto"';
+  $page_html_attr  = 'lang="en" class="if-js-off" data-bs-theme="auto"';
   $page_head_attr  = 'prefix="og: https://ogp.me/ns#"';
   $page_base_attr  = 'href="' . $base_url . '"';
   $page_body_attr  = 'class="' . $page_type . ' ' . $page_class . '" id="page-top"';

@@ -1,0 +1,7 @@
+.no-js {
+  display: none !important;
+}
+
+.if-js-off {
+  /* Styles for JavaScript-disabled browsers */
+}
