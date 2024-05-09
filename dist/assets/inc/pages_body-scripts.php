@@ -1,18 +1,12 @@
 
     <!-- Vendors, frameworks, plugins etc. -->
 
-    <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/bootstrap.js"></script>
-    <script src="assets/js/cookie-message.js"></script>
+    <script src="<?php echo (addTime($page_level . 'assets/js/jquery.js')); ?>"></script>
+    <script src="<?php echo (addTime($page_level . 'assets/js/bootstrap.js')); ?>"></script>
+    <script src="<?php echo (addTime($page_level . 'assets/js/cookie-message.js')); ?>"></script>
 
     <!-- Settler default scripts file -->
 
-    <script src="assets/js/scripts.js"></script>
+    <script src="<?php echo (addTime($page_level . 'assets/js/scripts.js')); ?>"></script>
 
     <!-- Paste your code for Google Analytics, Yandex.Metrika etc. -->
-
-    <script type="text/javascript">
-
-    
-
-    </script>

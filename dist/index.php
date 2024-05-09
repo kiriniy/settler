@@ -1,18 +1,17 @@
 
 <?php $page_id      = 'home';
       $page_ver     = '?v=' . filemtime(__FILE__);
-      $page_path    = '';
       $page_type    = 'pages';
       $page_class   = 'main';
+      $page_level   = './';
+      $page_path    = '';
 
       $page_notices = true;
 
       $page_title   = 'Settler';
       $page_desc    = 'A blank php-based template.';
 
-      // Relative path to the config file
-
-      require './site.php';
+      require $page_level . 'site.php';
 
       ?>
 
@@ -20,7 +19,6 @@
 
 <html <?php echo $page_html_attr; ?>>
   <head <?php echo $page_head_attr; ?>>
-    <base <?php echo $page_base_attr; ?>>
 
     <?php include $assets . 'inc/pages_head-meta.php';
           include $assets . 'inc/pages_head-snippets.php';
@@ -35,8 +33,8 @@
 
     {
       "@context": "https://schema.org",
-      "@type": "Project",
-      "name": "Settler",
+      "@type": "",
+      "name": "",
       "url": "",
       "logo": "",
       "sameAs": ""
@@ -44,17 +42,13 @@
 
     </script>
 
-    <!-- This Page Only Stylesheets (optional) -->
-
-    <link type="text/css" rel="stylesheet" href="">
-
   </head>
 
   <body <?php echo $page_body_attr; ?>>
 
     <!-- PAGE CONTENT START -->
 
-    <?php include $assets . 'inc/pages_body-menu.php'; ?>
+    <?php include $assets . 'inc/pages_body-nav.php'; ?>
 
     <!-- Example content (markup based on Bootstrap 5 framework) -->
 
@@ -78,7 +72,7 @@
 
     <script type="text/javascript">
 
-      console.log( "We are on '<?php echo $base_env; ?>' environment!" );
+      console.log( "We are on [<?php echo $base_env; ?>] environment!" );
       console.log( "Page is ready!" );
 
     </script>

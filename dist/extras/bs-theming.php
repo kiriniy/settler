@@ -1,18 +1,17 @@
 
 <?php $page_id         = '';
-      $page_ver        = '';
-      $page_path       = '';
+      $page_ver        = '?v=' . filemtime(__FILE__);
       $page_type       = '';
       $page_class      = '';
+      $page_level      = '../';
+      $page_path       = '';
 
       $page_notices    = false;
 
       $page_title      = 'Bootstrap Theme Preview';
       $page_desc       = '';
 
-      // Relative path to the config file
-      
-      require '../site.php';
+      require $page_level . 'site.php';
 
       $page_prefetch   = '';
       $page_csp        = '';
@@ -29,7 +28,6 @@
 
 <html <?php echo $page_html_attr; ?>>
   <head <?php echo $page_head_attr; ?>>
-    <base <?php echo $page_base_attr; ?>>
 
     <?php include $assets . 'inc/pages_head-meta.php';
           include $assets . 'inc/pages_head-resources.php';
@@ -41,7 +39,7 @@
 
   <body <?php echo $page_body_attr; ?>>
 
-    <?php include $assets . 'inc/pages_body-menu.php'; ?>
+    <?php include $assets . 'inc/pages_body-nav.php'; ?>
 
     <header class="py-5 d-flex align-items-center" style="min-height: 50%; background-image: radial-gradient(circle at 40% 91%, rgba(251, 251, 251,0.04) 0%, rgba(251, 251, 251,0.04) 50%,rgba(229, 229, 229,0.04) 50%, rgba(229, 229, 229,0.04) 100%),radial-gradient(circle at 66% 97%, rgba(36, 36, 36,0.04) 0%, rgba(36, 36, 36,0.04) 50%,rgba(46, 46, 46,0.04) 50%, rgba(46, 46, 46,0.04) 100%),radial-gradient(circle at 86% 7%, rgba(40, 40, 40,0.04) 0%, rgba(40, 40, 40,0.04) 50%,rgba(200, 200, 200,0.04) 50%, rgba(200, 200, 200,0.04) 100%),radial-gradient(circle at 15% 16%, rgba(99, 99, 99,0.04) 0%, rgba(99, 99, 99,0.04) 50%,rgba(45, 45, 45,0.04) 50%, rgba(45, 45, 45,0.04) 100%),radial-gradient(circle at 75% 99%, rgba(243, 243, 243,0.04) 0%, rgba(243, 243, 243,0.04) 50%,rgba(37, 37, 37,0.04) 50%, rgba(37, 37, 37,0.04) 100%);">
       <div class="container">
@@ -54,41 +52,41 @@
           <p>In order to use your custom Sass code as CSS in the browser, you need a Sass <a href="https://sass-lang.com/install/" target="_blank">compiler</a>. Sass ships as a CLI package, but you can also compile it with other build tools like <a href="https://gulpjs.com/" target="_blank">Gulp</a> or <a href="https://webpack.js.org/" target="_blank">Webpack</a>, or with a GUI applications. Some IDEs also have Sass compilers built in or as downloadable extensions.</p>
 
           <ul class="nav justify-content-center">
-            <li class="nav-item"><a class="nav-link" href="extras/bs-theming.php#typography">Typography</a></li>
-            <li class="nav-item"><a class="nav-link" href="extras/bs-theming.php#colors">Colors</a></li>
-            <li class="nav-item"><a class="nav-link" href="extras/bs-theming.php#tables">Tables</a></li>
-            <li class="nav-item"><a class="nav-link" href="extras/bs-theming.php#forms">Forms</a></li>
-            <li class="nav-item"><a class="nav-link" href="extras/bs-theming.php#images">Images</a></li>
+            <li class="nav-item"><a class="nav-link" href="#typography">Typography</a></li>
+            <li class="nav-item"><a class="nav-link" href="#colors">Colors</a></li>
+            <li class="nav-item"><a class="nav-link" href="#tables">Tables</a></li>
+            <li class="nav-item"><a class="nav-link" href="#forms">Forms</a></li>
+            <li class="nav-item"><a class="nav-link" href="#images">Images</a></li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Components</a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="extras/bs-theming.php#accordion">Accordion</a></li>
-                <li><a class="dropdown-item" href="extras/bs-theming.php#alerts">Alerts</a></li>
-                <li><a class="dropdown-item" href="extras/bs-theming.php#badge">Badge</a></li>
-                <li><a class="dropdown-item" href="extras/bs-theming.php#breadcrumb">Breadcrumb</a></li>
-                <li><a class="dropdown-item" href="extras/bs-theming.php#buttons">Buttons</a></li>
-                <li><a class="dropdown-item" href="extras/bs-theming.php#card">Card</a></li>
-                <li><a class="dropdown-item" href="extras/bs-theming.php#carousel">Carousel</a></li>
-                <li><a class="dropdown-item" href="extras/bs-theming.php#list-group">List group</a></li>
-                <li><a class="dropdown-item" href="extras/bs-theming.php#modal">Modal</a></li>
-                <li><a class="dropdown-item" href="extras/bs-theming.php#navbar">Navbar</a></li>
-                <li><a class="dropdown-item" href="extras/bs-theming.php#navs">Navs</a></li>
-                <li><a class="dropdown-item" href="extras/bs-theming.php#pagination">Pagination</a></li>
-                <li><a class="dropdown-item" href="extras/bs-theming.php#offcanvas">Offcanvas</a></li>
-                <li><a class="dropdown-item" href="extras/bs-theming.php#placeholders">Placeholders</a></li>
-                <li><a class="dropdown-item" href="extras/bs-theming.php#spinners">Spinners</a></li>
-                <li><a class="dropdown-item" href="extras/bs-theming.php#progress">Progress</a></li>
-                <li><a class="dropdown-item" href="extras/bs-theming.php#popovers">Popovers</a></li>
-                <li><a class="dropdown-item" href="extras/bs-theming.php#tooltips">Tooltips</a></li>
-                <li><a class="dropdown-item" href="extras/bs-theming.php#toasts">Toasts</a></li>
+                <li><a class="dropdown-item" href="#accordion">Accordion</a></li>
+                <li><a class="dropdown-item" href="#alerts">Alerts</a></li>
+                <li><a class="dropdown-item" href="#badge">Badge</a></li>
+                <li><a class="dropdown-item" href="#breadcrumb">Breadcrumb</a></li>
+                <li><a class="dropdown-item" href="#buttons">Buttons</a></li>
+                <li><a class="dropdown-item" href="#card">Card</a></li>
+                <li><a class="dropdown-item" href="#carousel">Carousel</a></li>
+                <li><a class="dropdown-item" href="#list-group">List group</a></li>
+                <li><a class="dropdown-item" href="#modal">Modal</a></li>
+                <li><a class="dropdown-item" href="#navbar">Navbar</a></li>
+                <li><a class="dropdown-item" href="#navs">Navs</a></li>
+                <li><a class="dropdown-item" href="#pagination">Pagination</a></li>
+                <li><a class="dropdown-item" href="#offcanvas">Offcanvas</a></li>
+                <li><a class="dropdown-item" href="#placeholders">Placeholders</a></li>
+                <li><a class="dropdown-item" href="#spinners">Spinners</a></li>
+                <li><a class="dropdown-item" href="#progress">Progress</a></li>
+                <li><a class="dropdown-item" href="#popovers">Popovers</a></li>
+                <li><a class="dropdown-item" href="#tooltips">Tooltips</a></li>
+                <li><a class="dropdown-item" href="#toasts">Toasts</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Utilities</a>
               <ul class="dropdown-menu">
-                <li class="nav-item"><a class="nav-link" href="extras/bs-theming.php#shadows">Shadows</a></li>
-                <li class="nav-item"><a class="nav-link" href="extras/bs-theming.php#borders">Borders</a></li>
-                <li class="nav-item"><a class="nav-link" href="extras/bs-theming.php#spacing">Spacing</a></li>
+                <li class="nav-item"><a class="nav-link" href="#shadows">Shadows</a></li>
+                <li class="nav-item"><a class="nav-link" href="#borders">Borders</a></li>
+                <li class="nav-item"><a class="nav-link" href="#spacing">Spacing</a></li>
               </ul>
             </li>
             

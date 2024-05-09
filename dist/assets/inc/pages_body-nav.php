@@ -12,12 +12,12 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <div class="navbar-nav">
-            <a class="nav-link" href="assets/errors/404.php">Custom 404</a>
-            <a class="nav-link" href="extras/info.php">PHP's Information</a>            
-            <a class="nav-link" href="extras/blank.html">Blank HTML Template</a>
-            <a class="nav-link" href="extras/blank.php">Blank PHP Template</a>
-            <a class="nav-link" href="extras/bs-theming.php">BS5 Theming</a>
-            <a class="nav-link" href="extras/bs-grid.php">BS5 Grid</a>
+            <a class="nav-link" href="<?php echo $base_url . 'assets/errors/404.php'; ?>">Custom 404</a>
+            <a class="nav-link" href="<?php echo $base_url . 'extras/info.php'; ?>">PHP's Information</a>            
+            <a class="nav-link" href="<?php echo $base_url . 'extras/blank.html'; ?>">Blank HTML Template</a>
+            <a class="nav-link" href="<?php echo $base_url . 'extras/blank.php'; ?>">Blank PHP Template</a>
+            <a class="nav-link" href="<?php echo $base_url . 'extras/bs-theming.php'; ?>">BS5 Theming</a>
+            <a class="nav-link" href="<?php echo $base_url . 'extras/bs-grid.php'; ?>">BS5 Grid</a>
           </div>
         </div>
 

@@ -1,18 +1,17 @@
 
 <?php $page_id      = '404';
-      $page_ver     = '';
-      $page_path    = '';
+      $page_ver     = '?v=' . filemtime(__FILE__);
       $page_type    = 'errors';
       $page_class   = 'error-404';
+      $page_level   = '../../';
+      $page_path    = 'assets/errors/';
 
       $page_notices = false;
 
       $page_title   = 'Page not found!';
       $page_desc    = '';
-
-      // Relative path to the config file
       
-      require '../../site.php';
+      require $page_level . 'site.php';
       
       $page_prefetch   = '';
       $page_csp        = '';
@@ -28,7 +27,6 @@
 
 <html <?php echo $page_html_attr; ?>>
   <head <?php echo $page_head_attr; ?>>
-    <base <?php echo $page_base_attr; ?>>
 
     <?php include $assets . 'inc/pages_head-meta.php';
           // include $assets . 'inc/pages_head-snippets.php';
@@ -43,7 +41,7 @@
 
     <!-- PAGE CONTENT START -->
 
-    <?php include $assets . 'inc/pages_body-menu.php'; ?>
+    <?php include $assets . 'inc/pages_body-nav.php'; ?>
 
     <!-- Example 404 content (markup based on Bootstrap 5 framework) -->
 

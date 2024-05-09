@@ -1,15 +1,14 @@
 
 <?php $page_id      = '';
       $page_ver     = '';
-      $page_path    = '';
       $page_type    = '';
       $page_class   = '';
+      $page_level   = '../';
+      $page_path    = '';
       $page_title   = '';
       $page_desc    = '';
 
-      // Relative path to the config file
-      
-      require '../site.php';
+      require $page_level . 'site.php';
 
       if ($base_env != 'prod') {
 
@@ -18,7 +17,6 @@
       } else {
 
           echo '<h1>Heads up!</h1>
-                <hr>
-                <p>The PHP function <strong>phpinfo()</strong> is disabled by default for the "prod" environment for security reasons. It displays information which can be used to compromise the server that your site is running on.</p>';
+                <p>The PHP function <strong>phpinfo()</strong> is disabled by default for the "prod" environment for security reasons.</p>';
 
       }

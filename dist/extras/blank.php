@@ -1,20 +1,19 @@
 
 <?php $page_id         = '';
       $page_ver        = '?v=' . filemtime(__FILE__);
-      $page_path       = '';
       $page_type       = '';
       $page_class      = '';
+      $page_level      = '../';
+      $page_path       = 'extras/';
 
       $page_notices    = true;
 
       $page_title      = '';
       $page_desc       = '';
 
-      // Relative path to the config file
-      
-      require '../site.php';
+      require $page_level . 'site.php';
 
-      $page_charset    = '';
+      // $page_charset    = '';
       $page_prefetch   = '';
       $page_csp        = '';
       $page_cache      = '';
@@ -29,7 +28,6 @@
 
       // $page_html_attr  = '';
       // $page_head_attr  = '';
-      // $page_base_attr  = '';
       // $page_body_attr  = '';
 
       $og_title        = '';
@@ -43,13 +41,13 @@
       $og_img_vk       = '';
       $og_img_tw_alt   = '';
       $og_img_fb_alt   = '';
+
       ?>
 
 <!DOCTYPE HTML>
 
 <html <?php echo $page_html_attr; ?>>
   <head <?php echo $page_head_attr; ?>>
-    <base <?php echo $page_base_attr; ?>>
 
     <?php include $assets . 'inc/pages_head-meta.php';
           include $assets . 'inc/pages_head-snippets.php';
