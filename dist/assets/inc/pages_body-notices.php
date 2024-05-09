@@ -8,7 +8,7 @@
       <noscript>
         <div class="alert text-bg-danger d-flex align-items-center animated fadeInUp" role="alert">
           <i class="bi bi-exclamation-triangle display-1 pe-4"></i>
-          <span>Warning! JavaScript is turned off and here's <a href="http://www.enable-javascript.com" class="alert-link" target="_blank" rel="nofollow">how to enable JavaScript</a> in your browser.</span>
+          <span>Warning! JavaScript is turned off and here's <a href="https://www.enable-javascript.com" class="alert-link" target="_blank" rel="nofollow">how to enable JavaScript</a> in your browser.</span>
         </div>
       </noscript>
 
