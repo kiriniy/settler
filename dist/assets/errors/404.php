@@ -14,7 +14,7 @@
       require $page_level . 'site.php';
       
       $page_csp        = '';
-      $page_robots     = 'noindex, nofollow';
+      $page_robots     = '';
       $page_autoformat = '';
       $page_canonical  = '';
       $page_head_attr  = '';
@@ -27,7 +27,6 @@
   <head <?php echo $page_head_attr; ?>>
 
     <?php include $assets . 'inc/pages_head-meta.php';
-          // include $assets . 'inc/pages_head-snippets.php';
           include $assets . 'inc/pages_head-resources.php';
           include $assets . 'inc/pages_head-noscript.php';
 
