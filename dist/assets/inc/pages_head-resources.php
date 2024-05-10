@@ -15,7 +15,7 @@
 
     <link rel="icon" sizes="32x32" href="<?php echo (addTime($page_level . 'favicon.ico')); ?>">
     <link rel="icon" type="image/svg+xml" href="<?php echo (addTime($page_level . 'assets/img/icons/icon.svg')); ?>">
-    <link rel="apple-touch-icon" href="<?php echo $base_url . 'assets/img/icons/apple-touch-icon.png'; ?>">
+    <link rel="apple-touch-icon" href="<?php echo (addTime($page_level . 'assets/img/icons/apple-touch-icon.png')); ?>">
 
     <!-- Site Resources -->
 
