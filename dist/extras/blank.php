@@ -13,10 +13,8 @@
 
       require $page_level . 'site.php';
 
-      // $page_charset    = '';
-      $page_prefetch   = '';
+      $page_charset    = '';
       $page_csp        = '';
-      $page_cache      = '';
 
       $page_pretitle   = '';
       $page_posttitle  = '';

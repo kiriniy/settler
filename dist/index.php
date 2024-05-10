@@ -70,7 +70,7 @@
 
     <!-- This Page Only Scripts and Libraries (optional) -->
 
-    <script type="text/javascript">
+    <script>
 
       console.log( "We are on [<?php echo $base_env; ?>] environment!" );
       console.log( "Page is ready!" );

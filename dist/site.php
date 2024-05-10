@@ -33,9 +33,7 @@
   // Pages default values
 
   $page_charset    = 'utf-8';
-  $page_prefetch   = 'off';
   $page_csp        = $base_csp;
-  $page_cache      = 'no-cache';
 
   $page_pretitle   = '';
   $page_posttitle  = '';

@@ -13,9 +13,7 @@
       
       require $page_level . 'site.php';
       
-      $page_prefetch   = '';
       $page_csp        = '';
-      $page_cache      = '';
       $page_robots     = 'noindex, nofollow';
       $page_autoformat = '';
       $page_canonical  = '';
