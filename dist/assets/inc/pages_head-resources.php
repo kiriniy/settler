@@ -1,15 +1,10 @@
 
     <!-- Site Credits & Information -->
 
+    <link rel="canonical" href="<?php echo $page_canonical; ?>">
     <link rel="author" href="<?php echo $base_url . 'humans.txt'; ?>">
     <link rel="sitemap" href="<?php echo $base_url . 'sitemap.xml'; ?>">
-    <link rel="canonical" href="<?php echo $page_canonical; ?>">
     <link rel="manifest" href="<?php echo $base_url . 'site.webmanifest'; ?>">
-
-    <!-- Forcing lookup of specific hostnames -->
-
-    <link rel="dns-prefetch" href="//mc.yandex.ru">
-    <link rel="dns-prefetch" href="//www.googletagmanager.com">
 
     <!-- Site Icons: https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs -->
 
