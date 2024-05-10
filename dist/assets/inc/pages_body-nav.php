@@ -8,7 +8,7 @@
 
         <button class="no-js navbar-toggler me-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="bi bi-three-dots-vertical"></i></button>
 
-        <button class="no-js btn" type="button" id="themeSwitch"><i class="bi bi-circle-half"></i></button>
+        <button class="no-js btn" type="button" id="themeSwitch" data-bs-theme-value="dark"><i class="bi bi-circle-half"></i></button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <div class="navbar-nav">

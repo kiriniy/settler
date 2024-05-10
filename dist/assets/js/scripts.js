@@ -55,9 +55,9 @@
 
   document.getElementById('themeSwitch').addEventListener('click', () => {
     if (document.documentElement.getAttribute('data-bs-theme') == 'dark') {
-        document.documentElement.setAttribute('data-bs-theme', 'light')
+        document.getElementById('themeSwitch').setAttribute('data-bs-theme-value', 'light')
     } else {
-        document.documentElement.setAttribute('data-bs-theme', 'dark')
+        document.getElementById('themeSwitch').setAttribute('data-bs-theme-value', 'dark')
     }
   })
 
