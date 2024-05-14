@@ -1,11 +1,14 @@
 
+// This is Settler's no-js.css builder.
+// Stylesheets for JavaScript-disabled browsers.
+
 @import 'presets/_all';
 
-// These class can be used to hide any element on JavaScript-disabled browsers.
+// This is a global hiding class.
 
 .no-js { display: none !important; }
 
-// This is global nesting class.
+// This is a global nesting class.
 
 .if-js-off {
 

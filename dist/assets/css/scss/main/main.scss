@@ -1,8 +1,9 @@
 
-// This is scss-master. This file should not contain anything but @import and comments.
-// For customization you need to edit sub-master '_all' files.
+// This is Settler's main.css builder.
+// In order to use custom build, you'll need a SCSS compiler.
+// For customization edit '_all' files in subdirs.
 
-@import 'presets/_all',
-        'layouts/_all',
-        'pages/_all',
-        'elements/_all';
+@import 'presets/_all';
+@import 'layouts/_all';
+@import 'pages/_all';
+@import 'elements/_all';
