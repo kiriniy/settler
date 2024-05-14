@@ -1,14 +1,13 @@
+
+/**
+ * Cookie Message
+ * Copyright 2016 Simon R Jones
+ * Licensed under MIT (https://github.com/studio24/cookie-message/blob/master/LICENSE.md)
+ * About script (http://www.quirksmode.org/js/cookies.html)
+ */
+
 (function() {
 
-    /**
-     * Set cookie
-     *
-     * @param string name
-     * @param string value
-     * @param int days
-     * @param string path
-     * @see http://www.quirksmode.org/js/cookies.html
-     */
     function createCookie(name,value,days,path) {
         if (days) {
             var date = new Date();
@@ -19,12 +18,6 @@
         document.cookie = name+"="+value+expires+"; path="+path;
     }
 
-    /**
-     * Read cookie
-     * @param string name
-     * @returns {*}
-     * @see http://www.quirksmode.org/js/cookies.html
-     */
     function readCookie(name) {
         var nameEQ = name + "=";
         var ca = document.cookie.split(';');
@@ -46,8 +39,7 @@
     } else {
         cookieMessage.style.display = 'block';
     }
-    
-    // Set/update cookie
+
     var cookieExpiry = cookieMessage.getAttribute('data-cookie-expiry');
     if (cookieExpiry == null) {
         cookieExpiry = 30;
