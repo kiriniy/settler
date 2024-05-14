@@ -1,8 +1,48 @@
 
-// CSS media queries
+// Media types
 
-   @mixin for-print {
+@mixin for-screen {
+  @media screen {
+    @content;
+  }
+}
 
-     @media print { @content; }
+@mixin for-print {
+  @media print {
+    @content;
+  }
+}
 
-     }
+@mixin for-speech {
+  @media speech {
+    @content;
+  }
+}
+
+// Orientation
+
+@mixin for-landscape {
+  @media (orientation: landscape) {
+    @content;
+  }
+}
+
+@mixin for-portrait {
+  @media (orientation: portrait) {
+    @content;
+  }
+}
+
+// Color Mode
+
+@mixin for-dark {
+  @media (prefers-color-scheme: dark) {
+    @content;
+  }
+}
+
+@mixin for-light {
+  @media (prefers-color-scheme: light) {
+    @content;
+  }
+}
