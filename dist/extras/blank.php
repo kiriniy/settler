@@ -13,7 +13,7 @@
 
       require $page_level . 'site.php';
 
-      $page_charset    = '';
+      // $page_charset    = '';
       $page_csp        = '';
 
       $page_pretitle   = '';
