@@ -8,14 +8,21 @@
   z-index: 9999;
   padding: 10px;
   
-  @include for-md {
+  @include for-md-lg {
     
     width: 50%;
     padding: 15px;
     
   }
   
-  @include for-lg {
+  @include for-lg-xl {
+    
+    width: 40%;
+    padding: 25px;
+    
+  }
+
+  @include for-xl {
     
     width: 30%;
     padding: 30px;
