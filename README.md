@@ -10,18 +10,19 @@
 
 # Settler
 
-A blank PHP-based project template for not-quite-developers — when future website is too complex for static HTML, but not complicated enough for CMS and database.
+A blank PHP-based project template for not-quite-developers — when your future website is too complex for static HTML, but not complicated enough for a CMS and database.
 
 ## Requirements
  - Local (MAMP, WAMP, XAMPP etc) or remote HTTP server with PHP.
 ### Optional
  - Code or Text editor.
+ - JS bundler for js-source files.
  - SASS compiler for css-source files.
  - Graphic editor for icons, thumbnails etc.
 
 ## Getting started
  - Download and unzip on local or remote server.
- - Go to '/assets/inc/pages_config.php' and edit "base_url" variable.
+ - Open 'site.php' at root and edit the default variables.
  - Done! You're ready to write some code...
 
 ## Under the hood
@@ -56,10 +57,11 @@ dist/
 ├─ humans.txt
 ├─ index.php
 ├─ robots.txt
+├─ site.php
 ├─ site.webmanifest
 └─ sitemap.xml
   ```
 
 ## License
 
-Released by [Kirill Nikitin](https://github.com/Kiriniy) under [MIT](https://github.com/kiriniy/settler/blob/master/LICENSE), 2020-2023
+Released by [Kirill Nikitin](https://github.com/Kiriniy) under [MIT](https://github.com/kiriniy/settler/blob/master/LICENSE), 2020-2024
