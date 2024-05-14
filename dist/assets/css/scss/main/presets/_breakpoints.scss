@@ -1,134 +1,192 @@
 
 // Default breakpoints
 
-   $xs-point:   480px;
-   $sm-point:   768px;
-   $md-point:   992px;
-   $lg-point:   1200px;
-   $xl-point:   1600px;
-   $xxl-point:  1900px;
-   $xxxl-point: 2500px;
+$xs-point : 460px;
+$sm-point : 576px;
+$md-point : 768px;
+$lg-point : 992px;
+$xl-point : 1200px;
+$xxl-point : 1400px;
+$xxxl-point: 1900px;
 
 // Presets by @media points
 
-   @mixin for-xs {
+@mixin for-xs {
+  @media (min-width: $xs-point) {
+    @content;
+  }
+}
 
-     @media (min-width: $xs-point) { @content; }
+@mixin for-sm {
+  @media (min-width: $sm-point) {
+    @content;
+  }
+}
 
-     }
+@mixin for-md {
+  @media (min-width: $md-point) {
+    @content;
+  }
+}
 
-   @mixin for-sm {
+@mixin for-lg {
+  @media (min-width: $lg-point) {
+    @content;
+  }
+}
 
-     @media (min-width: $sm-point) { @content; }
+@mixin for-xl {
+  @media (min-width: $xl-point) {
+    @content;
+  }
+}
 
-     }
+@mixin for-xxl {
+  @media (min-width: $xxl-point) {
+    @content;
+  }
+}
 
-   @mixin for-md {
+@mixin for-xxxl {
+  @media (min-width: $xxxl-point) {
+    @content;
+  }
+}
 
-     @media (min-width: $md-point) { @content; }
+// Presets by @media points range from Extra Small to 3x-Large
 
-     }
+@mixin for-xs-sm {
+  @media (min-width: $xs-point) and (max-width: $sm-point - 1) {
+    @content;
+  }
+}
 
-   @mixin for-lg {
+@mixin for-xs-md {
+  @media (min-width: $xs-point) and (max-width: $md-point - 1) {
+    @content;
+  }
+}
 
-     @media (min-width: $lg-point) { @content; }
+@mixin for-xs-lg {
+  @media (min-width: $xs-point) and (max-width: $lg-point - 1) {
+    @content;
+  }
+}
 
-     }
+@mixin for-xs-xl {
+  @media (min-width: $xs-point) and (max-width: $xl-point - 1) {
+    @content;
+  }
+}
 
-   @mixin for-xl {
+@mixin for-xs-xxl {
+  @media (min-width: $xs-point) and (max-width: $xxl-point - 1) {
+    @content;
+  }
+}
 
-     @media (min-width: $xl-point) { @content; }
+@mixin for-xs-xxxl {
+  @media (min-width: $xs-point) and (max-width: $xxxl-point - 1) {
+    @content;
+  }
+}
 
-     }
+// Presets by @media points range from Small to 3x-Large
 
-   @mixin for-xxl {
+@mixin for-sm-md {
+  @media (min-width: $sm-point) and (max-width: $md-point - 1) {
+    @content;
+  }
+}
 
-     @media (min-width: $xxl-point) { @content; }
+@mixin for-sm-lg {
+  @media (min-width: $sm-point) and (max-width: $lg-point - 1) {
+    @content;
+  }
+}
 
-     }
+@mixin for-sm-xl {
+  @media (min-width: $sm-point) and (max-width: $xl-point - 1) {
+    @content;
+  }
+}
 
-   @mixin for-xxxl {
+@mixin for-sm-xxl {
+  @media (min-width: $sm-point) and (max-width: $xxl-point - 1) {
+    @content;
+  }
+}
 
-     @media (min-width: $xxxl-point) { @content; }
+@mixin for-sm-xxxl {
+  @media (min-width: $sm-point) and (max-width: $xxxl-point - 1) {
+    @content;
+  }
+}
 
-     }
+// Presets by @media points range from Medium to 3x-Large
 
-// Presets by @media points range from Zero to Extra Large
+@mixin for-md-lg {
+  @media (min-width: $md-point) and (max-width: $lg-point - 1) {
+    @content;
+  }
+}
 
-   @mixin for-xs-sm {
+@mixin for-md-xl {
+  @media (min-width: $md-point) and (max-width: $xl-point - 1) {
+    @content;
+  }
+}
 
-     @media (max-width: $sm-point - 1) { @content; }
+@mixin for-md-xxl {
+  @media (min-width: $md-point) and (max-width: $xxl-point - 1) {
+    @content;
+  }
+}
 
-     }
+@mixin for-md-xxxl {
+  @media (min-width: $md-point) and (max-width: $xxxl-point - 1) {
+    @content;
+  }
+}
 
-   @mixin for-xs-md {
+// Presets by @media points range from Large to 3x-Large
 
-     @media (max-width: $md-point - 1) { @content; }
+@mixin for-lg-xl {
+  @media (min-width: $lg-point) and (max-width: $xl-point - 1) {
+    @content;
+  }
+}
 
-     }
+@mixin for-lg-xxl {
+  @media (min-width: $lg-point) and (max-width: $xxl-point - 1) {
+    @content;
+  }
+}
 
-   @mixin for-xs-lg {
+@mixin for-lg-xxxl {
+  @media (min-width: $lg-point) and (max-width: $xxxl-point - 1) {
+    @content;
+  }
+}
 
-     @media (max-width: $lg-point - 1) { @content; }
+// Presets by @media points range from Extra Large to 3x-Large
 
-     }
+@mixin for-xl-xxl {
+  @media (min-width: $xl-point) and (max-width: $xxl-point - 1) {
+    @content;
+  }
+}
 
-   @mixin for-xs-xl {
+@mixin for-xl-xxxl {
+  @media (min-width: $xl-point) and (max-width: $xxxl-point - 1) {
+    @content;
+  }
+}
 
-     @media (max-width: $xl-point - 1) { @content; }
+// Presets by @media points range from 2x-Large to 3x-Large
 
-     }
-
-// Presets by @media points range from Small to Extra Large
-
-   @mixin for-sm-md {
-
-     @media (min-width: $sm-point) and (max-width: $md-point - 1) { @content; }
-
-     }
-
-   @mixin for-sm-lg {
-
-     @media (min-width: $sm-point) and (max-width: $lg-point - 1) { @content; }
-
-     }
-
-   @mixin for-sm-xl {
-
-     @media (min-width: $sm-point) and (max-width: $xl-point - 1) { @content; }
-
-     }
-
-// Presets by @media points range from Medium to Extra Large
-
-   @mixin for-md-lg {
-
-     @media (min-width: $md-point) and (max-width: $lg-point - 1) { @content; }
-
-     }
-
-   @mixin for-md-xl {
-
-     @media (min-width: $md-point) and (max-width: $xl-point - 1) { @content; }
-
-     }
-
-// Presets by @media points range for Extra Large screens
-
-   @mixin for-lg-xl {
-
-     @media (min-width: $lg-point) and (max-width: $xl-point - 1) { @content; }
-
-     }
-
-   @mixin for-xl-xxl {
-
-     @media (min-width: $xl-point) and (max-width: $xxl-point - 1) { @content; }
-
-     }
-
-   @mixin for-xxl-xxxl {
-
-     @media (min-width: $xxl-point) and (max-width: $xxxl-point - 1) { @content; }
-
-     }
+@mixin for-xxl-xxxl {
+  @media (min-width: $xxl-point) and (max-width: $xxxl-point - 1) {
+    @content;
+  }
+}
