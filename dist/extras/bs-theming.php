@@ -986,49 +986,49 @@
           <div class="row">
             <div class="col-xl-8">
               <div class="mb-3">
-                <button type="button" class="btn btn-primary">Primary</button>
-                <button type="button" class="btn btn-secondary">Secondary</button>
-                <button type="button" class="btn btn-success">Success</button>
-                <button type="button" class="btn btn-info">Info</button>
-                <button type="button" class="btn btn-warning">Warning</button>
-                <button type="button" class="btn btn-danger">Danger</button>
-                <button type="button" class="btn btn-light">Light</button>
-                <button type="button" class="btn btn-dark">Dark</button>
-                <button type="button" class="btn btn-link">Link</button>
+                <button type="button" class="mb-2 btn btn-primary">Primary</button>
+                <button type="button" class="mb-2 btn btn-secondary">Secondary</button>
+                <button type="button" class="mb-2 btn btn-success">Success</button>
+                <button type="button" class="mb-2 btn btn-info">Info</button>
+                <button type="button" class="mb-2 btn btn-warning">Warning</button>
+                <button type="button" class="mb-2 btn btn-danger">Danger</button>
+                <button type="button" class="mb-2 btn btn-light">Light</button>
+                <button type="button" class="mb-2 btn btn-dark">Dark</button>
+                <button type="button" class="mb-2 btn btn-link">Link</button>
               </div>
 
               <div class="mb-5">
-                <button type="button" class="btn btn-outline-primary">Primary</button>
-                <button type="button" class="btn btn-outline-secondary">Secondary</button>
-                <button type="button" class="btn btn-outline-success">Success</button>
-                <button type="button" class="btn btn-outline-info">Info</button>
-                <button type="button" class="btn btn-outline-warning">Warning</button>
-                <button type="button" class="btn btn-outline-danger">Danger</button>
-                <button type="button" class="btn btn-outline-light">Light</button>
-                <button type="button" class="btn btn-outline-dark">Dark</button>
+                <button type="button" class="mb-2 btn btn-outline-primary">Primary</button>
+                <button type="button" class="mb-2 btn btn-outline-secondary">Secondary</button>
+                <button type="button" class="mb-2 btn btn-outline-success">Success</button>
+                <button type="button" class="mb-2 btn btn-outline-info">Info</button>
+                <button type="button" class="mb-2 btn btn-outline-warning">Warning</button>
+                <button type="button" class="mb-2 btn btn-outline-danger">Danger</button>
+                <button type="button" class="mb-2 btn btn-outline-light">Light</button>
+                <button type="button" class="mb-2 btn btn-outline-dark">Dark</button>
               </div>
 
               <div class="mb-3">
-                <button type="button" class="btn btn-primary disabled">Primary</button>
-                <button type="button" class="btn btn-secondary disabled">Secondary</button>
-                <button type="button" class="btn btn-success disabled">Success</button>
-                <button type="button" class="btn btn-info disabled">Info</button>
-                <button type="button" class="btn btn-warning disabled">Warning</button>
-                <button type="button" class="btn btn-danger disabled">Danger</button>
-                <button type="button" class="btn btn-light disabled">Light</button>
-                <button type="button" class="btn btn-dark disabled">Dark</button>
-                <button type="button" class="btn btn-link disabled">Link</button>
+                <button type="button" class="mb-2 btn btn-primary disabled">Primary</button>
+                <button type="button" class="mb-2 btn btn-secondary disabled">Secondary</button>
+                <button type="button" class="mb-2 btn btn-success disabled">Success</button>
+                <button type="button" class="mb-2 btn btn-info disabled">Info</button>
+                <button type="button" class="mb-2 btn btn-warning disabled">Warning</button>
+                <button type="button" class="mb-2 btn btn-danger disabled">Danger</button>
+                <button type="button" class="mb-2 btn btn-light disabled">Light</button>
+                <button type="button" class="mb-2 btn btn-dark disabled">Dark</button>
+                <button type="button" class="mb-2 btn btn-link disabled">Link</button>
               </div>
 
               <div class="mb-5">
-                <button type="button" class="btn btn-outline-primary disabled">Primary</button>
-                <button type="button" class="btn btn-outline-secondary disabled">Secondary</button>
-                <button type="button" class="btn btn-outline-success disabled">Success</button>
-                <button type="button" class="btn btn-outline-info disabled">Info</button>
-                <button type="button" class="btn btn-outline-warning disabled">Warning</button>
-                <button type="button" class="btn btn-outline-danger disabled">Danger</button>
-                <button type="button" class="btn btn-outline-light disabled">Light</button>
-                <button type="button" class="btn btn-outline-dark disabled">Dark</button>
+                <button type="button" class="mb-2 btn btn-outline-primary disabled">Primary</button>
+                <button type="button" class="mb-2 btn btn-outline-secondary disabled">Secondary</button>
+                <button type="button" class="mb-2 btn btn-outline-success disabled">Success</button>
+                <button type="button" class="mb-2 btn btn-outline-info disabled">Info</button>
+                <button type="button" class="mb-2 btn btn-outline-warning disabled">Warning</button>
+                <button type="button" class="mb-2 btn btn-outline-danger disabled">Danger</button>
+                <button type="button" class="mb-2 btn btn-outline-light disabled">Light</button>
+                <button type="button" class="mb-2 btn btn-outline-dark disabled">Dark</button>
               </div>
             </div>
 
@@ -1115,11 +1115,11 @@
               </div>
             </div>
 
-            <div class="col-6 col-lg-3">
+            <div class="col-7 col-lg-3">
 
               <h3 class="my-5 text-secondary">Vertical</h3>
 
-              <div class="btn-group-vertical me-3" role="group" aria-label="Vertical button group">
+              <div class="btn-group-vertical me-3 mb-2" role="group" aria-label="Vertical button group">
                 <button type="button" class="btn btn-primary">Button</button>
                 <button type="button" class="btn btn-primary">Button</button>
                 <button type="button" class="btn btn-primary">Button</button>
@@ -1127,7 +1127,7 @@
                 <button type="button" class="btn btn-primary">Button</button>
               </div>
 
-              <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+              <div class="btn-group-vertical mb-2" role="group" aria-label="Vertical button group">
                 <button type="button" class="btn btn-outline-primary">Button</button>
                 <button type="button" class="btn btn-outline-primary">Button</button>
                 <button type="button" class="btn btn-outline-primary">Button</button>
@@ -1136,11 +1136,11 @@
               </div>
             </div>
 
-            <div class="col-6 col-lg-3">
+            <div class="col-5 col-lg-3">
 
               <h3 class="my-5 text-secondary">Dropdowns</h3>
 
-              <div class="btn-group">
+              <div class="btn-group mb-2">
                 <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                   Single
                 </button>
@@ -1153,7 +1153,7 @@
                 </ul>
               </div>
 
-              <div class="btn-group">
+              <div class="btn-group mb-2">
                 <button type="button" class="btn btn-outline-primary">Split</button>
                 <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
                   <span class="visually-hidden">Toggle Dropdown</span>
