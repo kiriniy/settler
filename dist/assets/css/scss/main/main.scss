@@ -3,6 +3,8 @@
 // In order to use custom build, you'll need a SCSS compiler.
 // For customization edit '_all' files in subdirs.
 
+// @import 'presets/_reset';
+
 @import 'presets/_all';
 @import 'layouts/_all';
 @import 'pages/_all';
