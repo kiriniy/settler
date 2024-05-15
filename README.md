@@ -21,7 +21,7 @@ A blank PHP-based project template for not-quite-developers — when your future
  - Graphic editor for icons, thumbnails etc.
 
 ## Getting started
- - Download [latest release](https://github.com/kiriniy/settler/releases/latest) and unzip on local or remote server.
+ - Download [latest release](https://github.com/kiriniy/settler/releases/latest) and unzip it on your local or remote server.
  - Open 'site.php' at root and edit the default variables.
  - Done! You're ready to write some code...
 
