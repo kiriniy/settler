@@ -8,6 +8,7 @@
 
       $page_notices = false;
 
+      $page_lang    = 'en';
       $page_title   = 'Page not found!';
       $page_desc    = '';
       
