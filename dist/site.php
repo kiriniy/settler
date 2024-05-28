@@ -43,7 +43,7 @@
   $page_autoformat = 'telephone=no, address=no, date=no';
   $page_canonical  = $base_url . $page_path;
 
-  $page_html_attr  = 'lang="en" class="if-js-off" data-bs-theme="auto"';
+  $page_html_attr  = 'lang="' . $page_lang . '" class="if-js-off" data-bs-theme="auto"';
   $page_head_attr  = 'prefix="og: https://ogp.me/ns#"';
   $page_body_attr  = 'class="' . $page_type . ' ' . $page_class . '" id="page-top"';
 

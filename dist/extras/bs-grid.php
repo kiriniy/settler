@@ -8,6 +8,7 @@
 
       $page_notices    = false;
 
+      $page_lang       = 'en';
       $page_title      = 'Bootstrap Grid System';
       $page_desc       = '';
 

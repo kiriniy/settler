@@ -5,6 +5,7 @@
       $page_class   = '';
       $page_level   = '../';
       $page_path    = '';
+      $page_lang    = '';
       $page_title   = '';
       $page_desc    = '';
 

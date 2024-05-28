@@ -8,6 +8,7 @@
 
       $page_notices    = true;
 
+      $page_lang       = 'en';
       $page_title      = '';
       $page_desc       = '';
 
