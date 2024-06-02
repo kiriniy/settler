@@ -20,4 +20,4 @@
 
     <!-- https://dev.vk.com/api/posts -->
 
-    <meta property="vk:image"  content="<?php echo $og_img_vk; ?>">
+    <meta property="vk:image" content="<?php echo $og_img_vk; ?>">
