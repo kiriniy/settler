@@ -303,35 +303,35 @@
           <h3 class="mt-5">Gutters</h3>
           <p>With <code>.gx-*</code> classes, the horizontal gutters can be adjusted.</p>
 
-          <div class="row row-cols-1 row-cols-md-3 gx-4 text-center">
-            <div class="col themed-grid-col"><code>.col</code> with <code>.gx-4</code> gutters</div>
-            <div class="col themed-grid-col"><code>.col</code> with <code>.gx-4</code> gutters</div>
-            <div class="col themed-grid-col"><code>.col</code> with <code>.gx-4</code> gutters</div>
-            <div class="col themed-grid-col"><code>.col</code> with <code>.gx-4</code> gutters</div>
-            <div class="col themed-grid-col"><code>.col</code> with <code>.gx-4</code> gutters</div>
-            <div class="col themed-grid-col"><code>.col</code> with <code>.gx-4</code> gutters</div>
+          <div class="row row-cols-1 row-cols-md-3 gx-2 text-center">
+            <div class="col"><div class="themed-grid-col"><code>.col</code> with <code>.gx-2</code> gutters</div></div>
+            <div class="col"><div class="themed-grid-col"><code>.col</code> with <code>.gx-2</code> gutters</div></div>
+            <div class="col"><div class="themed-grid-col"><code>.col</code> with <code>.gx-2</code> gutters</div></div>
+            <div class="col"><div class="themed-grid-col"><code>.col</code> with <code>.gx-2</code> gutters</div></div>
+            <div class="col"><div class="themed-grid-col"><code>.col</code> with <code>.gx-2</code> gutters</div></div>
+            <div class="col"><div class="themed-grid-col"><code>.col</code> with <code>.gx-2</code> gutters</div></div>
           </div>
 
           <p class="mt-4">Use the <code>.gy-*</code> classes to control the vertical gutters.</p>
 
           <div class="row row-cols-1 row-cols-md-3 gy-4 text-center">
-            <div class="col themed-grid-col"><code>.col</code> with <code>.gy-4</code> gutters</div>
-            <div class="col themed-grid-col"><code>.col</code> with <code>.gy-4</code> gutters</div>
-            <div class="col themed-grid-col"><code>.col</code> with <code>.gy-4</code> gutters</div>
-            <div class="col themed-grid-col"><code>.col</code> with <code>.gy-4</code> gutters</div>
-            <div class="col themed-grid-col"><code>.col</code> with <code>.gy-4</code> gutters</div>
-            <div class="col themed-grid-col"><code>.col</code> with <code>.gy-4</code> gutters</div>
+            <div class="col"><div class="themed-grid-col"><code>.col</code> with <code>.gy-4</code> gutters</div></div>
+            <div class="col"><div class="themed-grid-col"><code>.col</code> with <code>.gy-4</code> gutters</div></div>
+            <div class="col"><div class="themed-grid-col"><code>.col</code> with <code>.gy-4</code> gutters</div></div>
+            <div class="col"><div class="themed-grid-col"><code>.col</code> with <code>.gy-4</code> gutters</div></div>
+            <div class="col"><div class="themed-grid-col"><code>.col</code> with <code>.gy-4</code> gutters</div></div>
+            <div class="col"><div class="themed-grid-col"><code>.col</code> with <code>.gy-4</code> gutters</div></div>
           </div>
 
           <p class="mt-4">With <code>.g-*</code> classes, the gutters in both directions can be adjusted.</p>
 
-          <div class="row row-cols-1 row-cols-md-3 g-3 text-center">
-            <div class="col themed-grid-col"><code>.col</code> with <code>.g-3</code> gutters</div>
-            <div class="col themed-grid-col"><code>.col</code> with <code>.g-3</code> gutters</div>
-            <div class="col themed-grid-col"><code>.col</code> with <code>.g-3</code> gutters</div>
-            <div class="col themed-grid-col"><code>.col</code> with <code>.g-3</code> gutters</div>
-            <div class="col themed-grid-col"><code>.col</code> with <code>.g-3</code> gutters</div>
-            <div class="col themed-grid-col"><code>.col</code> with <code>.g-3</code> gutters</div>
+          <div class="row row-cols-1 row-cols-md-3 g-5 text-center">
+            <div class="col"><div class="themed-grid-col"><code>.col</code> with <code>.g-5</code> gutters</div></div>
+            <div class="col"><div class="themed-grid-col"><code>.col</code> with <code>.g-5</code> gutters</div></div>
+            <div class="col"><div class="themed-grid-col"><code>.col</code> with <code>.g-5</code> gutters</div></div>
+            <div class="col"><div class="themed-grid-col"><code>.col</code> with <code>.g-5</code> gutters</div></div>
+            <div class="col"><div class="themed-grid-col"><code>.col</code> with <code>.g-5</code> gutters</div></div>
+            <div class="col"><div class="themed-grid-col"><code>.col</code> with <code>.g-5</code> gutters</div></div>
           </div>
         </div>
       </section>
