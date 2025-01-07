@@ -1,8 +1,12 @@
 
+@use '../presets' as *;
+
 @include for-print {
 
   .no-print {
+
     display: none !important;
+
   }
 
 }

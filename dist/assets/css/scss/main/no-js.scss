@@ -2,7 +2,7 @@
 // This is Settler's no-js.css builder.
 // Stylesheets for JavaScript-disabled browsers.
 
-@import 'presets/_all';
+@use 'presets' as *;
 
 // This is a global hiding class.
 

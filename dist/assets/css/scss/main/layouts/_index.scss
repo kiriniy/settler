@@ -1,7 +1,8 @@
 
 // The 'layouts' folder contains stylesheets for the main parts of the site.
 // Header, footer, navigation, sidebar etc.
+// The '_index.scss' combines these parts into one file.
 
-@import '_base';
-@import '_print';
-@import '_notices';
+@forward 'base';
+@forward 'print';
+@forward 'notices';

@@ -1,11 +1,13 @@
 
 // This is Settler's main.css builder.
 // In order to use custom build, you'll need a SCSS compiler.
-// For customization edit '_all' files in subdirs.
+// For customization edit '_index' files in subdirs.
 
-// @import 'presets/_reset';
+// By default 'reset' is disabled.
+// Enable it if you don't plan to use Bootstrap framework.
 
-@import 'presets/_all';
-@import 'layouts/_all';
-@import 'pages/_all';
-@import 'elements/_all';
+// @use 'presets/reset';
+
+@use 'layouts';
+@use 'pages';
+@use 'elements';
