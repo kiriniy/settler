@@ -10,19 +10,19 @@
   z-index: 9999;
   padding: 10px;
   
-  @include for-md-lg {
+  @include for-md { @include for-max-lg {
     
     width: 50%;
     padding: 15px;
     
-  }
+  }}
   
-  @include for-lg-xl {
+  @include for-lg { @include for-max-xl {
     
     width: 40%;
     padding: 25px;
     
-  }
+  }}
 
   @include for-xl {
     
