@@ -1,6 +1,41 @@
 .no-js {
   display: none !important;
 }
+@media (min-width: 460px) and (max-width: 575px) {
+  .no-js-xs {
+    display: none !important;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .no-js-sm {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .no-js-md {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .no-js-lg {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .no-js-xl {
+    display: none !important;
+  }
+}
+@media (min-width: 1400px) and (max-width: 1899px) {
+  .no-js-xxl {
+    display: none !important;
+  }
+}
+@media (min-width: 1900px) {
+  .no-js-xxxl {
+    display: none !important;
+  }
+}
 
 .if-js-off {
   /* Styles for JavaScript-disabled browsers */

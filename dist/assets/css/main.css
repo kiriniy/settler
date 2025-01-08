@@ -7,6 +7,41 @@ html, body {
     display: none !important;
   }
 }
+@media print and (min-width: 460px) and (max-width: 575px) {
+  .no-print-xs {
+    display: none !important;
+  }
+}
+@media print and (min-width: 576px) and (max-width: 767px) {
+  .no-print-sm {
+    display: none !important;
+  }
+}
+@media print and (min-width: 768px) and (max-width: 991px) {
+  .no-print-md {
+    display: none !important;
+  }
+}
+@media print and (min-width: 992px) and (max-width: 1199px) {
+  .no-print-lg {
+    display: none !important;
+  }
+}
+@media print and (min-width: 1200px) and (max-width: 1399px) {
+  .no-print-xl {
+    display: none !important;
+  }
+}
+@media print and (min-width: 1400px) and (max-width: 1899px) {
+  .no-print-xxl {
+    display: none !important;
+  }
+}
+@media print and (min-width: 1900px) {
+  .no-print-xxxl {
+    display: none !important;
+  }
+}
 .notices-box {
   position: fixed;
   right: 0;
