@@ -6,8 +6,6 @@
       $page_level      = '../';
       $page_path       = '';
 
-      $page_notices    = false;
-
       $page_lang       = 'en';
       $page_title      = 'Bootstrap Theme Preview';
       $page_desc       = '';
@@ -20,6 +18,8 @@
       $page_canonical  = '';
       $page_head_attr  = '';
       $page_body_attr  = 'class="pt-5"';
+
+      $page_notices    = false;
 
       ?>
 

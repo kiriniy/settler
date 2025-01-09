@@ -6,8 +6,6 @@
       $page_level      = '../';
       $page_path       = '';
 
-      $page_notices    = false;
-
       $page_lang       = 'en';
       $page_title      = 'Bootstrap Grid System';
       $page_desc       = '';
@@ -20,6 +18,8 @@
       $page_canonical  = '';
       $page_head_attr  = '';
       $page_body_attr  = '';
+
+      $page_notices    = false;
 
       ?>
 

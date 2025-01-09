@@ -47,6 +47,8 @@
   $page_head_attr  = 'prefix="og: https://ogp.me/ns#"';
   $page_body_attr  = 'class="' . $page_type . ' ' . $page_class . '" id="page-top"';
 
+  $page_notices    = true;
+
   // Microdata default values
 
   $og_title        = $page_pretitle . $page_title . $page_posttitle;

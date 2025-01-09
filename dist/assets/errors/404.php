@@ -6,8 +6,6 @@
       $page_level   = '../../';
       $page_path    = 'assets/errors/';
 
-      $page_notices = false;
-
       $page_lang    = 'en';
       $page_title   = 'Page not found!';
       $page_desc    = '';
@@ -19,6 +17,8 @@
       $page_autoformat = '';
       $page_canonical  = '';
       $page_head_attr  = '';
+
+      $page_notices    = false;
 
       ?>
 
