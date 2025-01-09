@@ -8,10 +8,8 @@
     display: none !important;
 
     &-xs {
-      @include for-xs {
-        @include for-max-sm {
-          display: none !important;
-        }
+      @include for-max-sm {
+        display: none !important;
       }
     }
 

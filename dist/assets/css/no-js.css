@@ -1,7 +1,7 @@
 .no-js {
   display: none !important;
 }
-@media (min-width: 460px) and (max-width: 575px) {
+@media (max-width: 575px) {
   .no-js-xs {
     display: none !important;
   }

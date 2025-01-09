@@ -7,7 +7,7 @@ html, body {
     display: none !important;
   }
 }
-@media print and (min-width: 460px) and (max-width: 575px) {
+@media print and (max-width: 575px) {
   .no-print-xs {
     display: none !important;
   }
