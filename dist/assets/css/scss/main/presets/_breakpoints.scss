@@ -108,3 +108,91 @@ $breakpoints: (
     @content;
   }
 }
+
+// Presets by min-height @media points
+
+@mixin h-xs {
+  @media (min-height: $xs-point) {
+    @content;
+  }
+}
+
+@mixin h-sm {
+  @media (min-height: $sm-point) {
+    @content;
+  }
+}
+
+@mixin h-md {
+  @media (min-height: $md-point) {
+    @content;
+  }
+}
+
+@mixin h-lg {
+  @media (min-height: $lg-point) {
+    @content;
+  }
+}
+
+@mixin h-xl {
+  @media (min-height: $xl-point) {
+    @content;
+  }
+}
+
+@mixin h-xxl {
+  @media (min-height: $xxl-point) {
+    @content;
+  }
+}
+
+@mixin h-xxxl {
+  @media (min-height: $xxxl-point) {
+    @content;
+  }
+}
+
+// Presets by max-height @media points
+
+@mixin h-max-xs {
+  @media (max-height: $xs-point - 1) {
+    @content;
+  }
+}
+
+@mixin h-max-sm {
+  @media (max-height: $sm-point - 1) {
+    @content;
+  }
+}
+
+@mixin h-max-md {
+  @media (max-height: $md-point - 1) {
+    @content;
+  }
+}
+
+@mixin h-max-lg {
+  @media (max-height: $lg-point - 1) {
+    @content;
+  }
+}
+
+@mixin h-max-xl {
+  @media (max-height: $xl-point - 1) {
+    @content;
+  }
+}
+
+@mixin h-max-xxl {
+  @media (max-height: $xxl-point - 1) {
+    @content;
+  }
+}
+
+@mixin h-max-xxxl {
+  @media (max-height: $xxxl-point - 1) {
+    @content;
+  }
+}
