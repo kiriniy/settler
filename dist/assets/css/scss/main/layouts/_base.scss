@@ -4,3 +4,7 @@
 html, body {
   height: 100%;
 }
+
+iframe, object, video, embed {
+  background-color: #111;
+}
