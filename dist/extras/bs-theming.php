@@ -48,7 +48,7 @@
           </a>
           <h1>Theme Preview</h1>
           <p class="lead">Customize Bootstrap's components to get your very own version.</p>
-          <p>In order to use your custom Sass code as CSS in the browser, you need a Sass <a href="https://sass-lang.com/install/" target="_blank">compiler</a>. Sass ships as a CLI package, but you can also compile it with other build tools like <a href="https://gulpjs.com/" target="_blank">Gulp</a> or <a href="https://webpack.js.org/" target="_blank">Webpack</a>, or with a GUI applications. Some IDEs also have Sass compilers built in or as downloadable extensions.</p>
+          <p>In order to use your custom Sass code as CSS in the browser, you need a Sass <a href="https://sass-lang.com/install/" target="_blank">compiler</a>. Sass ships as a CLI package, but you can also compile it with other build tools like <a href="https://gulpjs.com/" target="_blank">Gulp</a> or <a href="https://webpack.js.org/" target="_blank">Webpack</a>, or with a GUI applications (<a href="https://codekitapp.com" target="_blank">CodeKit</a>, <a href="https://prepros.io" target="_blank">Prepros</a>). Some IDEs also have Sass compilers built in or as downloadable extensions.</p>
 
           <ul class="nav justify-content-center">
             <li class="nav-item"><a class="nav-link" href="#typography">Typography</a></li>
