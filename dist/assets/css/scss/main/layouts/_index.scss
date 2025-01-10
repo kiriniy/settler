@@ -3,6 +3,10 @@
 // Header, footer, navigation, sidebar etc.
 // The '_index.scss' combines these parts into one file.
 
+// By default 'no-js' is disabled.
+// Enable it if you don't plan to use <noscript> tag technique.
+
 @forward 'base';
+// @forward 'no-js';
 @forward 'print';
 @forward 'notices';
