@@ -7,7 +7,7 @@
       $page_path    = 'assets/errors/';
 
       $page_lang    = 'en';
-      $page_title   = 'Page not found!';
+      $page_title   = 'Page not found';
       $page_desc    = '';
       
       require $page_level . 'site.php';
