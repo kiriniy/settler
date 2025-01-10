@@ -36,6 +36,7 @@ ServerSignature Off
 
 # --- Custom Error Page --- #
 
+ErrorDocument 400 /assets/errors/400.php
 ErrorDocument 401 /assets/errors/401.php
 ErrorDocument 403 /assets/errors/403.php
 ErrorDocument 404 /assets/errors/404.php
