@@ -56,6 +56,7 @@ dist/
 ├─ htaccess.txt
 ├─ humans.txt
 ├─ index.php
+├─ make.php
 ├─ robots.txt
 ├─ site.php
 ├─ site.webmanifest
@@ -64,4 +65,4 @@ dist/
 
 ## License
 
-Released by [Kirill Nikitin](https://github.com/Kiriniy) under [MIT](https://github.com/kiriniy/settler/blob/master/LICENSE), 2020-2024
+Released by [Kirill Nikitin](https://github.com/Kiriniy) under [MIT](https://github.com/kiriniy/settler/blob/master/LICENSE), 2020-2025
