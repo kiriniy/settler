@@ -28,9 +28,9 @@
         <span>This is a sample notification for all pages.</span>
       </div>
 
-      <!-- Example specific by page ID message (markup based on Bootstrap 5 framework) -->
-
       <?php if ($page_id == 'home'): ?>
+
+      <!-- Example specific by page ID message (markup based on Bootstrap 5 framework) -->
 
       <div class="no-js alert alert-info alert-dismissible fade show animated fadeInUp" role="alert">
         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
