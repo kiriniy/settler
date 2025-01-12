@@ -72,11 +72,8 @@
 
   // Appending modification time for static files.
 
-  if (! function_exists('addTime')) {
-    function addTime($filePath = '') {
-      if (file_exists($filePath)) {
-        return $filePath . '?v=' . filemtime($filePath);
+  if (!function_exists('addTime')) {
+      function addTime($filePath) {
+          return file_exists($filePath) ? $filePath . '?v=' . filemtime($filePath) : $filePath;
       }
-        return $filePath;
-    }
-  };
+  }
