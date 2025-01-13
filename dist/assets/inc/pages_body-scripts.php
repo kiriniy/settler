@@ -8,8 +8,4 @@
 
     <script src="<?php echo (addTime($page_level . 'assets/js/main.js')); ?>"></script>
 
-    <?php if ($base_env == 'prod'): ?>
-
     <!-- Paste your code for Google Analytics, Yandex.Metrika etc. -->
-
-    <?php endif; ?>
