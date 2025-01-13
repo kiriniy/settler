@@ -26,7 +26,7 @@
 
   }
 
-  // Auto-path to 'assets' directory.
+  // Auto-path to 'assets' directory
 
   $assets = dirname(__FILE__) . '/assets/';
 
@@ -70,7 +70,7 @@
 
 
 
-  // Appending modification time for static files.
+  // Appending modification time for static files
 
   if (!function_exists('addTime')) {
       function addTime($filePath) {

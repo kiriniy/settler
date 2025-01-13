@@ -45,16 +45,12 @@
 
     <main class="h-100 d-flex align-items-center">
       <div class="container">
-        <div class="row">
-          <div class="col-md-8">
-            <h1>Error 404
-            <br>Page not found!</h1>
-            <p>Oops! Seems like the page you are looking for no longer exists.
-            <br>You may go <a href='javascript:history.back(1)'>back</a> or <a href='<?php echo $base_url; ?>'>start over</a>.</p>
-            <hr>
-            <p class="small text-muted">Rename and edit <code>htaccess</code> file to activate custom error pages.</p>
-          </div>
-        </div>
+        <h1>Error 404
+        <br>Page not found!</h1>
+        <p>Oops! Seems like the page you are looking for no longer exists.
+        <br>You may go <a href='javascript:history.back(1)'>back</a> or <a href='<?php echo $base_url; ?>'>start over</a>.</p>
+        <hr>
+        <p class="small text-muted">Rename and edit <code>htaccess</code> file to activate custom error pages.</p>
       </div>
     </main>
 
