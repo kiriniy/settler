@@ -46,21 +46,23 @@ dist/
 │  ├─ img/           — images and icons
 │  ├─ inc/           — php includes
 │  └─ js/            — javascript files
+│
 ├─ extras/
 │  ├─ blank.html     — blank html-template
 │  ├─ blank.php      — blank php-template
 │  ├─ bs-grid.php    — bootstrap grid cheatsheet
 │  ├─ bs-theming.php – bootstrap components preview
 │  └─ info.php       – php's information
-├─ favicon.ico
-├─ htaccess.txt
-├─ humans.txt
-├─ index.php
-├─ make.php
-├─ robots.txt
-├─ site.php
-├─ site.webmanifest
-└─ sitemap.xml
+│
+├─ favicon.ico       - legacy browsers icon
+├─ htaccess.txt      - inactive example config for apache
+├─ humans.txt        - example file of site info
+├─ index.php         - main site page
+├─ make.php          - static site generator
+├─ robots.txt        - example config file for crawlers
+├─ site.php          - main config file for site
+├─ site.webmanifest  - example config for pwa
+└─ sitemap.xml       - example sitemap 
   ```
 
 ## License
