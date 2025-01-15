@@ -46,7 +46,6 @@ dist/
 │  ├─ img/           — images and icons
 │  ├─ inc/           — php includes
 │  └─ js/            — javascript files
-│
 ├─ extras/
 │  ├─ blank.html     — blank html-template
 │  ├─ blank.php      — blank php-template
