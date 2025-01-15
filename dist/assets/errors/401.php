@@ -18,7 +18,7 @@
       $page_canonical  = '';
       $page_head_attr  = '';
 
-      $page_notices    = false;
+      $page_alerts    = false;
 
       ?>
 
@@ -56,7 +56,7 @@
 
     <!-- PAGE CONTENT END -->
 
-    <?php include $assets . 'inc/pages_body-notices.php';
+    <?php include $assets . 'inc/pages_body-alerts.php';
           include $assets . 'inc/pages_body-scripts.php'; ?>
 
   </body>

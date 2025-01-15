@@ -19,7 +19,7 @@
       $page_head_attr  = '';
       $page_body_attr  = '';
 
-      $page_notices    = false;
+      $page_alerts    = false;
 
       ?>
 
@@ -353,7 +353,7 @@
       <a class="btn btn-outline-light" href="https://getbootstrap.com/docs/5.3/getting-started/" target="_blank">Bootstrap 5.x Documentation</a>
     </footer>
 
-    <?php include $assets . 'inc/pages_body-notices.php';
+    <?php include $assets . 'inc/pages_body-alerts.php';
           include $assets . 'inc/pages_body-scripts.php'; ?>
 
   </body>

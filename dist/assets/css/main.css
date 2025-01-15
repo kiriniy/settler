@@ -46,7 +46,7 @@ iframe, object, video, embed {
     display: none !important;
   }
 }
-.notices-box {
+.alerts-box {
   position: fixed;
   right: 0;
   bottom: 0;
@@ -55,19 +55,19 @@ iframe, object, video, embed {
   padding: 10px;
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  .notices-box {
+  .alerts-box {
     width: 50%;
     padding: 15px;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  .notices-box {
+  .alerts-box {
     width: 40%;
     padding: 25px;
   }
 }
 @media (min-width: 1200px) {
-  .notices-box {
+  .alerts-box {
     width: 30%;
     padding: 30px;
   }

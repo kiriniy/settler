@@ -19,7 +19,7 @@
       $page_head_attr  = '';
       $page_body_attr  = 'class="pt-5"';
 
-      $page_notices    = false;
+      $page_alerts    = false;
 
       ?>
 
@@ -2258,7 +2258,7 @@
       </div>
     </div>
 
-    <?php include $assets . 'inc/pages_body-notices.php';
+    <?php include $assets . 'inc/pages_body-alerts.php';
           include $assets . 'inc/pages_body-scripts.php'; ?>
 
     <script>

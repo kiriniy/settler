@@ -1,7 +1,7 @@
 
-    <?php if ($page_notices): ?>
+    <?php if ($page_alerts): ?>
 
-    <aside class="notices-box no-print">
+    <aside class="alerts-box no-print">
 
       <!-- Example JS-OFF warning (markup based on Bootstrap 5 framework) -->
 
@@ -34,7 +34,7 @@
 
       <div class="no-js alert alert-info alert-dismissible fade show animated fadeInUp" role="alert">
         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-        <span>This is a sample notice which appears on a specific page only. Check <code>assets/inc/pages_body-notices.php</code> for details.</span>
+        <span>This is a sample alert which appears on a specific (this) page only. Check <code>assets/inc/pages_body-alerts.php</code> for details.</span>
       </div>
 
       <?php endif; ?>

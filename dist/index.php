@@ -60,7 +60,7 @@
 
     <!-- PAGE CONTENT END -->
 
-    <?php include $assets . 'inc/pages_body-notices.php';
+    <?php include $assets . 'inc/pages_body-alerts.php';
           include $assets . 'inc/pages_body-scripts.php'; ?>
 
     <!-- This Page Only Scripts and Libraries (optional) -->

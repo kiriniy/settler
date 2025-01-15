@@ -19,7 +19,7 @@
       $page_head_attr  = '';
       $page_body_attr  = '';
       
-      $page_notices    = false;
+      $page_alerts    = false;
 
    // Static Site Generator
    // ------------------------------------
@@ -128,7 +128,7 @@
 
     <!-- PAGE CONTENT END -->
 
-    <?php include $assets . 'inc/pages_body-notices.php';
+    <?php include $assets . 'inc/pages_body-alerts.php';
           include $assets . 'inc/pages_body-scripts.php'; ?>
 
   </body>
