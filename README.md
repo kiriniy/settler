@@ -12,6 +12,8 @@
 
 A blank PHP-based project template for not-quite-developers — when your future website is too complex for static HTML, but not complicated enough for a CMS and database.
 
+If you're looking for **Lite** version: [https://github.com/kiriniy/settler-lite](https://github.com/kiriniy/settler-lite)
+
 ## Requirements
  - Local (MAMP, WAMP, XAMPP etc) or remote HTTP server with PHP.
 ### Optional
