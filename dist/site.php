@@ -1,36 +1,56 @@
 <?php
 
+  // Default timezone
+  // https://www.php.net/manual/en/timezones.php
+
   date_default_timezone_set('Europe/Moscow');
 
   // Replace 'localhost:8888' with your correct domain or IP on local server.
   // Replace 'dev.example.com' with your alt server if you have one. Just leave as is if don't.
-  // Fill 'base url' variables with local or remote urls depends on environment.
+  // Replace 'example.com' with your live site if you have one. Just leave as is if don't.
 
-  if ($_SERVER['HTTP_HOST'] == 'localhost:8888') {
+  switch ($_SERVER['HTTP_HOST']) {
+
+    case 'localhost:8888':     // DEVELOPMENT ENVIRONMENT
 
       $base_env = 'dev';
-      $base_url = $page_level; // relative to pages or url of choice (with slash)
-      $base_csp = ''; // Content Security Policy for dev-server (optional)
+      $base_url = $page_level; // Relative to pages or url of choice (with slash)
+      $base_csp = '';          // Content Security Policy for dev-server (optional)
 
-  } elseif ($_SERVER['HTTP_HOST'] == 'dev.example.com') {
+    break;
+
+    case 'dev.example.com':    // STAGING ENVIRONMENT
 
       $base_env = 'staging';
-      $base_url = $page_level; // e.q. 'https://dev.example.com/'
-      $base_csp = ''; // Content Security Policy for staging-server (optional)
+      $base_url = $page_level; // Relative to pages or url of choice (with slash)
+      $base_csp = '';          // Content Security Policy for staging-server (optional)
 
-  } else {
+    break;
+
+    case 'example.com':        // PRODUCTION ENVIRONMENT
 
       $base_env = 'prod';
-      $base_url = $page_level; // e.q. 'https://example.com/'
-      $base_csp = ''; // Content Security Policy for prod-server
+      $base_url = $page_level; // Relative to pages or url of choice (with slash)
+      $base_csp = '';          // Content Security Policy for prod-server
+
+    break;
+
+    default:                   // IF NONE OF THE ABOVE
+
+      $base_env = 'unknown';
+      $base_url = $page_level; // Relative to pages or url of choice (with slash)
+      $base_csp = '';          // Content Security Policy
+
+    break;
 
   }
 
   // Auto-path to 'assets' directory
 
-  $assets = dirname(__FILE__) . '/assets/';
+  $assets = __DIR__ . '/assets/';
 
   // Pages default values
+  // Check 'assets/inc/pages_head-meta.php' and 'assets/inc/pages_head-resources.php'
 
   $page_charset    = 'utf-8';
   $page_csp        = $base_csp;
@@ -47,9 +67,10 @@
   $page_head_attr  = 'prefix="og: https://ogp.me/ns#"';
   $page_body_attr  = 'class="' . $page_type . ' ' . $page_class . '" id="page-top"';
 
-  $page_alerts    = true;
+  $page_alerts     = true;
 
-  // Microdata default values
+  // Open Graph metadata default values
+  // Check 'assets/inc/pages_head-snippets.php'
 
   $og_title        = $page_pretitle . $page_title . $page_posttitle;
   $og_desc         = $page_desc;
@@ -70,7 +91,7 @@
 
 
 
-  // Appending modification time for static files
+  // Function to append file modification time for cache-busting
 
   if (!function_exists('addTime')) {
       function addTime($filePath) {
