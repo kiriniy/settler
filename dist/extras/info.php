@@ -11,13 +11,15 @@
 
       require $page_level . 'site.php';
 
-      if ($base_env != 'prod') {
+      if ($base_env == 'dev') {
 
           phpinfo();
+
+          exit;
 
       } else {
 
           echo '<h1>Heads up!</h1>
-                <p>The PHP function <strong>phpinfo()</strong> is disabled by default for the "staging" and "prod" environments for security reasons.</p>';
+                <p>The PHP function <strong>phpinfo()</strong> is disabled by default for any environments expect "dev" for security reasons.</p>';
 
       }
