@@ -19,7 +19,7 @@
       $page_head_attr  = '';
       $page_body_attr  = 'class="pt-5"';
 
-      $page_alerts    = false;
+      $page_alerts     = false;
 
       ?>
 
