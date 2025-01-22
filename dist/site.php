@@ -5,9 +5,15 @@
 
   date_default_timezone_set('Europe/Moscow');
 
-  // Replace 'localhost:8888' with your correct domain or IP on local server.
-  // Replace 'dev.example.com' with your alt server if you have one. Just leave as is if don't.
-  // Replace 'example.com' with your live site if you have one. Just leave as is if don't.
+  // Replace 'localhost:8888' with your actual domain or IP on local server.
+  // Replace 'dev.example.com' with your alt server if you have one. This is optional.
+  // Replace 'example.com' with your live site if you have one. This is optional.
+
+  // The 'base_csp' variable containing the CSP directives is wrapped in double quotes.
+  // It allows you to use single quotes within the string without needing to escape them.
+  // The CSP directives themselves must use single quotes as per the specification.
+  // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy
+  // Note that leaving 'base_csp' variable empty will disable CSP entirely.
 
   switch ($_SERVER['HTTP_HOST']) {
 
@@ -15,7 +21,7 @@
 
       $base_env = 'dev';
       $base_url = $page_level; // Relative to pages or url of choice (with slash)
-      $base_csp = '';          // Content Security Policy for dev-server (optional)
+      $base_csp = "";          // Content Security Policy for dev-server (optional)
 
     break;
 
@@ -23,7 +29,7 @@
 
       $base_env = 'staging';
       $base_url = $page_level; // Relative to pages or url of choice (with slash)
-      $base_csp = '';          // Content Security Policy for staging-server (optional)
+      $base_csp = "";          // Content Security Policy for staging-server (optional)
 
     break;
 
@@ -31,7 +37,7 @@
 
       $base_env = 'prod';
       $base_url = $page_level; // Relative to pages or url of choice (with slash)
-      $base_csp = '';          // Content Security Policy for prod-server
+      $base_csp = "";          // Content Security Policy for prod-server
 
     break;
 
@@ -39,7 +45,7 @@
 
       $base_env = 'unknown';
       $base_url = $page_level; // Relative to pages or url of choice (with slash)
-      $base_csp = '';          // Content Security Policy
+      $base_csp = "";          // Content Security Policy
 
     break;
 
