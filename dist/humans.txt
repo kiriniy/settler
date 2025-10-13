@@ -1,6 +1,6 @@
 
 
-	This is an example file for knowing the people behind a website.
+	This is an example file showing the people behind the website and tech stack.
 	More info at https://humanstxt.org
 
 
@@ -41,9 +41,6 @@
 
 	Name       : Animate.css
 	Site       : https://animate.style
-
-	Name       : Cookies
-	Site       : https://github.com/studio24/cookie-message
 
 
 	/* SITE */
