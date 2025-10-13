@@ -20,7 +20,7 @@
   <head <?php echo $page_head_attr; ?>>
 
     <?php include $assets . 'inc/pages_head-meta.php';
-          include $assets . 'inc/pages_head-snippets.php';
+          include $assets . 'inc/pages_head-sharing.php';
           include $assets . 'inc/pages_head-resources.php';
           include $assets . 'inc/pages_head-noscript.php';
 

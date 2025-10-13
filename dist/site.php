@@ -64,8 +64,8 @@
   $page_pretitle   = '';
   $page_posttitle  = '';
 
-  $page_robots     = 'index, follow, noai, noimageai';
-  $page_viewport   = 'width=device-width, height=device-height, initial-scale=1';
+  $page_robots     = 'index, follow';
+  $page_viewport   = 'width=device-width, initial-scale=1, viewport-fit=cover';
   $page_autoformat = 'telephone=no, address=no, date=no';
   $page_canonical  = $base_url . $page_path;
 
@@ -75,20 +75,23 @@
 
   $page_alerts     = true;
 
-  // Open Graph metadata default values
-  // Check 'assets/inc/pages_head-snippets.php'
+  // Metadata default values
+  // Check 'assets/inc/pages_head-sharing.php'
 
-  $og_title        = $page_pretitle . $page_title . $page_posttitle;
-  $og_desc         = $page_desc;
-  $og_card         = 'summary';
-  $og_type         = 'website';
-  $og_locale       = 'en_US';
-  $og_url          = $base_url . $page_path . $page_ver;
-  $og_img_tw       = $base_url . 'assets/img/social/thumbnail-tw.jpg';
-  $og_img_fb       = $base_url . 'assets/img/social/thumbnail-fb.jpg';
-  $og_img_vk       = $base_url . 'assets/img/social/thumbnail-vk.jpg';
-  $og_img_tw_alt   = '';
-  $og_img_fb_alt   = '';
+  $sharing_title        = $page_pretitle . $page_title . $page_posttitle;
+  $sharing_desc         = $page_desc;
+  $sharing_url          = $base_url . $page_path . $page_ver;
+  
+  $sharing_x_card       = 'summary';
+  $sharing_x_img        = $base_url . 'assets/img/sharing/1080x1080_default.jpg';
+  $sharing_x_img_alt    = '';
+  
+  $sharing_og_type      = 'website';
+  $sharing_og_locale    = 'ru_RU';
+  $sharing_og_img       = $base_url . 'assets/img/sharing/1200x630_default.jpg';
+  $sharing_og_img_alt   = '';
+  $sharing_og_img_w     = '1200';
+  $sharing_og_img_h     = '630';
 
   // This is a place for your own defines, variables etc.
 

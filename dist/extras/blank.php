@@ -29,17 +29,18 @@
 
       $page_alerts     = true;
 
-      $og_title        = '';
-      $og_desc         = '';
-      $og_card         = '';
-      $og_type         = '';
-      $og_locale       = '';
-      $og_url          = '';
-      $og_img_tw       = '';
-      $og_img_fb       = '';
-      $og_img_vk       = '';
-      $og_img_tw_alt   = '';
-      $og_img_fb_alt   = '';
+      $sharing_title        = '';
+      $sharing_desc         = '';
+      $sharing_url          = '';
+      $sharing_x_card       = '';
+      $sharing_x_img        = '';
+      $sharing_x_img_alt    = '';
+      $sharing_og_type      = '';
+      $sharing_og_locale    = '';
+      $sharing_og_img       = '';
+      $sharing_og_img_alt   = '';
+      $sharing_og_img_w     = '';
+      $sharing_og_img_h     = '';
 
       ?>
 
@@ -49,7 +50,7 @@
   <head <?php echo $page_head_attr; ?>>
 
     <?php include $assets . 'inc/pages_head-meta.php';
-          include $assets . 'inc/pages_head-snippets.php';
+          include $assets . 'inc/pages_head-sharing.php';
           include $assets . 'inc/pages_head-resources.php';
           include $assets . 'inc/pages_head-noscript.php';
 
