@@ -1,7 +1,7 @@
 
-# THIS IS AN INACTIVE SAMPLE CONFIGURATION FILE FOR APACHE WEB-SERVER.
-# MAKE IT INVISIBLE AND REMOVE EXTENSION.
-# DO NOTHING IF YOU HAVE NO IDEA WHAT THIS FILE FOR.
+# This is an inactive sample configuration file for Apache web server.
+# Make it invisible and remove the extension by renaming to ".htaccess"
+# Do not modify it unless you understand what this file is for.
 
 <IfModule mod_rewrite.c>
 
@@ -34,7 +34,7 @@
 
 ServerSignature Off
 
-# --- Custom Error Page --- #
+# --- Custom Error Pages --- #
 
 ErrorDocument 400 /assets/errors/400.php
 ErrorDocument 401 /assets/errors/401.php
