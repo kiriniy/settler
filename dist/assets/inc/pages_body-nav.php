@@ -8,7 +8,7 @@
 
         <button class="no-js navbar-toggler me-auto border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation"><i class="bi bi-three-dots-vertical"></i></button>
 
-        <button class="no-js btn" type="button" id="themeSwitch" data-bs-theme-value="dark"><i class="bi bi-circle-half"></i></button>
+        <button class="no-js btn" type="button" id="themeSwitch" data-bs-theme-value="dark"><i class="bi bi-sun"></i></button>
 
         <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
 
