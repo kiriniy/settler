@@ -1,7 +1,6 @@
 
     <!-- Vendors, frameworks, plugins etc. -->
 
-    <script src="<?php echo (addTime($page_level . 'assets/js/jquery.js')); ?>"></script>
     <script src="<?php echo (addTime($page_level . 'assets/js/bootstrap.js')); ?>"></script>
 
     <!-- Settler default scripts file -->
