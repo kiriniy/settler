@@ -10,5 +10,7 @@
     <meta name="description" content="<?php echo $page_desc; ?>">
     <meta name="viewport" content="<?php echo $page_viewport; ?>">
     <meta name="format-detection" content="<?php echo $page_autoformat; ?>">
+
     <meta name="google-site-verification" content="">
     <meta name="yandex-verification" content="">
+    <meta name="msvalidate.01" content="">
