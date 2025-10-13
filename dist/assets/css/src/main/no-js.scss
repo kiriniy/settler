@@ -1,0 +1,72 @@
+
+// This is Settler's no-js.css builder.
+// Stylesheets for JavaScript-disabled browsers.
+
+@use 'presets' as *;
+
+// This is a global hiding classes.
+
+.no-js { 
+
+  display: none !important;
+
+  &-xs {
+    @include for-max-sm {
+      display: none !important;
+    }
+  }
+
+  &-sm {
+    @include for-sm {
+      @include for-max-md {
+        display: none !important;
+      }
+    }
+  }
+
+  &-md {
+    @include for-md {
+      @include for-max-lg {
+        display: none !important;
+      }
+    }
+  }
+
+  &-lg {
+    @include for-lg {
+      @include for-max-xl {
+        display: none !important;
+      }
+    }
+  }
+
+  &-xl {
+    @include for-xl {
+      @include for-max-xxl {
+        display: none !important;
+      }
+    }
+  }
+
+  &-xxl {
+    @include for-xxl {
+      @include for-max-xxxl {
+        display: none !important;
+      }
+    }
+  }
+
+  &-xxxl {
+    @include for-xxxl {
+      display: none !important;
+    }
+  }
+}
+
+// This is a global nesting class.
+
+.if-js-off {
+
+  /* Styles for JavaScript-disabled browsers */
+
+}

@@ -1,0 +1,198 @@
+
+// Default breakpoints (Bootstrap 5 compatible)
+
+$xs-point   : 460px;
+$sm-point   : 576px;
+$md-point   : 768px;
+$lg-point   : 992px;
+$xl-point   : 1200px;
+$xxl-point  : 1400px;
+$xxxl-point : 1900px;
+
+// Default breakpoints map
+
+$breakpoints: (
+  xs   : $xs-point, 
+  sm   : $sm-point,
+  md   : $md-point,
+  lg   : $lg-point,
+  xl   : $xl-point,
+  xxl  : $xxl-point,
+  xxxl : $xxxl-point
+);
+
+// Presets by min-width @media points
+
+@mixin for-xs {
+  @media (min-width: $xs-point) {
+    @content;
+  }
+}
+
+@mixin for-sm {
+  @media (min-width: $sm-point) {
+    @content;
+  }
+}
+
+@mixin for-md {
+  @media (min-width: $md-point) {
+    @content;
+  }
+}
+
+@mixin for-lg {
+  @media (min-width: $lg-point) {
+    @content;
+  }
+}
+
+@mixin for-xl {
+  @media (min-width: $xl-point) {
+    @content;
+  }
+}
+
+@mixin for-xxl {
+  @media (min-width: $xxl-point) {
+    @content;
+  }
+}
+
+@mixin for-xxxl {
+  @media (min-width: $xxxl-point) {
+    @content;
+  }
+}
+
+// Presets by max-width @media points
+
+@mixin for-max-xs {
+  @media (max-width: $xs-point - 1) {
+    @content;
+  }
+}
+
+@mixin for-max-sm {
+  @media (max-width: $sm-point - 1) {
+    @content;
+  }
+}
+
+@mixin for-max-md {
+  @media (max-width: $md-point - 1) {
+    @content;
+  }
+}
+
+@mixin for-max-lg {
+  @media (max-width: $lg-point - 1) {
+    @content;
+  }
+}
+
+@mixin for-max-xl {
+  @media (max-width: $xl-point - 1) {
+    @content;
+  }
+}
+
+@mixin for-max-xxl {
+  @media (max-width: $xxl-point - 1) {
+    @content;
+  }
+}
+
+@mixin for-max-xxxl {
+  @media (max-width: $xxxl-point - 1) {
+    @content;
+  }
+}
+
+// Presets by min-height @media points
+
+@mixin h-xs {
+  @media (min-height: $xs-point) {
+    @content;
+  }
+}
+
+@mixin h-sm {
+  @media (min-height: $sm-point) {
+    @content;
+  }
+}
+
+@mixin h-md {
+  @media (min-height: $md-point) {
+    @content;
+  }
+}
+
+@mixin h-lg {
+  @media (min-height: $lg-point) {
+    @content;
+  }
+}
+
+@mixin h-xl {
+  @media (min-height: $xl-point) {
+    @content;
+  }
+}
+
+@mixin h-xxl {
+  @media (min-height: $xxl-point) {
+    @content;
+  }
+}
+
+@mixin h-xxxl {
+  @media (min-height: $xxxl-point) {
+    @content;
+  }
+}
+
+// Presets by max-height @media points
+
+@mixin h-max-xs {
+  @media (max-height: $xs-point - 1) {
+    @content;
+  }
+}
+
+@mixin h-max-sm {
+  @media (max-height: $sm-point - 1) {
+    @content;
+  }
+}
+
+@mixin h-max-md {
+  @media (max-height: $md-point - 1) {
+    @content;
+  }
+}
+
+@mixin h-max-lg {
+  @media (max-height: $lg-point - 1) {
+    @content;
+  }
+}
+
+@mixin h-max-xl {
+  @media (max-height: $xl-point - 1) {
+    @content;
+  }
+}
+
+@mixin h-max-xxl {
+  @media (max-height: $xxl-point - 1) {
+    @content;
+  }
+}
+
+@mixin h-max-xxxl {
+  @media (max-height: $xxxl-point - 1) {
+    @content;
+  }
+}

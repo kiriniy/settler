@@ -1,0 +1,132 @@
+
+@use '../presets' as *;
+
+@include for-print {
+
+  *,
+  *::before,
+  *::after {
+    text-shadow: none !important;
+    box-shadow: none !important;
+  }
+  html, body {
+    background-color: #fff;
+  }
+  a:not(.btn) {
+    text-decoration: underline;
+  }
+  abbr[title]::after {
+    content: " (" attr(title) ")";
+  }
+  pre {
+    white-space: pre-wrap !important;
+  }
+  pre,
+  blockquote {
+    border: 1px solid #adb5bd;
+    page-break-inside: avoid;
+  }
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+  @page {
+    size: a3;
+  }
+  body {
+    min-width: 992px !important;
+  }
+  .container {
+    min-width: 992px !important;
+  }
+  .badge {
+    border: 1px solid #000;
+  }
+  .table {
+    border-collapse: collapse !important;
+  }
+  .table td,
+  .table th {
+    background-color: #fff !important;
+  }
+  .table-bordered th,
+  .table-bordered td {
+    border: 1px solid #dee2e6 !important;
+  }
+  .table-dark {
+    color: inherit;
+  }
+  .table-dark th,
+  .table-dark td,
+  .table-dark thead th,
+  .table-dark tbody + tbody {
+    border-color: #dee2e6;
+  }
+
+  .no-print {
+
+    display: none !important;
+
+    &-xs {
+      @include for-max-sm {
+        display: none !important;
+      }
+    }
+
+    &-sm {
+      @include for-sm {
+        @include for-max-md {
+          display: none !important;
+        }
+      }
+    }
+
+    &-md {
+      @include for-md {
+        @include for-max-lg {
+          display: none !important;
+        }
+      }
+    }
+
+    &-lg {
+      @include for-lg {
+        @include for-max-xl {
+          display: none !important;
+        }
+      }
+    }
+
+    &-xl {
+      @include for-xl {
+        @include for-max-xxl {
+          display: none !important;
+        }
+      }
+    }
+
+    &-xxl {
+      @include for-xxl {
+        @include for-max-xxxl {
+          display: none !important;
+        }
+      }
+    }
+
+    &-xxxl {
+      @include for-xxxl {
+        display: none !important;
+      }
+    }
+  }
+}
