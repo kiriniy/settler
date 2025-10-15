@@ -54,7 +54,6 @@ dist/
 │  ├─ bs-grid.php    — bootstrap grid cheatsheet
 │  ├─ bs-theming.php – bootstrap components preview
 │  └─ info.php       – php's information
-│
 ├─ favicon.ico       - legacy browsers icon
 ├─ htaccess.txt      - inactive example config for apache
 ├─ humans.txt        - example file of site info
