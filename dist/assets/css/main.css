@@ -120,22 +120,23 @@ html, body {
   z-index: 9999;
   padding: 10px;
 }
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 992px) and (max-width: 1199px) {
   .alerts-box {
     width: 50%;
     padding: 15px;
   }
 }
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .alerts-box {
+    width: 45%;
+    padding: 20px;
+  }
+}
+@media (min-width: 1400px) {
   .alerts-box {
     width: 40%;
     padding: 25px;
-  }
-}
-@media (min-width: 1200px) {
-  .alerts-box {
-    width: 30%;
-    padding: 30px;
+    max-width: 600px;
   }
 }
 
