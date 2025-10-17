@@ -3,60 +3,65 @@
 
 @include for-print {
 
-  .no-print {
-
-    display: none !important;
-
-    &-xs {
-      @include for-max-sm {
-        display: none !important;
-      }
-    }
-
-    &-sm {
-      @include for-sm {
-        @include for-max-md {
-          display: none !important;
-        }
-      }
-    }
-
-    &-md {
-      @include for-md {
-        @include for-max-lg {
-          display: none !important;
-        }
-      }
-    }
-
-    &-lg {
-      @include for-lg {
-        @include for-max-xl {
-          display: none !important;
-        }
-      }
-    }
-
-    &-xl {
-      @include for-xl {
-        @include for-max-xxl {
-          display: none !important;
-        }
-      }
-    }
-
-    &-xxl {
-      @include for-xxl {
-        @include for-max-xxxl {
-          display: none !important;
-        }
-      }
-    }
-
-    &-xxxl {
-      @include for-xxxl {
-        display: none !important;
-      }
-    }
+  @page {
+    size: A4;
+    margin: 1.2cm;
   }
+
+  .no-print {
+    display: none !important;
+  }
+
+  *,
+  *::before,
+  *::after {
+    text-shadow: none !important;
+    box-shadow: none !important;
+    color: #000 !important;
+    background: #fff !important;
+    background-color: #fff !important;
+  }
+
+  html, body {
+    font-size: 12pt;
+    line-height: 1.5;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  a[href]:after {
+    content: " (" attr(href) ")";
+    font-size: 10pt;
+    font-weight: normal;
+  }
+
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after,
+  a[href^="tel:"]:after,
+  a[href^="mailto:"]:after {
+    content: "";
+  }
+
+  abbr[title]::after {
+    content: " (" attr(title) ")";
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    page-break-inside: avoid;
+  }
+
+  h2, h3 {
+    page-break-after: avoid;
+  }
+
+  p, ul, ol, h2, h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
 }

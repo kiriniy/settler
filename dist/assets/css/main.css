@@ -3,43 +3,56 @@ html, body {
 }
 
 @media print {
+  @page {
+    size: A4;
+    margin: 1.2cm;
+  }
   .no-print {
     display: none !important;
   }
-}
-@media print and (max-width: 575px) {
-  .no-print-xs {
-    display: none !important;
+  *,
+  *::before,
+  *::after {
+    text-shadow: none !important;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+    color: #000 !important;
+    background: #fff !important;
+    background-color: #fff !important;
   }
-}
-@media print and (min-width: 576px) and (max-width: 767px) {
-  .no-print-sm {
-    display: none !important;
+  html, body {
+    font-size: 12pt;
+    line-height: 1.5;
+    margin: 0 !important;
+    padding: 0 !important;
   }
-}
-@media print and (min-width: 768px) and (max-width: 991px) {
-  .no-print-md {
-    display: none !important;
+  a[href]:after {
+    content: " (" attr(href) ")";
+    font-size: 10pt;
+    font-weight: normal;
   }
-}
-@media print and (min-width: 992px) and (max-width: 1199px) {
-  .no-print-lg {
-    display: none !important;
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after,
+  a[href^="tel:"]:after,
+  a[href^="mailto:"]:after {
+    content: "";
   }
-}
-@media print and (min-width: 1200px) and (max-width: 1399px) {
-  .no-print-xl {
-    display: none !important;
+  abbr[title]::after {
+    content: " (" attr(title) ")";
   }
-}
-@media print and (min-width: 1400px) and (max-width: 1899px) {
-  .no-print-xxl {
-    display: none !important;
+  img {
+    max-width: 100%;
+    height: auto;
   }
-}
-@media print and (min-width: 1900px) {
-  .no-print-xxxl {
-    display: none !important;
+  h1, h2, h3, h4, h5, h6 {
+    page-break-inside: avoid;
+  }
+  h2, h3 {
+    page-break-after: avoid;
+  }
+  p, ul, ol, h2, h3 {
+    orphans: 3;
+    widows: 3;
   }
 }
 .alerts-box {
