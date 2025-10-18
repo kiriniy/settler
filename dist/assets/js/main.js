@@ -1,140 +1,226 @@
-(function () {
-    'use strict';
+(function (factory) {
+    typeof define === 'function' && define.amd ? define(factory) :
+    factory();
+})((function () { 'use strict';
 
-    /**
-     * Cookie Message
-     * Copyright 2016 Simon R Jones
-     * Licensed under MIT (https://github.com/studio24/cookie-message/blob/master/LICENSE.md)
-     * About script (http://www.quirksmode.org/js/cookies.html)
-     */
+    // ------------------------------------------------------------------------------------------
+    //
+    // SETTLER COOKIE ALERTS
+    // Licensed under MIT (https://github.com/kiriniy/settler/blob/master/LICENSE)
+    //
+    // ------------------------------------------------------------------------------------------
+    //
+    // This script provides functionality for managing cookies used in displaying alerts
+    // on a webpage. It includes methods for creating and reading cookies as well as handling
+    // user interactions related to accepting/disregarding specific alerts. The main purpose
+    // is to prevent repetitive display of notifications once they have been acknowledged
+    // by the user. Perfect for notifications about cookies usage on the website.
+    //
+    // Features:
+    //
+    //   - Cookie creation ('createCookie') with custom expiration dates and secure flags.
+    //   - Reading existing cookies ('readCookie').
+    //   - Hiding/showing alert elements dynamically based on cookie values.
+    //   - Integration with HTML attributes like "alert-cookie-id" etc.
+    //
+    // Attributes supported:
+    //
+    //   - alert-cookie-id: Unique identifier for each alert element.
+    //   - alert-cookie-expiry: Number of days before cookie expires.
+    //   - alert-cookie-path: Path where cookie will be valid.
+    //
+    // Usage:
+    //
+    //   <div class="alerts-item" role="alert" alert-cookie-id="example" alert-cookie-expiry="7">
+    //     <span>Hello, world!</span>
+    //     <button class="alert-accept">Ok</button>
+    //   </div>
+    //
+    // ------------------------------------------------------------------------------------------
 
-    (function() {
+    (function () {
 
-        function createCookie(name,value,days,path) {
-            if (days) {
-                var date = new Date();
-                date.setTime(date.getTime()+(days*24*60*60*1000));
-                var expires = "; expires="+date.toGMTString();
+        function createCookie(name, value, days, path) {
+            const date = new Date();
+            date.setUTCDate(date.getUTCDate() + days);
+            const cookieParts = [
+                `${encodeURIComponent(name)}=${encodeURIComponent(value)}`,
+                `expires=${date.toUTCString()}`,
+                `path=${path}`,
+                'SameSite=Lax'
+            ];
+
+            if (location.protocol === 'https:') {
+                cookieParts.push('Secure');
             }
-            else var expires = "";
-            document.cookie = name+"="+value+expires+"; path="+path;
+
+            document.cookie = cookieParts.join('; ');
         }
 
         function readCookie(name) {
-            var nameEQ = name + "=";
-            var ca = document.cookie.split(';');
-            for(var i=0;i < ca.length;i++) {
-                var c = ca[i];
-                while (c.charAt(0)==' ') c = c.substring(1,c.length);
-                if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
-            }
-            return null;
+            const encodedName = encodeURIComponent(name) + '=';
+            const cookie = document.cookie
+                .split(';')
+                .map(c => c.trim())
+                .find(c => c.startsWith(encodedName));
+
+            return cookie ? decodeURIComponent(cookie.split('=')[1]) : null;
         }
 
-        var cookieMessage = document.getElementById('cookie-message');
-        if (cookieMessage == null) {
-            return;
-        }
-        var cookie = readCookie('seen-cookie-message');
-        if (cookie != null && cookie == 'yes') {
-            cookieMessage.style.display = 'none';
-        } else {
-            cookieMessage.style.display = 'block';
-        }
+        document.querySelectorAll('.alerts-item').forEach(alert => {
+            const alertId = alert.getAttribute('alert-cookie-id');
+            if (!alertId) return;
 
-        var cookieExpiry = cookieMessage.getAttribute('data-cookie-expiry');
-        if (cookieExpiry == null) {
-            cookieExpiry = 30;
-        }
-        var cookiePath = cookieMessage.getAttribute('data-cookie-path');
-        if (cookiePath == null) {
-            cookiePath = "/";
-        }
-        createCookie('seen-cookie-message','yes',cookieExpiry,cookiePath);
+            const cookieName = `alert-seen-${alertId}`;
+            const expiry = Math.abs(parseInt(alert.getAttribute('alert-cookie-expiry'), 10) || 30);
+            const path = alert.getAttribute('alert-cookie-path') || '/';
+            const acceptBtn = alert.querySelector('.alert-accept');
 
-    })();
-
-    /**
-     * Color mode toggler for Bootstrap 5 (https://getbootstrap.com/)
-     * Copyright 2011-2024 The Bootstrap Authors
-     * Licensed under the Creative Commons Attribution 3.0 Unported License.
-     */
-
-    (() => {
-
-        const getStoredTheme = () => localStorage.getItem('theme');
-        const setStoredTheme = theme => localStorage.setItem('theme', theme);
-
-        const getPreferredTheme = () => {
-            const storedTheme = getStoredTheme();
-            if (storedTheme) {
-                return storedTheme
+            if (readCookie(cookieName)) {
+                alert.classList.add('hidden');
+                return;
             }
-            return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
-        };
 
-        const setTheme = theme => {
-            if (theme === 'auto') {
-                document.documentElement.setAttribute('data-bs-theme', (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'));
-            } else {
-                document.documentElement.setAttribute('data-bs-theme', theme);
-            }
-        };
-
-        setTheme(getPreferredTheme());
-
-        const showActiveTheme = (theme, focus = false) => {
-            const themeSwitcher = document.querySelector('#bd-theme');
-            if (!themeSwitcher) {
-                return
-            }
-            const themeSwitcherText = document.querySelector('#bd-theme-text');
-            const activeThemeIcon = document.querySelector('.theme-icon-active use');
-            const btnToActive = document.querySelector(`[data-bs-theme-value="${theme}"]`);
-            const svgOfActiveBtn = btnToActive.querySelector('svg use').getAttribute('href');
-            document.querySelectorAll('[data-bs-theme-value]').forEach(element => {
-                element.classList.remove('active');
-                element.setAttribute('aria-pressed', 'false');
-            });
-            btnToActive.classList.add('active');
-            btnToActive.setAttribute('aria-pressed', 'true');
-            activeThemeIcon.setAttribute('href', svgOfActiveBtn);
-            const themeSwitcherLabel = `${themeSwitcherText.textContent} (${btnToActive.dataset.bsThemeValue})`;
-            themeSwitcher.setAttribute('aria-label', themeSwitcherLabel);
-            if (focus) {
-                themeSwitcher.focus();
-            }
-        };
-
-        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
-            const storedTheme = getStoredTheme();
-            if (storedTheme !== 'light' && storedTheme !== 'dark') {
-                setTheme(getPreferredTheme());
-            }
-        });
-
-        window.addEventListener('DOMContentLoaded', () => {
-            showActiveTheme(getPreferredTheme());
-            document.querySelectorAll('[data-bs-theme-value]').forEach(toggle => {
-                toggle.addEventListener('click', () => {
-                    const theme = toggle.getAttribute('data-bs-theme-value');
-                    setStoredTheme(theme);
-                    setTheme(theme);
-                    showActiveTheme(theme, true);
+            if (acceptBtn) {
+                alert.classList.remove('hidden');
+                acceptBtn.addEventListener('click', () => {
+                    createCookie(cookieName, 'yes', expiry, path);
+                    alert.classList.add('hidden');
                 });
-            });
+            }
         });
     })();
 
-    // Bootstrap 5 color mode switch button
+    // -----------------------------------------------------------------------------
+    //
+    // SETTLER THEME SWITCHER
+    // Licensed under MIT (https://github.com/kiriniy/settler/blob/master/LICENSE)
+    //
+    // -----------------------------------------------------------------------------
+    //
+    // This script provides dynamic theming functionality for websites,
+    // enabling seamless switching between light and dark modes.
+    // It supports automatic detection of user's preferred color scheme
+    // and persists selected theme using Local Storage. Designed primarily for
+    // use with Bootstrap and Bootstrap Icons but works independently too.
+    //
+    // Features:
+    //
+    //   - Light/Dark mode switching via button interaction.
+    //   - Automatic theme detection based on OS settings.
+    //   - Persistent storage of chosen theme across sessions.
+    //   - Icon updates reflecting current theme state.
+    //
+    // Optional dependencies:
+    //
+    //   - Bootstrap 5.3+
+    //   - Bootstrap Icons
+    //
+    // Default configuration:
+    //
+    //   - Theme attribute: data-bs-theme (HTML root element)
+    //   - Button selector: #themeSwitch (toggle button)
+    //   - Icon class: .bi (Bootstrap Icons)
+    //
+    // Usage:
+    //
+    //   <button id="themeSwitch">
+    //       <i class="bi bi-sun"></i>
+    //   </button>
+    //
+    // -----------------------------------------------------------------------------
 
-    document.getElementById('themeSwitch').addEventListener('click', () => {
-        if (document.documentElement.getAttribute('data-bs-theme') == 'dark') {
-            document.getElementById('themeSwitch').setAttribute('data-bs-theme-value', 'light');
-        } else {
-            document.getElementById('themeSwitch').setAttribute('data-bs-theme-value', 'dark');
+    (function() {
+     
+        const THEME_ATTR = 'data-bs-theme';
+        const STORAGE_KEY = 'theme';
+        const ICON_CLASS = '.bi';
+        const THEMES = {
+            LIGHT: 'light',
+            DARK: 'dark',
+            AUTO: 'auto'
+        };
+
+        const ICONS = {
+            LIGHT: 'bi-sun',
+            DARK: 'bi-moon'
+        };
+
+        const themeButton = document.getElementById('themeSwitch');
+        let iconElement = null;
+
+        if (themeButton) {
+            iconElement = themeButton.querySelector(`${ICON_CLASS}`);
         }
-    });
+
+        const getCurrentTheme = function() {
+            const saved = localStorage.getItem(STORAGE_KEY);
+            const systemIsDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+            if (saved === THEMES.LIGHT) return THEMES.LIGHT;
+            if (saved === THEMES.DARK) return THEMES.DARK;
+            return systemIsDark ? THEMES.DARK : THEMES.LIGHT;
+        };
+
+        const applyTheme = function(theme) {
+            let resolvedTheme = theme;
+
+            if (theme === THEMES.AUTO) {
+                resolvedTheme = window.matchMedia('(prefers-color-scheme: dark)').matches
+                    ? THEMES.DARK
+                    : THEMES.LIGHT;
+            }
+
+            document.documentElement.setAttribute(THEME_ATTR, resolvedTheme);
+        };
+
+        const updateIcon = function(theme) {
+            if (!iconElement) return;
+
+            const isDark = theme === THEMES.DARK || 
+                (theme === THEMES.AUTO && window.matchMedia('(prefers-color-scheme: dark)').matches);
+
+            iconElement.classList.remove(ICONS.LIGHT, ICONS.DARK);
+            iconElement.classList.add(isDark ? ICONS.LIGHT : ICONS.DARK);
+        };
+
+        const handleThemeToggle = function() {
+            const current = getCurrentTheme();
+            const newTheme = current === THEMES.DARK ? THEMES.LIGHT : THEMES.DARK;
+
+            localStorage.setItem(STORAGE_KEY, newTheme);
+            applyTheme(newTheme);
+            updateIcon(newTheme);
+        };
+
+        const handleSystemChange = function() {
+            if (!localStorage.getItem(STORAGE_KEY)) {
+                applyTheme(THEMES.AUTO);
+                updateIcon(THEMES.AUTO);
+            }
+        };
+
+        const init = function() {
+            if (!themeButton || !iconElement) {
+                console.warn('Theme switcher elements missing');
+                return;
+            }
+
+            const initialTheme = localStorage.getItem(STORAGE_KEY) || THEMES.AUTO;
+            applyTheme(initialTheme);
+            updateIcon(initialTheme);
+
+            themeButton.addEventListener('click', handleThemeToggle);
+            window.matchMedia('(prefers-color-scheme: dark)')
+                .addEventListener('change', handleSystemChange);
+        };
+
+        if (document.readyState === 'complete') {
+            init();
+        } else {
+            document.addEventListener('DOMContentLoaded', init);
+        }
+    })();
 
     // Executes a scripts if a system theme is dark
 
@@ -161,4 +247,4 @@
         console.log("We are on mobile!");
     }
 
-})();
+}));
