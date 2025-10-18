@@ -8,7 +8,7 @@
   </a>
 </p>
 
-# Settler
+# Settler v2 (beta)
 
 A blank PHP-based project template for not-quite-developers — when your future website is too complex for static HTML, but not complicated enough for a CMS and database.
 
@@ -31,11 +31,9 @@ If you're looking for **Lite** version: [https://github.com/kiriniy/settler-lite
 
 Are optional set of stylesheets, font files, and scripts.
 
-  - [jQuery](https://jquery.com) 3.x — fast, small, and feature-rich JavaScript library.
   - [Bootstrap](https://getbootstrap.com) 5.x — is a popular mobile first CSS/JS framework.
   - [Bootstrap Icons](https://icons.getbootstrap.com) 1.x — free, high quality, open source icon library.
   - [Animate.css (without class prefix)](https://animate.style) 4.x — is a library of ready-to-use, cross-browser animations.
-  - [Cookie Message](https://github.com/studio24/cookie-message/) — display the EU Cookie law message.
 
 **Template structure:**
 
@@ -54,6 +52,7 @@ dist/
 │  ├─ bs-grid.php    — bootstrap grid cheatsheet
 │  ├─ bs-theming.php – bootstrap components preview
 │  └─ info.php       – php's information
+│
 ├─ favicon.ico       - legacy browsers icon
 ├─ htaccess.txt      - inactive example config for apache
 ├─ humans.txt        - example file of site info
