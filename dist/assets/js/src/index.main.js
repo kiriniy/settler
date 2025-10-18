@@ -5,6 +5,8 @@
 import "main/managers/cookie-alerts";
 import "main/managers/themes-switch";
 
+import "main/detectors/if-browser";
 import "main/detectors/if-dark";
 import 'main/detectors/if-light';
 import "main/detectors/if-mobile";
+import "main/detectors/if-online";

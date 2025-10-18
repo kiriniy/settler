@@ -222,29 +222,108 @@
         }
     })();
 
-    // Executes a scripts if a system theme is dark
+    // -----------------------------------------------------------------------------
+    //
+    // This script checks the browser type.
+    // It uses the user agent string to detect the browser.
+    //
+    // Replace the console.log statement with your own logic
+    // to execute specific actions based on the browser type
+    // with Google Chrome as an example.
+    //
+    // -----------------------------------------------------------------------------
+
+    const deviceUserAgent$1 = navigator.userAgent.toLowerCase();
+
+    if (deviceUserAgent$1.includes('chrome')) {
+        console.log("Are we on Chrome? Yes!");
+    } else {
+        console.log("Are we on Chrome? No!");
+    }
+
+    // -----------------------------------------------------------------------------
+    //
+    // This script checks if the system and/or site theme is dark.
+    // It uses window.matchMedia to detect the system theme and localStorage
+    // or the 'data-bs-theme' attribute to determine the site theme.
+    //
+    // Replace the console.log statements with your own logic
+    // to execute specific actions when the theme is dark.
+    //
+    // -----------------------------------------------------------------------------
 
     const darkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const currentTheme$1 = localStorage.getItem('theme') || document.documentElement.getAttribute('data-bs-theme');
 
     if (darkTheme) {
         console.log('System theme is dark.');
     }
 
-    // Executes a scripts if a system theme is light
+    if (currentTheme$1 === 'dark') {
+        console.log('Site theme is dark.');
+    }
+
+    // -----------------------------------------------------------------------------
+    //
+    // This script checks if the system and/or site theme is light.
+    // It uses window.matchMedia to detect the system theme and localStorage
+    // or the 'data-bs-theme' attribute to determine the site theme.
+    //
+    // Replace the console.log statements with your own logic
+    // to execute specific actions when the theme is light.
+    //
+    // -----------------------------------------------------------------------------
 
     const lightTheme = window.matchMedia('(prefers-color-scheme: light)').matches;
+    const currentTheme = localStorage.getItem('theme') || document.documentElement.getAttribute('data-bs-theme');
 
     if (lightTheme) {
         console.log('System theme is light.');
     }
 
-    // Executes a scripts if on mobile device
+    if (currentTheme === 'light') {
+        console.log('Site theme is light.');
+    }
+
+    // -----------------------------------------------------------------------------
+    //
+    // This script checks if the device is a mobile device.
+    // It uses the user agent string to detect mobile devices.
+    //
+    // Replace the console.log statement with your own logic
+    // to execute specific actions when the device is mobile or
+    // specific actions when the device is NOT mobile.
+    //
+    // -----------------------------------------------------------------------------
 
     const deviceUserAgent = navigator.userAgent.toLowerCase();
     const mobileDevice = deviceUserAgent.match(/android|iphone|ipad|ipod/);
 
     if (mobileDevice) {
         console.log("We are on mobile!");
+    }
+
+    // IF NOT
+
+    if (!mobileDevice) {
+        console.log("We are not on mobile!");
+    }
+
+    // -----------------------------------------------------------------------------
+    //
+    // This script checks if the device is online.
+    // It uses the navigator.onLine property to detect the online status.
+    //
+    // Replace the console.log statement with your own logic
+    // to execute specific actions when the device is online or
+    // specific actions when the device is offline.
+    //
+    // -----------------------------------------------------------------------------
+
+    if (navigator.onLine) {
+        console.log("We are online!");
+    } else {
+        console.log("We are offline!");
     }
 
 }));
