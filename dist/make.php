@@ -18,8 +18,8 @@
       $page_canonical  = '';
       $page_head_attr  = '';
       $page_body_attr  = '';
-      
-      $page_alerts    = false;
+
+      $page_alerts     = false;
 
    // Static Site Generator
    // ------------------------------------
@@ -46,7 +46,7 @@
 
    // The script uses the function copy() to fetch and save the content. If any errors occur,
    // they are silently ignored due to the usage of the error control operator '@'.
-      
+
    // Just run this file after each site update.
 
       $successfulCopies = [];
