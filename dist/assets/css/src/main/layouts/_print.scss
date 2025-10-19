@@ -1,6 +1,8 @@
 
 @use '../presets' as *;
 
+// Default styles for printing
+
 @include for-print {
 
   @page {

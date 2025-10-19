@@ -1,6 +1,9 @@
 
 @use '../presets' as *;
 
+// By default 'no-js' is disabled.
+// Enable it if you don't plan to use <noscript> tag technique.
+
 @include for-noscript {
 
   .no-js { 
