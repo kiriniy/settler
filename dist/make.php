@@ -19,7 +19,7 @@
       $page_head_attr  = '';
       $page_body_attr  = '';
 
-      $page_alerts     = false;
+      $page_alerts     = true;
 
    // Static Site Generator
    // ------------------------------------
@@ -34,7 +34,7 @@
    // Provide list of php-pages of choice
 
       $files = [
-        'index.php',
+        'extras/blank.php',
         'path/if-any/index.php',
         'and/so/on/index.php'
       ];
@@ -74,7 +74,6 @@
   <head <?php echo $page_head_attr; ?>>
 
     <?php include $assets . 'inc/pages_head-meta.php';
-          include $assets . 'inc/pages_head-sharing.php';
           include $assets . 'inc/pages_head-resources.php';
           include $assets . 'inc/pages_head-noscript.php';
 
@@ -118,7 +117,7 @@
         <?php elseif ($base_env != 'dev'): ?>
 
         <div class="alert alert-warning animated fadeInUp" role="alert">
-          We aren't on [dev] environment! Oh, we are? In this case open and edit <span class="text-danger">site.php</span> at project root directory first.
+          Hold on! We aren't on [dev] environment! Oh, we are? In this case open and edit <span class="text-danger">site.php</span> at project root directory first.
         </div>
 
         <?php endif; ?>
