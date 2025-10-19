@@ -2141,9 +2141,19 @@
 
           <h2 class="mb-5">Shadows</h2>
 
-          <div class="shadow-sm p-5 mb-5 bg-body-tertiary rounded"><code>.shadow-sm</code></div>
-          <div class="shadow p-5 mb-5 bg-body-tertiary rounded"><code>.shadow</code></div>
-          <div class="shadow-lg p-5 mb-5 bg-body-tertiary rounded"><code>.shadow-lg</code></div>
+          <div class="row">
+            <div class="col-xl-4">
+              <div class="shadow-sm p-5 mb-5 bg-body-tertiary rounded"><code>.shadow-sm</code></div>
+            </div>
+
+            <div class="col-xl-4">
+              <div class="shadow p-5 mb-5 bg-body-tertiary rounded"><code>.shadow</code></div>
+            </div>
+
+            <div class="col-xl-4">
+              <div class="shadow-lg p-5 mb-5 bg-body-tertiary rounded"><code>.shadow-lg</code></div>
+            </div>
+          </div>
 
         </div>
       </section>
