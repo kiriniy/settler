@@ -12,7 +12,7 @@
 
       require $page_level . 'site.php';
 
-      // $page_charset    = '';
+   // $page_charset    = '';
       $page_csp        = '';
 
       $page_pretitle   = '';
@@ -23,9 +23,9 @@
       $page_autoformat = '';
       $page_canonical  = '';
 
-      // $page_html_attr  = '';
-      // $page_head_attr  = '';
-      // $page_body_attr  = '';
+   // $page_html_attr  = '';
+   // $page_head_attr  = '';
+   // $page_body_attr  = '';
 
       $page_alerts     = true;
 
