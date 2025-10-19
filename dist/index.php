@@ -67,7 +67,7 @@
 
     <script>
 
-      console.log( "Page is ready and we are on [<?php echo $base_env; ?>] environment!" );
+      console.log( "We are on [<?php echo $base_env; ?>] environment!" );
 
     </script>
 
