@@ -9,9 +9,9 @@
       $page_lang    = 'en';
       $page_title   = 'Forbidden';
       $page_desc    = '';
-      
+
       require $page_level . 'site.php';
-      
+
       $page_csp        = '';
       $page_robots     = '';
       $page_autoformat = '';

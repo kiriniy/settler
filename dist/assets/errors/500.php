@@ -9,9 +9,9 @@
       $page_lang    = 'en';
       $page_title   = 'Internal Server Error';
       $page_desc    = '';
-      
+
       require $page_level . 'site.php';
-      
+
       $page_csp        = '';
       $page_robots     = '';
       $page_autoformat = '';
