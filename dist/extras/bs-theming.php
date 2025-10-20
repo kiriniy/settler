@@ -221,48 +221,48 @@
           <h2>Colors</h2>
 
           <div class="row">
-            <div class="col-lg-7">
+            <div class="col-xl-7">
 
               <h3 class="mb-5 text-secondary">Backgrounds</h3>
 
               <div class="row g-2">
-                <div class="col-7"><div class="p-3 mb-2 bg-primary text-white">.bg-primary .text-white</div></div>
-                <div class="col-5"><div class="p-3 mb-2 text-bg-primary">.text-bg-primary</div></div>
+                <div class="col-md-7"><div class="p-3 bg-primary text-white">.bg-primary .text-white</div></div>
+                <div class="col-md-5"><div class="p-3 mb-2 text-bg-primary">.text-bg-primary</div></div>
               </div>
               <div class="p-3 mb-2 bg-primary-subtle text-emphasis-primary">.bg-primary-subtle .text-emphasis-primary</div>
               <div class="row g-2">
-                <div class="col-7"><div class="p-3 mb-2 bg-secondary text-white">.bg-secondary .text-white</div></div>
-                <div class="col-5"><div class="p-3 mb-2 text-bg-secondary">.text-bg-secondary</div></div>
+                <div class="col-md-7"><div class="p-3 bg-secondary text-white">.bg-secondary .text-white</div></div>
+                <div class="col-md-5"><div class="p-3 mb-2 text-bg-secondary">.text-bg-secondary</div></div>
               </div>
               <div class="p-3 mb-2 bg-secondary-subtle text-emphasis-secondary">.bg-secondary-subtle .text-emphasis-secondary</div>
               <div class="row g-2">
-                <div class="col-7"><div class="p-3 mb-2 bg-success text-white">.bg-success .text-white</div></div>
-                <div class="col-5"><div class="p-3 mb-2 text-bg-success">.text-bg-success</div></div>
+                <div class="col-md-7"><div class="p-3 bg-success text-white">.bg-success .text-white</div></div>
+                <div class="col-md-5"><div class="p-3 mb-2 text-bg-success">.text-bg-success</div></div>
               </div>
               <div class="p-3 mb-2 bg-success-subtle text-emphasis-success">.bg-success-subtle .text-emphasis-success</div>
               <div class="row g-2">
-                <div class="col-7"><div class="p-3 mb-2 bg-danger text-white">.bg-danger .text-white</div></div>
-                <div class="col-5"><div class="p-3 mb-2 text-bg-danger">.text-bg-danger</div></div>
+                <div class="col-md-7"><div class="p-3 bg-danger text-white">.bg-danger .text-white</div></div>
+                <div class="col-md-5"><div class="p-3 mb-2 text-bg-danger">.text-bg-danger</div></div>
               </div>
               <div class="p-3 mb-2 bg-danger-subtle text-emphasis-danger">.bg-danger-subtle .text-emphasis-danger</div>
               <div class="row g-2">
-                <div class="col-7"><div class="p-3 mb-2 bg-warning text-black">.bg-warning .text-black</div></div>
-                <div class="col-5"><div class="p-3 mb-2 text-bg-warning">.text-bg-warning</div></div>
+                <div class="col-md-7"><div class="p-3 bg-warning text-black">.bg-warning .text-black</div></div>
+                <div class="col-md-5"><div class="p-3 mb-2 text-bg-warning">.text-bg-warning</div></div>
               </div>
               <div class="p-3 mb-2 bg-warning-subtle text-emphasis-warning">.bg-warning-subtle .text-emphasis-warning</div>
               <div class="row g-2">
-                <div class="col-7"><div class="p-3 mb-2 bg-info text-black">.bg-info .text-black</div></div>
-                <div class="col-5"><div class="p-3 mb-2 text-bg-info">.text-bg-info</div></div>
+                <div class="col-md-7"><div class="p-3 bg-info text-black">.bg-info .text-black</div></div>
+                <div class="col-md-5"><div class="p-3 mb-2 text-bg-info">.text-bg-info</div></div>
               </div>
               <div class="p-3 mb-2 bg-info-subtle text-emphasis-info">.bg-info-subtle .text-emphasis-info</div>
               <div class="row g-2">
-                <div class="col-7"><div class="p-3 mb-2 bg-light text-black">.bg-light .text-black</div></div>
-                <div class="col-5"><div class="p-3 mb-2 text-bg-light">.text-bg-light</div></div>
+                <div class="col-md-7"><div class="p-3 bg-light text-black">.bg-light .text-black</div></div>
+                <div class="col-md-5"><div class="p-3 mb-2 text-bg-light">.text-bg-light</div></div>
               </div>
               <div class="p-3 mb-2 bg-light-subtle text-emphasis-light">.bg-light-subtle .text-emphasis-light</div>
               <div class="row g-2">
-                <div class="col-7"><div class="p-3 mb-2 bg-dark text-white">.bg-dark .text-white</div></div>
-                <div class="col-5"><div class="p-3 mb-2 text-bg-dark">.text-bg-dark</div></div>
+                <div class="col-md-7"><div class="p-3 bg-dark text-white">.bg-dark .text-white</div></div>
+                <div class="col-md-5"><div class="p-3 mb-2 text-bg-dark">.text-bg-dark</div></div>
               </div>
               <div class="p-3 mb-2 bg-dark-subtle text-emphasis-dark">.bg-dark-subtle .text-emphasis-dark</div>
               <div class="p-3 mb-2 bg-body-secondary">.bg-body-secondary</div>
@@ -273,7 +273,7 @@
               <div class="p-3 mb-2 bg-transparent text-body">.bg-transparent .text-body</div>
             </div>
 
-            <div class="col-lg-5">
+            <div class="col-xl-5">
 
               <h3 class="mb-5 text-secondary">With Gradient</h3>
 
@@ -301,62 +301,62 @@
               <div class="p-3 mb-2 bg-gradient bg-transparent text-body">.bg-transparent .bg-gradient .text-body</div>
             </div>
 
-            <div class="col-lg-7">
+            <div class="col-xl-7">
 
               <h3 class="my-5 text-secondary">Text & Links</h3>
 
-              <div class="row g-3">
-                <div class="col-7"><p class="p-3 border border-2 text-primary">.text-primary</p></div>
-                <div class="col-5"><p class="p-3 border border-2"><a href="#" class="link-primary">.link-primary</a></p></div>
+              <div class="row gx-3">
+                <div class="col-md-7"><p class="p-3 border border-2 text-primary">.text-primary</p></div>
+                <div class="col-md-5"><p class="p-3 border border-2"><a href="#" class="link-primary">.link-primary</a></p></div>
               </div>            
               <p class="p-3 border border-2 text-primary-emphasis">.text-primary-emphasis</p>
-              <div class="row g-3">
-                <div class="col-7"><p class="p-3 border border-2 text-secondary">.text-secondary</p></div>
-                <div class="col-5"><p class="p-3 border border-2"><a href="#" class="link-secondary">.link-secondary</a></p></div>
+              <div class="row gx-3">
+                <div class="col-md-7"><p class="p-3 border border-2 text-secondary">.text-secondary</p></div>
+                <div class="col-md-5"><p class="p-3 border border-2"><a href="#" class="link-secondary">.link-secondary</a></p></div>
               </div>
               <p class="p-3 border border-2 text-secondary-emphasis">.text-secondary-emphasis</p>
-              <div class="row g-3">
-                <div class="col-7"><p class="p-3 border border-2 text-success">.text-success</p></div>
-                <div class="col-5"><p class="p-3 border border-2"><a href="#" class="link-success">.link-success</a></p></div>
+              <div class="row gx-3">
+                <div class="col-md-7"><p class="p-3 border border-2 text-success">.text-success</p></div>
+                <div class="col-md-5"><p class="p-3 border border-2"><a href="#" class="link-success">.link-success</a></p></div>
               </div>
               <p class="p-3 border border-2 text-success-emphasis">.text-success-emphasis</p>
-              <div class="row g-3">
-                <div class="col-7"><p class="p-3 border border-2 text-danger">.text-danger</p></div>
-                <div class="col-5"><p class="p-3 border border-2"><a href="#" class="link-danger">.link-danger</a></p></div>
+              <div class="row gx-3">
+                <div class="col-md-7"><p class="p-3 border border-2 text-danger">.text-danger</p></div>
+                <div class="col-md-5"><p class="p-3 border border-2"><a href="#" class="link-danger">.link-danger</a></p></div>
               </div>
               <p class="p-3 border border-2 text-danger-emphasis">.text-danger-emphasis</p>
-              <div class="row g-3">
-                <div class="col-7"><p class="p-3 border border-2 text-warning">.text-warning</p></div>
-                <div class="col-5"><p class="p-3 border border-2"><a href="#" class="link-warning">.link-warning</a></p></div>
+              <div class="row gx-3">
+                <div class="col-md-7"><p class="p-3 border border-2 text-warning">.text-warning</p></div>
+                <div class="col-md-5"><p class="p-3 border border-2"><a href="#" class="link-warning">.link-warning</a></p></div>
               </div>
               <p class="p-3 border border-2 text-warning-emphasis">.text-warning-emphasis</p>
-              <div class="row g-3">
-                <div class="col-7"><p class="p-3 border border-2 text-info">.text-info</p></div>
-                <div class="col-5"><p class="p-3 border border-2"><a href="#" class="link-info">.link-info</a></p></div>
+              <div class="row gx-3">
+                <div class="col-md-7"><p class="p-3 border border-2 text-info">.text-info</p></div>
+                <div class="col-md-5"><p class="p-3 border border-2"><a href="#" class="link-info">.link-info</a></p></div>
               </div>
               <p class="p-3 border border-2 text-info-emphasis">.text-info-emphasis</p>
-              <div class="row g-3">
-                <div class="col-7"><p class="p-3 border border-2 text-light">.text-light</p></div>
-                <div class="col-5"><p class="p-3 border border-2"><a href="#" class="link-light">.link-light</a></p></div>
+              <div class="row gx-3">
+                <div class="col-md-7"><p class="p-3 border border-2 text-light">.text-light</p></div>
+                <div class="col-md-5"><p class="p-3 border border-2"><a href="#" class="link-light">.link-light</a></p></div>
               </div>
               <p class="p-3 border border-2 text-light-emphasis">.text-light-emphasis</p>
-              <div class="row g-3">
-                <div class="col-7"><p class="p-3 border border-2 text-dark">.text-dark</p></div>
-                <div class="col-5"><p class="p-3 border border-2"><a href="#" class="link-dark">.link-dark</a></p></div>
+              <div class="row gx-3">
+                <div class="col-md-7"><p class="p-3 border border-2 text-dark">.text-dark</p></div>
+                <div class="col-md-5"><p class="p-3 border border-2"><a href="#" class="link-dark">.link-dark</a></p></div>
               </div>
               <p class="p-3 border border-2 text-dark-emphasis">.text-dark-emphasis</p>
               <p class="p-3 border border-2 text-black">.text-black</p>
               <p class="p-3 border border-2 text-white">.text-white</p>
               <p class="p-3 border border-2 text-body">.text-body</p>
-              <div class="row g-3">
-                <div class="col-7"><p class="p-3 border border-2 text-body-emphasis">.text-body-emphasis</p></div>
-                <div class="col-5"><p class="p-3 border border-2"><a href="#" class="link-body-emphasis">.link-body-emphasis</a></p></div>
+              <div class="row gx-3">
+                <div class="col-md-7"><p class="p-3 border border-2 text-body-emphasis">.text-body-emphasis</p></div>
+                <div class="col-md-5"><p class="p-3 border border-2"><a href="#" class="link-body-emphasis">.link-body-emphasis</a></p></div>
               </div>
               <p class="p-3 border border-2 text-body-secondary">.text-body-secondary</p>
               <p class="p-3 mb-5 border border-2 text-body-tertiary">.text-body-tertiary</p>
             </div>
 
-            <div class="col-lg-5">
+            <div class="col-xl-5">
 
               <h3 class="my-5 text-secondary">Borders</h3>
 
@@ -1116,7 +1116,7 @@
               </div>
             </div>
 
-            <div class="col-7 col-lg-3">
+            <div class="col-6 col-lg-3">
 
               <h3 class="my-5 text-secondary">Vertical</h3>
 
@@ -1137,7 +1137,7 @@
               </div>
             </div>
 
-            <div class="col-5 col-lg-3">
+            <div class="col-6 col-lg-3">
 
               <h3 class="my-5 text-secondary">Dropdowns</h3>
 
@@ -1951,8 +1951,8 @@
                     <span class="placeholder col-6"></span>
                   </h5>
                   <p class="card-text placeholder-glow">
-                    <span class="placeholder col-7"></span>
-                    <span class="placeholder col-4"></span>
+                    <span class="placeholder col-8"></span>
+                    <span class="placeholder col-3"></span>
                     <span class="placeholder col-4"></span>
                     <span class="placeholder col-6"></span>
                     <span class="placeholder col-8"></span>
