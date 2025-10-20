@@ -19,8 +19,6 @@
       $page_head_attr  = '';
       $page_body_attr  = '';
 
-      $page_alerts     = true;
-
    // Static Site Generator
    // ------------------------------------
    // By default at 'dev' environment only
@@ -75,9 +73,7 @@
 
     <?php include $assets . 'inc/pages_head-meta.php';
           include $assets . 'inc/pages_head-resources.php';
-          include $assets . 'inc/pages_head-noscript.php';
-
-          ?>
+          include $assets . 'inc/pages_head-noscript.php'; ?>
 
   </head>
 

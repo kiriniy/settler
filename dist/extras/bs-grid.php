@@ -1,10 +1,10 @@
 
-<?php $page_id         = '';
-      $page_ver        = '';
+<?php $page_id         = 'bs-grid';
+      $page_ver        = '?v=' . filemtime(__FILE__);
       $page_type       = '';
       $page_class      = '';
       $page_level      = '../';
-      $page_path       = '';
+      $page_path       = 'extras/';
 
       $page_lang       = 'en';
       $page_title      = 'Bootstrap Grid System';
@@ -30,9 +30,7 @@
 
     <?php include $assets . 'inc/pages_head-meta.php';
           include $assets . 'inc/pages_head-resources.php';
-          include $assets . 'inc/pages_head-noscript.php';
-
-          ?>
+          include $assets . 'inc/pages_head-noscript.php'; ?>
 
     <style>
 
