@@ -38,7 +38,7 @@ Are optional set of stylesheets, font files, and scripts.
 **Template structure:**
 
   ```text
-dist/
+settler/
 ├─ assets/
 │  ├─ css/             — stylesheets and source files
 │  ├─ errors/          — server errors pages

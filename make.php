@@ -27,7 +27,7 @@
 
    // Provide local server full URL (with slash)
 
-      $localhost_url = 'http://localhost:8888/project_settler/dist/';
+      $localhost_url = 'http://localhost:8888/project_settler/';
       
    // Provide list of php-pages of choice
 
