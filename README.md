@@ -38,31 +38,40 @@ At some point, we were overwhelmed by frameworks, building tools, and dependency
 <table style="width: 100%; border-collapse: collapse; margin: 0 auto;">
   <thead>
     <tr>
-      <th  style="text-align: center; padding: 8px;"><img width="441" height="1">Language</th>
-      <th  style="text-align: center; padding: 8px;"><img width="441" height="1">Level</th>
-      <th  style="text-align: center; padding: 8px;"><img width="441" height="1">You should know</th>
+      <th width="20%" align="center">
+        <img width="441" height="1">
+        <p>Technology</p>
+      </th>
+      <th width="20%" align="center">
+        <img width="441" height="1">
+        <p>Level</p>
+      </th>
+      <th width="60%" align="center">
+        <img width="441" height="1">
+        <p>Description</p>
+      </th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: center; padding: 8px;"><strong>HTML</strong></td>
-      <td style="text-align: center; padding: 8px;">🟢🟢🟢🟢🟢</td>
-      <td style="text-align: left; padding: 8px;">Comfortable editing structure and tags.</td>
+      <td><strong>HTML</strong></td>
+      <td>🟢🟢🟢🟢🟢</td>
+      <td>Comfortable editing structure and tags.</td>
     </tr>
     <tr>
-      <td style="text-align: center; padding: 8px;"><strong>PHP</strong></td>
-      <td style="text-align: center; padding: 8px;">🟢🟢⚪️⚪️⚪️</td>
-      <td style="text-align: left; padding: 8px;">What a variable is and how <code>include()</code> works.</td>
+      <td><strong>PHP</strong></td>
+      <td>🟢🟢⚪️⚪️⚪️</td>
+      <td>What a variable is and how <code>include()</code> works.</td>
     </tr>
     <tr>
-      <td style="text-align: center; padding: 8px;"><strong>CSS</strong></td>
-      <td style="text-align: center; padding: 8px;">🟢🟢⚪️⚪️⚪️</td>
-      <td style="text-align: left; padding: 8px;">How class names work — Bootstrap does the rest.</td>
+      <td><strong>CSS</strong></td>
+      <td>🟢🟢⚪️⚪️⚪️</td>
+      <td>How class names work — Bootstrap does the rest.</td>
     </tr>
     <tr>
-      <td style="text-align: center; padding: 8px;"><strong>JS</strong></td>
-      <td style="text-align: center; padding: 8px;">🟢🟢⚪️⚪️⚪️</td>
-      <td style="text-align: left; padding: 8px;">The included scripts are self-contained.</td>
+      <td><strong>JS</strong></td>
+      <td>🟢🟢⚪️⚪️⚪️</td>
+      <td>The included scripts are self-contained.</td>
     </tr>
   </tbody>
 </table>
