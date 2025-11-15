@@ -38,9 +38,9 @@ At some point, we were overwhelmed by frameworks, building tools, and dependency
 <table style="width: 100%; border-collapse: collapse; margin: 0 auto;">
   <thead>
     <tr>
-      <th  width="600px" style="text-align: center; padding: 8px;">Language</th>
-      <th  width="350px" style="text-align: center; padding: 8px;">Level</th>
-      <th  width="350px" style="text-align: center; padding: 8px;">You should know</th>
+      <th  width="20%" style="text-align: center; padding: 8px;">Language</th>
+      <th  width="20%" style="text-align: center; padding: 8px;">Level</th>
+      <th  width="60%" style="text-align: center; padding: 8px;">You should know</th>
     </tr>
   </thead>
   <tbody>
