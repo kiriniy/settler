@@ -34,10 +34,14 @@ At some point, we were overwhelmed by frameworks, building tools, and dependency
  - Graphic editor for icons, thumbnails etc.
 
 ### Skills
- - **HTML** — 10/10: Well enough to edit a page, understand tags, and structure content.
- - **PHP** — 2-4/10: At least to understand what a variable like `$page_title = 'My Site';` means.
- - **CSS** — 2-6/10: Just enough to know that `class="container"` does something via Bootstrap.
- - **JS** — 2-10/10: The included scripts (theme toggle, alerts) are self-contained.
+ - **HTML**:  🟢🟢🟢🟢🟢
+   Well enough to edit a page, understand tags, and structure content.
+ - **PHP**:   🟢🟢⚪️⚪️⚪️
+   At least to understand what a variable like `$page_title = 'My Site';` means.
+ - **CSS**:   🟢🟢⚪️⚪️⚪️
+   Just enough to know that `class="container"` does something via Bootstrap.
+ - **JS**:    🟢🟢⚪️⚪️⚪️
+   The included scripts (theme toggle, alerts) are self-contained.
 
 ## Getting started
  - Download [latest release](https://github.com/kiriniy/settler/releases/latest) and unzip it on your local or remote server.
