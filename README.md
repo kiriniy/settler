@@ -70,7 +70,7 @@ At some point, we were overwhelmed by frameworks, building tools, and dependency
     </tr>
     <tr>
       <td><strong>JS</strong></td>
-      <td>🟢⚪️⚪️⚪️⚪️⚪️</td>
+      <td>🟡⚪️⚪️⚪️⚪️⚪️</td>
       <td>The included scripts are self-contained.</td>
     </tr>
   </tbody>
