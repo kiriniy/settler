@@ -35,9 +35,7 @@ At some point, we were overwhelmed by frameworks, building tools, and dependency
 
 ### Skills
 
-<div align="center" style="margin: 20px 0;">
-
-<table style="width: 100%; max-width: 600px; border-collapse: collapse; margin: 0 auto;">
+<table style="width: 100%; border-collapse: collapse; margin: 0 auto;">
   <thead>
     <tr>
       <th style="text-align: center; padding: 8px;">Language</th>
@@ -68,8 +66,6 @@ At some point, we were overwhelmed by frameworks, building tools, and dependency
     </tr>
   </tbody>
 </table>
-
-</div>
 
 ## Getting started
  - Download [latest release](https://github.com/kiriniy/settler/releases/latest) and unzip it on your local or remote server.
