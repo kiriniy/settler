@@ -42,11 +42,11 @@ At some point, we were overwhelmed by frameworks, building tools, and dependency
         <img width="441" height="1">
         <p>Technology</p>
       </th>
-      <th width="20%">
+      <th width="15%">
         <img width="441" height="1">
         <p>Level</p>
       </th>
-      <th width="60%">
+      <th width="65%">
         <img width="441" height="1">
         <p>Description</p>
       </th>
@@ -56,17 +56,17 @@ At some point, we were overwhelmed by frameworks, building tools, and dependency
     <tr>
       <td><strong>HTML</strong></td>
       <td>🟢🟢🟢🟢🟢🟢</td>
-      <td>Comfortable editing structure and tags.</td>
+      <td>Well enough to edit a page, understand tags, and structure content.</td>
     </tr>
     <tr>
       <td><strong>PHP</strong></td>
       <td>🟢🟢⚪️⚪️⚪️⚪️</td>
-      <td>What a variable is and how <code>include()</code> works.</td>
+      <td>At least to understand what a variable is and how <code>include()</code> works.</td>
     </tr>
     <tr>
       <td><strong>CSS</strong></td>
       <td>🟢⚪️⚪️⚪️⚪️⚪️</td>
-      <td>How class names work — Bootstrap does the rest.</td>
+      <td>To know how class names work — Bootstrap does the rest.</td>
     </tr>
     <tr>
       <td><strong>JS</strong></td>
