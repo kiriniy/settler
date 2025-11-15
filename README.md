@@ -56,12 +56,12 @@ At some point, we were overwhelmed by frameworks, building tools, and dependency
     <tr>
       <td><strong>HTML</strong></td>
       <td>🟢🟢🟢🟢🟢🟢</td>
-      <td>Well enough to edit a page, understand tags, and structure content.</td>
+      <td>Well enough to edit a page, tags, and structure content.</td>
     </tr>
     <tr>
       <td><strong>PHP</strong></td>
       <td>🟢🟢⚪️⚪️⚪️⚪️</td>
-      <td>At least to understand what a variable is and how <code>include()</code> works.</td>
+      <td>To know what a variable is and how <code>include()</code> works.</td>
     </tr>
     <tr>
       <td><strong>CSS</strong></td>
