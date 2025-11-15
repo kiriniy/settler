@@ -39,15 +39,12 @@ At some point, we were overwhelmed by frameworks, building tools, and dependency
   <thead>
     <tr>
       <th width="20%">
-        <img width="441" height="1">
         <p>Technology</p>
       </th>
       <th width="20%">
-        <img width="441" height="1">
         <p>Level</p>
       </th>
       <th width="60%">
-        <img width="441" height="1">
         <p>Description</p>
       </th>
     </tr>
