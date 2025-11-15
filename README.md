@@ -35,7 +35,7 @@ At some point, we were overwhelmed by frameworks, building tools, and dependency
 
 ### Minimal skills
 
-<table style="width: 100%; border-collapse: collapse; margin: 0 auto;">
+<table>
   <thead>
     <tr>
       <th width="20%">
