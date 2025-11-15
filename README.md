@@ -33,7 +33,7 @@ At some point, we were overwhelmed by frameworks, building tools, and dependency
  - SASS compiler for css-source files.
  - Graphic editor for icons, thumbnails etc.
 
-### Skills
+### Minimal skills
 
 <table style="width: 100%; border-collapse: collapse; margin: 0 auto;">
   <thead>
@@ -42,11 +42,11 @@ At some point, we were overwhelmed by frameworks, building tools, and dependency
         <img width="441" height="1">
         <p>Technology</p>
       </th>
-      <th width="20%" align="center">
+      <th width="30%" align="center">
         <img width="441" height="1">
         <p>Level</p>
       </th>
-      <th width="60%" align="center">
+      <th width="50%" align="center">
         <img width="441" height="1">
         <p>Description</p>
       </th>
@@ -55,22 +55,22 @@ At some point, we were overwhelmed by frameworks, building tools, and dependency
   <tbody>
     <tr>
       <td><strong>HTML</strong></td>
-      <td>🟢🟢🟢🟢🟢</td>
+      <td>🟢🟢🟢🟢🟢🟢</td>
       <td>Comfortable editing structure and tags.</td>
     </tr>
     <tr>
       <td><strong>PHP</strong></td>
-      <td>🟢🟢⚪️⚪️⚪️</td>
+      <td>🟢🟢⚪️⚪️⚪️⚪️</td>
       <td>What a variable is and how <code>include()</code> works.</td>
     </tr>
     <tr>
       <td><strong>CSS</strong></td>
-      <td>🟢🟢⚪️⚪️⚪️</td>
+      <td>🟢⚪️⚪️⚪️⚪️⚪️</td>
       <td>How class names work — Bootstrap does the rest.</td>
     </tr>
     <tr>
       <td><strong>JS</strong></td>
-      <td>🟢🟢⚪️⚪️⚪️</td>
+      <td>🟢⚪️⚪️⚪️⚪️⚪️</td>
       <td>The included scripts are self-contained.</td>
     </tr>
   </tbody>
