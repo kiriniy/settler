@@ -86,7 +86,6 @@ At some point, we were overwhelmed by frameworks, building tools, and dependency
  - All files of the standard website with examples.
  - Meta tags and markup for the `head` section.
  - Default icons and sharing images include their size or format to see where each is used.
- - Static site generation. Deploy your php website to a non-php hosting.
  - Print/NO-print/NO-scripts styles for various website use cases.
  - JS detectors templates for various website use cases.
  - CSP (Content Security Policy) ready via `<meta>` tag.  
