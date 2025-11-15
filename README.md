@@ -38,15 +38,9 @@ At some point, we were overwhelmed by frameworks, building tools, and dependency
 <table>
   <thead>
     <tr>
-      <th width="20%">
-        <p>Technology</p>
-      </th>
-      <th width="20%">
-        <p>Level</p>
-      </th>
-      <th width="60%">
-        <p>Description</p>
-      </th>
+      <th><p>Technology</p></th>
+      <th><p>Level</p></th>
+      <th><p>Description</p></th>
     </tr>
   </thead>
   <tbody>
