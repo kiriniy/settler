@@ -85,7 +85,6 @@ At some point, we were overwhelmed by frameworks, building tools, and dependency
 
  - All files of the standard website with examples.
  - Meta tags and markup for the `head` section.
- - Static site generation. Deploy your php website to a non-php hosting.
  - Default icons and sharing images include their size or format to see where each is used.
  - Static site generation. Deploy your php website to a non-php hosting.
  - Print/NO-print/NO-scripts styles for various website use cases.
@@ -95,6 +94,7 @@ At some point, we were overwhelmed by frameworks, building tools, and dependency
  - Dark/light mode toggle build-in with auto-detects and remembers of choice.
  - Cookie-based alerts build-in. All controlled via HTML attributes.
  - The `addTime()` cache-busting function for static files.
+ - Static site generation. Deploy your php website to a non-php hosting.
 
 **Are optional set of stylesheets, font files, and scripts:**
 
