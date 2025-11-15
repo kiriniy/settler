@@ -14,8 +14,6 @@ A blank PHP-based project template for not-quite-developers — when your future
 
 If you're looking for **Lite** version: [https://github.com/kiriniy/settler-lite](https://github.com/kiriniy/settler-lite)
 
----
-
 ## Philosophy
 At some point, we were overwhelmed by frameworks, building tools, and dependency trees. However, most websites don't need React, Node.js, Docker, Webpack, or 100 dependencies in json-configs to get the job done. Web development has become overly complicated due to the assumption that everyone needs the same tools as large corporations, even for a simple five-page website.
 
@@ -37,9 +35,9 @@ At some point, we were overwhelmed by frameworks, building tools, and dependency
 
 ### Skills
  - **HTML** — 10/10: Well enough to edit a page, understand tags, and structure content.
- - **PHP** - 2-4/10: At least to understand what a variable like `$page_title = 'My Site';` means.
- - **CSS** - 2-6/10: Just enough to know that `class="container"` does something via Bootstrap.
- - **JS** - 2-10/10: The included scripts (theme toggle, alerts) are self-contained.
+ - **PHP** — 2-4/10: At least to understand what a variable like `$page_title = 'My Site';` means.
+ - **CSS** — 2-6/10: Just enough to know that `class="container"` does something via Bootstrap.
+ - **JS** — 2-10/10: The included scripts (theme toggle, alerts) are self-contained.
 
 ## Getting started
  - Download [latest release](https://github.com/kiriniy/settler/releases/latest) and unzip it on your local or remote server.
