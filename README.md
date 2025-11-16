@@ -15,7 +15,7 @@ A blank PHP-based project template for not-quite-developers — when your future
 If you're looking for **Lite** version: [https://github.com/kiriniy/settler-lite](https://github.com/kiriniy/settler-lite)
 
 ## Philosophy
-At some point, we were overwhelmed by frameworks, building tools, and dependency trees. However, most websites don't need React, Node.js, Docker, Webpack, or 100 dependencies in json-configs to get the job done. Web development has become overly complicated due to the assumption that everyone needs the same tools as large corporations, even for a simple five-page website.
+At some point, we were overwhelmed by frameworks, building tools, and dependency trees. However, most websites don't need React, Node.js, Docker, Webpack, or dozens of dependencies in json-configs to get the job done. Web development has become overly complicated due to the assumption that everyone needs the same tools as large corporations, even for a simple five-page website.
 
 ### For whom?
  - **Novice devs** who wants to learn PHP without getting lost in Laravel.
@@ -40,28 +40,28 @@ At some point, we were overwhelmed by frameworks, building tools, and dependency
     <tr>
       <th><p>Technology</p></th>
       <th><p>Level</p></th>
-      <th><p>Description</p></th>
+      <th><p>Comment</p></th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td><strong>HTML</strong></td>
-      <td>🟢🟢🟢🟢🟢🟢</td>
+      <td align="center">10 / 10</td>
       <td>Well enough to edit a page, tags, and structure content.</td>
     </tr>
     <tr>
       <td><strong>PHP</strong></td>
-      <td>🟢🟢⚪️⚪️⚪️⚪️</td>
+      <td align="center">2 / 10</td>
       <td>To know what a variable is and how <code>include()</code> works.</td>
     </tr>
     <tr>
       <td><strong>CSS</strong></td>
-      <td>🟢⚪️⚪️⚪️⚪️⚪️</td>
+      <td align="center">2 / 10</td>
       <td>To know how class names work — Bootstrap does the rest.</td>
     </tr>
     <tr>
       <td><strong>JS</strong></td>
-      <td>🟡⚪️⚪️⚪️⚪️⚪️</td>
+      <td align="center">1 / 10</td>
       <td>The included scripts are self-contained.</td>
     </tr>
   </tbody>
