@@ -87,7 +87,7 @@
   $sharing_x_img_alt    = '';
   
   $sharing_og_type      = 'website';
-  $sharing_og_locale    = 'ru_RU';
+  $sharing_og_locale    = $page_lang;
   $sharing_og_img       = $base_url . 'assets/img/sharing/1200x630_default.jpg';
   $sharing_og_img_alt   = '';
   $sharing_og_img_w     = '1200';
