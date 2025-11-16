@@ -46,22 +46,22 @@ At some point, we were overwhelmed by frameworks, building tools, and dependency
   <tbody>
     <tr>
       <td><strong>HTML</strong></td>
-      <td align="center">10&nbsp;/&nbsp;10</td>
+      <td align="center"><code>10&nbsp;/&nbsp;10</code></td>
       <td>Well enough to edit a page, tags, and structure content.</td>
     </tr>
     <tr>
       <td><strong>PHP</strong></td>
-      <td align="center">2/10</td>
+      <td align="center"><code>2&nbsp;/&nbsp;10</code></td>
       <td>To know what a variable is and how <code>include()</code> works.</td>
     </tr>
     <tr>
       <td><strong>CSS</strong></td>
-      <td align="center">2/10</td>
+      <td align="center"><code>2&nbsp;/&nbsp;10</code></td>
       <td>To know how class names work — Bootstrap does the rest.</td>
     </tr>
     <tr>
       <td><strong>JS</strong></td>
-      <td align="center">1/10</td>
+      <td align="center"><code>1&nbsp;/&nbsp;10</code></td>
       <td>The included scripts are self-contained.</td>
     </tr>
   </tbody>
