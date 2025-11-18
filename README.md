@@ -6,6 +6,8 @@
       <img src="https://kiriniy.github.io/settler/assets/img/settler-repo-logo.png" alt="Settler Logotype" width="200" height="200">
     </picture>
   </a>
+  <img src="https://img.shields.io/badge/HTML-e34c26?style=flat&logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white">
 </p>
 
 # Settler
@@ -15,20 +17,23 @@ A blank PHP-based project template for not-quite-developers — when your future
 If you're looking for **Lite** version: [https://github.com/kiriniy/settler-lite](https://github.com/kiriniy/settler-lite)
 
 ## Philosophy
-At some point, we were overwhelmed by frameworks, building tools, and dependency trees. However, most websites don't need React, Node.js, Docker, Webpack, or dozens of dependencies in json-configs to get the job done. Web development has become overly complicated due to the assumption that everyone needs the same tools as large corporations, even for a simple five-page website.
+At some point, we were overwhelmed by frameworks, building tools, and dependency trees. However, most websites don't need React, Node.js, Docker, Webpack, or dozens of dependencies in json-configs to get the job done. Web development has become overly complicated due to the assumption that everyone needs the same tools as large corporations, even for a five-page website or landing page.
+
+Settler is designed for simple websites with a few to hundreds of pages. These websites are managed by one person and do not require an admin panel, user profiles, or frequent updates. It is great for sharing hosting, which is inexpensive and powers millions of websites.
 
 ### For whom?
- - **Novice devs** who wants to learn PHP without getting lost in Laravel.
- - **Old-school devs** who still use `include()` as a design pattern.
- - **Small businesses** that just need a simple website, not a tech stack.
- - **Freelancers** who are looking for a way to quickly build client websites.
+ - **Novice devs** who need a dead-simple way to deploy to php-less hosting as pure HTML.
+ - **Old-school devs** who still use `include()` as a design pattern and are fine with it.
+ - **Not-quite devs** that just need a simple website, not a tech stack.
+ - **Small businesses** that use shared hosting services with Apache and PHP.
+ - **Freelancers** who are looking for a way to deliver a working site in hours, not days.
  - **Anyone** who wants to control every page and every line on it.
 
 ## Requirements
  - Local (MAMP, WAMP, XAMPP etc) or remote HTTP server with PHP.
+ - Code or Text editor.
 
 ### Optional
- - Code or Text editor.
  - JS bundler for js-source files.
  - SASS compiler for css-source files.
  - Graphic editor for icons, thumbnails etc.
