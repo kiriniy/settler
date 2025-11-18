@@ -131,15 +131,11 @@ settler/
 
 ## Contributing
 
-Contributions are welcome, especially for improving documentation, fixing typos or broken links, translations of comments or docs.
-
-Please open an issue first to discuss your idea, so we can keep Settler focused on simplicity. This is a minimal template — not a framework. We won’t add complex features or dependencies.
+Contributions are welcome, especially for improving documentation, fixing typos or broken links, translations of comments or docs. Please open an Issue first to discuss your idea, so we can keep Settler focused on simplicity without complex features or dependencies.
 
 ## Security
 
-Settler is a static-first template with no database, user input, or authentication. The main security feature is optional CSP via `<meta>` tag.
-
-If you find a vulnerability in the provided code, please report it via GitHub Issues.
+Settler is a static-first template with no database, user input, or authentication. The main security feature is optional CSP via `<meta>` tag. If you find a vulnerability in the provided code, please report it via GitHub Issues.
 
 ## License
 
