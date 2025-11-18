@@ -8,14 +8,6 @@
   </a>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/HTML-e34c26?style=flat&logo=html5&logoColor=white">
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white">
-  <img src="https://img.shields.io/badge/CSS-563d7c?&style=flat&logo=css3&logoColor=white">
-  <img src="https://img.shields.io/badge/Sass-CC6699?style=flat&logo=sass&logoColor=white">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black">
-</p>
-
 # Settler
 
 A blank PHP-based project template for not-quite-developers — when your future website is too complex for static HTML, but not complicated enough for a CMS and database.
@@ -108,18 +100,18 @@ Settler is designed for simple websites with a few to hundreds of pages. These w
   ```text
 settler/
 ├─ assets/
-│  ├─ css/             — stylesheets and source files
-│  ├─ errors/          — server errors pages
-│  ├─ fonts/           — icon library files
-│  ├─ img/             — images and icons
-│  ├─ inc/             — php include files
-│  └─ js/              — scripts and source files
+│  ├─ css/             - stylesheets and source files
+│  ├─ errors/          - server errors pages
+│  ├─ fonts/           - icon library files
+│  ├─ img/             - images and icons
+│  ├─ inc/             - php include files
+│  └─ js/              - scripts and source files
 ├─ extras/
-│  ├─ blank.html       — blank html-template
-│  ├─ blank.php        — blank php-template
-│  ├─ bs-grid.php      — bootstrap grid cheatsheet
-│  ├─ bs-theming.php   – bootstrap components preview
-│  └─ info.php         – php's information
+│  ├─ blank.html       - blank html-template
+│  ├─ blank.php        - blank php-template
+│  ├─ bs-grid.php      - bootstrap grid cheatsheet
+│  ├─ bs-theming.php   - bootstrap components preview
+│  └─ info.php         - php's information
 │
 ├─ favicon.ico         - legacy browsers icon
 ├─ htaccess.txt        - inactive apache example config
