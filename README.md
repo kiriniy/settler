@@ -15,11 +15,13 @@ A blank PHP-based project template for not-quite-developers — when your future
 If you're looking for **Lite** version: [https://github.com/kiriniy/settler-lite](https://github.com/kiriniy/settler-lite)
 
 ## Philosophy
+
 At some point, we were overwhelmed by frameworks, building tools, and dependency trees. However, most websites don't need React, Node.js, Docker, Webpack, or dozens of dependencies in json-configs to get the job done. Web development has become overly complicated due to the assumption that everyone needs the same tools as large corporations, even for a five-page website or landing page.
 
 Settler is designed for simple websites with a few to hundreds of pages. These websites are managed by one person and do not require an admin panel, user profiles, or frequent updates. It is great for sharing hosting, which is inexpensive and powers millions of websites.
 
 ### For whom?
+
  - **Novice devs** who need a dead-simple way to deploy to php-less hosting as pure HTML.
  - **Old-school devs** who still use `include()` as a design pattern and are fine with it.
  - **Not-quite devs** that just need a simple website, not a tech stack.
@@ -28,10 +30,12 @@ Settler is designed for simple websites with a few to hundreds of pages. These w
  - **Anyone** who wants to control every page and every line on it.
 
 ## Requirements
+
  - Local (MAMP, WAMP, XAMPP etc) or remote HTTP server with PHP.
  - Code or Text editor.
 
 ### Optional
+
  - JS bundler for js-source files.
  - SASS compiler for css-source files.
  - Graphic editor for icons, thumbnails etc.
@@ -49,7 +53,7 @@ Settler is designed for simple websites with a few to hundreds of pages. These w
   <tbody>
     <tr>
       <td><strong>HTML</strong></td>
-      <td align="center"><code>10&nbsp;/&nbsp;10</code></td>
+      <td align="center"><code>8&nbsp;/&nbsp;10</code></td>
       <td>Well enough to edit a page, tags, and structure content.</td>
     </tr>
     <tr>
@@ -71,6 +75,7 @@ Settler is designed for simple websites with a few to hundreds of pages. These w
 </table>
 
 ## Getting started
+
  - Download [latest release](https://github.com/kiriniy/settler/releases/latest) and unzip it on your local or remote server.
  - Open 'site.php' at root and edit the default variables.
  - Done! You're ready to write some code...
@@ -123,6 +128,18 @@ settler/
 ├─ site.webmanifest    - pwa metadata
 └─ sitemap.xml         - website indexing map
   ```
+
+## Contributing
+
+Contributions are welcome, especially for improving documentation, fixing typos or broken links, translations of comments or docs.
+
+Please open an issue first to discuss your idea, so we can keep Settler focused on simplicity. This is a minimal template — not a framework. We won’t add complex features or dependencies.
+
+## Security
+
+Settler is a static-first template with no database, user input, or authentication. The main security feature is optional CSP via `<meta>` tag.
+
+If you find a vulnerability in the provided code, please report it via GitHub Issues.
 
 ## License
 
