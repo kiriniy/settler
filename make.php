@@ -109,7 +109,7 @@
           </div>
         </div>
 
-        <?php elseif ($base_env != 'dev'): ?>
+        <?php else: ?>
 
         <div class="alert alert-warning animated fadeInUp" role="alert">
           Hold on! We aren't on [dev] environment! Oh, we are? In this case open and edit <span class="text-danger">site.php</span> at project root directory first.
