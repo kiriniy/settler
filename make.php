@@ -6,7 +6,6 @@
       $page_level   = './';
       $page_path    = '';
 
-      $page_lang    = 'en';
       $page_title   = 'Static Site Generator';
       $page_desc    = '';
 

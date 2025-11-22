@@ -6,7 +6,6 @@
       $page_level   = './';
       $page_path    = '';
 
-      $page_lang    = 'en';
       $page_title   = 'Settler';
       $page_desc    = 'A blank php-based template.';
 

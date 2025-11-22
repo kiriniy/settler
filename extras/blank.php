@@ -6,7 +6,7 @@
       $page_level      = '../';
       $page_path       = 'extras/';
 
-      $page_lang       = 'en';
+  //  $page_lang       = '';
       $page_title      = '';
       $page_desc       = '';
 

@@ -6,7 +6,6 @@
       $page_level   = '../../';
       $page_path    = 'assets/errors/';
 
-      $page_lang    = 'en';
       $page_title   = 'Internal Server Error';
       $page_desc    = '';
 

@@ -6,7 +6,6 @@
       $page_level      = '../';
       $page_path       = 'extras/';
 
-      $page_lang       = 'en';
       $page_title      = 'Bootstrap Theme Preview';
       $page_desc       = '';
 

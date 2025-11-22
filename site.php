@@ -9,6 +9,11 @@
   // Replace 'dev.example.com' with your alt server if you have one. This is optional.
   // Replace 'example.com' with your live site if you have one. This is optional.
 
+  // The following switch statement sets environment-specific defaults
+  // based on the HTTP_HOST value. It can also be used to assign
+  // a default language per domain for multilingual sites.
+  // e.g. 'example.com' → 'en', 'example.ru' → 'ru', 'ru.example.com' → 'ru'
+
   // The 'base_csp' variable containing the CSP directives is wrapped in double quotes.
   // It allows you to use single quotes within the string without needing to escape them.
   // The CSP directives themselves must use single quotes as per the specification.
@@ -17,35 +22,39 @@
 
   switch ($_SERVER['HTTP_HOST']) {
 
-    case 'localhost:8888':     // DEVELOPMENT ENVIRONMENT
+    case 'localhost:8888':      // DEVELOPMENT ENVIRONMENT
 
-      $base_env = 'dev';
-      $base_url = $page_level; // Relative to pages or url of choice (with slash)
-      $base_csp = "";          // Content Security Policy for dev-server (optional)
-
-    break;
-
-    case 'dev.example.com':    // STAGING ENVIRONMENT
-
-      $base_env = 'staging';
-      $base_url = $page_level; // Relative to pages or url of choice (with slash)
-      $base_csp = "";          // Content Security Policy for staging-server (optional)
+      $base_env  = 'dev';
+      $base_lang = 'en';        // The default page language
+      $base_url  = $page_level; // Relative to pages or url of choice (with slash)
+      $base_csp  = "";          // Content Security Policy for dev-server (optional)
 
     break;
 
-    case 'example.com':        // PRODUCTION ENVIRONMENT
+    case 'dev.example.com':     // STAGING ENVIRONMENT
 
-      $base_env = 'prod';
-      $base_url = $page_level; // Relative to pages or url of choice (with slash)
-      $base_csp = "";          // Content Security Policy for prod-server
+      $base_env  = 'staging';
+      $base_lang = 'en';        // The default page language
+      $base_url  = $page_level; // Relative to pages or url of choice (with slash)
+      $base_csp  = "";          // Content Security Policy for staging-server (optional)
 
     break;
 
-    default:                   // IF NONE OF THE ABOVE
+    case 'example.com':         // PRODUCTION ENVIRONMENT
 
-      $base_env = 'unknown';
-      $base_url = $page_level; // Relative to pages or url of choice (with slash)
-      $base_csp = "";          // Content Security Policy
+      $base_env  = 'prod';
+      $base_lang = 'en';        // The default page language
+      $base_url  = $page_level; // Relative to pages or url of choice (with slash)
+      $base_csp  = "";          // Content Security Policy for prod-server
+
+    break;
+
+    default:                    // IF NONE OF THE ABOVE
+
+      $base_env  = 'unknown';
+      $base_lang = 'en';        // The default page language
+      $base_url  = $page_level; // Relative to pages or url of choice (with slash)
+      $base_csp  = "";          // Content Security Policy
 
     break;
 
@@ -54,6 +63,12 @@
   // Auto-path to 'assets' directory
 
   $assets = __DIR__ . '/assets/';
+
+  // Use page-specific language if set or fall back to the environment default
+
+  if (!isset($page_lang)) {
+    $page_lang = $base_lang;
+  }
 
   // Pages default values
   // Check 'assets/inc/pages_head-meta.php' and 'assets/inc/pages_head-resources.php'
