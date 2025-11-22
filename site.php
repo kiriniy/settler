@@ -3,7 +3,7 @@
   // Default timezone
   // https://www.php.net/manual/en/timezones.php
 
-  date_default_timezone_set('Europe/Moscow');
+  date_default_timezone_set('UTC');
 
   // Replace 'localhost:8888' with your actual domain or IP on local server.
   // Replace 'dev.example.com' with your alt server if you have one. This is optional.
