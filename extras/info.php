@@ -1,7 +1,7 @@
 
 <?php $page_id      = '';
       $page_ver     = '';
-      $page_type    = '';
+      $page_group   = '';
       $page_class   = '';
       $page_level   = '../';
       $page_path    = '';

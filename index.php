@@ -1,7 +1,7 @@
 
 <?php $page_id      = 'home';
       $page_ver     = '?v=' . filemtime(__FILE__);
-      $page_type    = 'pages';
+      $page_group   = 'pages';
       $page_class   = 'main';
       $page_level   = './';
       $page_path    = '';

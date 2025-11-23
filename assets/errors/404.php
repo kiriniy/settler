@@ -1,7 +1,7 @@
 
 <?php $page_id      = '404';
       $page_ver     = '?v=' . filemtime(__FILE__);
-      $page_type    = 'errors';
+      $page_group   = 'errors';
       $page_class   = 'error-404';
       $page_level   = '../../';
       $page_path    = 'assets/errors/';

@@ -86,7 +86,7 @@
 
   $page_html_attr  = 'lang="' . $page_lang . '" class="if-js-off" data-bs-theme="auto"';
   $page_head_attr  = 'prefix="og: https://ogp.me/ns#"';
-  $page_body_attr  = 'class="' . $page_type . ' ' . $page_class . '" id="page-top"';
+  $page_body_attr  = 'class="' . $page_group . ' ' . $page_class . '" id="page-top"';
 
   $page_alerts     = true;
 
