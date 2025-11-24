@@ -1,5 +1,5 @@
 
-    <!-- https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/summary -->
+    <!-- Open Graph -->
 
     <meta name="twitter:card" content="<?php echo $sharing_x_card; ?>">
     <meta name="twitter:title" content="<?php echo $sharing_title; ?>">
@@ -7,8 +7,6 @@
     <meta name="twitter:image" content="<?php echo $sharing_x_img; ?>">
     <meta name="twitter:image:alt" content="<?php echo $sharing_x_img_alt; ?>">
     <meta name="twitter:url" content="<?php echo $sharing_url; ?>">
-
-    <!-- https://developers.facebook.com/docs/sharing/webmasters -->
 
     <meta property="og:type" content="<?php echo $sharing_og_type; ?>">
     <meta property="og:title" content="<?php echo $sharing_title; ?>">

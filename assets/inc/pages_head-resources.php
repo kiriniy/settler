@@ -6,7 +6,7 @@
     <link rel="sitemap" href="<?php echo $base_url . 'sitemap.xml'; ?>">
     <link rel="manifest" href="<?php echo $base_url . 'site.webmanifest'; ?>">
 
-    <!-- Site Icons: https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs -->
+    <!-- Site Icons -->
 
     <link rel="icon" sizes="32x32" href="<?php echo (addTime($page_level . 'favicon.ico')); ?>">
     <link rel="icon" type="image/svg+xml" href="<?php echo (addTime($page_level . 'assets/img/icons/icon.svg')); ?>">
