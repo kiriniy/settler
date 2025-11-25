@@ -22,11 +22,16 @@
       $page_viewport   = '';
       $page_autoformat = '';
 
+      $page_sharing    = true;
+      $page_info       = true;
+      $page_icons      = true;
+      $page_styles     = true;
+      $page_noscript   = true;
+      $page_alerts     = true;
+
    // $page_html_attr  = '';
    // $page_head_attr  = '';
    // $page_body_attr  = '';
-
-      $page_alerts     = true;
 
       $sharing_title        = '';
       $sharing_desc         = '';

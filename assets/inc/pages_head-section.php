@@ -15,6 +15,8 @@
     <meta name="yandex-verification" content="">
     <meta name="msvalidate.01" content="">
 
+    <?php if ($page_sharing): ?>
+
     <!-- Open Graph -->
 
     <meta name="twitter:card" content="<?php echo $sharing_x_card; ?>">
@@ -33,19 +35,25 @@
     <meta property="og:image:width" content="<?php echo $sharing_og_img_w; ?>">
     <meta property="og:image:height" content="<?php echo $sharing_og_img_h; ?>">
     <meta property="og:url" content="<?php echo $sharing_url; ?>">
+    
+    <?php endif; if ($page_info): ?>
 
-    <!-- Site Credits & Information -->
+    <!-- Site Information -->
 
     <link rel="canonical" href="<?php echo $base_url . $page_path; ?>">
     <link rel="author" href="<?php echo $base_url . 'humans.txt'; ?>">
     <link rel="sitemap" href="<?php echo $base_url . 'sitemap.xml'; ?>">
     <link rel="manifest" href="<?php echo $base_url . 'site.webmanifest'; ?>">
 
+    <?php endif; if ($page_icons): ?>
+
     <!-- Site Icons -->
 
     <link rel="icon" sizes="32x32" href="<?php echo (addTime($page_level . 'favicon.ico')); ?>">
     <link rel="icon" type="image/svg+xml" href="<?php echo (addTime($page_level . 'assets/img/icons/icon.svg')); ?>">
     <link rel="apple-touch-icon" href="<?php echo (addTime($page_level . 'assets/img/icons/apple-touch-icon.png')); ?>">
+
+    <?php endif; if ($page_styles): ?>
 
     <!-- Site Resources -->
 
@@ -54,6 +62,10 @@
     <link type="text/css" rel="stylesheet" href="<?php echo (addTime($page_level . 'assets/css/animate.css')); ?>">
     <link type="text/css" rel="stylesheet" href="<?php echo (addTime($page_level . 'assets/css/main.css')); ?>">
 
+    <?php endif; if ($page_noscript): ?>
+
     <!-- Styles for JavaScript-disabled browsers -->
 
     <noscript><link type="text/css" rel="stylesheet" href="<?php echo (addTime($page_level . 'assets/css/no-js.css')); ?>"></noscript>
+
+    <?php endif; ?>

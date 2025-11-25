@@ -1,21 +1,19 @@
 
-<?php $page_id      = '';
-      $page_ver     = '';
-      $page_group   = '';
-      $page_class   = '';
-      $page_level   = './';
-      $page_path    = '';
+<?php $page_id         = 'static-maker';
+      $page_ver        = '?v=' . filemtime(__FILE__);
+      $page_group      = 'misc';
+      $page_class      = 'static-site-generator';
+      $page_level      = './';
+      $page_path       = '';
 
-      $page_title   = 'Static Site Generator';
-      $page_desc    = '';
+      $page_title      = 'Static Site Generator';
+      $page_desc       = 'A tool for creating static sites suitable for php-less hosting.';
 
       require $page_level . 'site.php';
 
-      $page_csp        = '';
-      $page_robots     = '';
-      $page_autoformat = '';
-      $page_head_attr  = '';
-      $page_body_attr  = '';
+      $page_sharing    = false;
+      $page_info       = false;
+      $page_alerts     = false;
 
    // Static Site Generator
    // ------------------------------------

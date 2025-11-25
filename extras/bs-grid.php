@@ -1,22 +1,18 @@
 
 <?php $page_id         = 'bs-grid';
       $page_ver        = '?v=' . filemtime(__FILE__);
-      $page_group      = '';
-      $page_class      = '';
+      $page_group      = 'misc';
+      $page_class      = 'bs-grid-preview';
       $page_level      = '../';
       $page_path       = 'extras/';
 
       $page_title      = 'Bootstrap Grid System';
-      $page_desc       = '';
+      $page_desc       = 'Preview of Bootstrap grid layouts.';
 
       require $page_level . 'site.php';
 
-      $page_csp        = '';
-      $page_robots     = '';
-      $page_autoformat = '';
-      $page_head_attr  = '';
-      $page_body_attr  = '';
-
+      $page_sharing    = false;
+      $page_info       = false;
       $page_alerts     = false;
 
       ?>

@@ -70,7 +70,7 @@
     $page_lang = $base_lang;
   }
 
-  // Pages default values
+  // Default values for <head> section
   // Check 'assets/inc/pages_head-section.php'
 
   $page_charset    = 'utf-8';
@@ -83,23 +83,29 @@
   $page_viewport   = 'width=device-width, initial-scale=1, viewport-fit=cover';
   $page_autoformat = 'telephone=no, address=no, date=no';
 
-  $page_html_attr  = 'lang="' . $page_lang . '" class="if-js-off" data-bs-theme="auto"';
-  $page_head_attr  = 'prefix="og: https://ogp.me/ns#"';
-  $page_body_attr  = 'class="' . $page_group . ' ' . $page_class . '" id="page-top"';
-
+  $page_sharing    = true;
+  $page_info       = true;
+  $page_icons      = true;
+  $page_styles     = true;
+  $page_noscript   = true;
   $page_alerts     = true;
 
-  // Metadata default values
-  // Check 'assets/inc/pages_head-sharing.php'
+  // Default attribute values for main tags
+
+  $page_html_attr  = 'lang="' . $page_lang . '" class="if-js-off" data-bs-theme="auto"';
+  $page_head_attr  = '';
+  $page_body_attr  = 'class="' . $page_group . ' ' . $page_class . '" id="page-top"';
+
+  // Default values for Open Graph metadata
 
   $sharing_title        = $page_pretitle . $page_title . $page_posttitle;
   $sharing_desc         = $page_desc;
   $sharing_url          = $base_url . $page_path . $page_ver;
-  
+
   $sharing_x_card       = 'summary';
   $sharing_x_img        = $base_url . 'assets/img/sharing/1080x1080_default.jpg';
   $sharing_x_img_alt    = '';
-  
+
   $sharing_og_type      = 'website';
   $sharing_og_locale    = $page_lang;
   $sharing_og_img       = $base_url . 'assets/img/sharing/1200x630_default.jpg';

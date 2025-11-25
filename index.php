@@ -1,13 +1,13 @@
 
-<?php $page_id      = 'home';
+<?php $page_id      = 'main-index';
       $page_ver     = '?v=' . filemtime(__FILE__);
       $page_group   = 'pages';
-      $page_class   = 'main';
+      $page_class   = 'home';
       $page_level   = './';
       $page_path    = '';
 
       $page_title   = 'Settler';
-      $page_desc    = 'A blank php-based template.';
+      $page_desc    = 'A blank php-based web-project template for not-quite-developers.';
 
       require $page_level . 'site.php';
 

@@ -22,7 +22,7 @@
         </div>
       </div>
 
-      <?php if ($page_id == 'home'): ?>
+      <?php if ($page_id == 'main-index'): ?>
 
       <!-- Example specific by page ID message (markup based on Bootstrap 5 framework) -->
 

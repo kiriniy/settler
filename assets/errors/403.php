@@ -1,21 +1,20 @@
 
-<?php $page_id      = '403';
-      $page_ver     = '?v=' . filemtime(__FILE__);
-      $page_group   = 'errors';
-      $page_class   = 'error-403';
-      $page_level   = '../../';
-      $page_path    = 'assets/errors/';
+<?php $page_id         = 'e403';
+      $page_ver        = '?v=' . filemtime(__FILE__);
+      $page_group      = 'errors';
+      $page_class      = 'error-403';
+      $page_level      = '../../';
+      $page_path       = 'assets/errors/';
 
-      $page_title   = 'Forbidden';
-      $page_desc    = '';
+      $page_title      = 'Forbidden';
+      $page_desc       = 'An error occurred while processing your request.';
 
       require $page_level . 'site.php';
 
-      $page_csp        = '';
-      $page_robots     = '';
-      $page_autoformat = '';
-      $page_head_attr  = '';
+      $page_robots     = 'noindex, nofollow';
 
+      $page_sharing    = false;
+      $page_info       = false;
       $page_alerts     = false;
 
       ?>
