@@ -14,7 +14,6 @@
       $page_csp        = '';
       $page_robots     = '';
       $page_autoformat = '';
-      $page_canonical  = '';
       $page_head_attr  = '';
 
       $page_alerts     = false;

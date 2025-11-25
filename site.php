@@ -82,7 +82,6 @@
   $page_robots     = 'index, follow';
   $page_viewport   = 'width=device-width, initial-scale=1, viewport-fit=cover';
   $page_autoformat = 'telephone=no, address=no, date=no';
-  $page_canonical  = $base_url . $page_path;
 
   $page_html_attr  = 'lang="' . $page_lang . '" class="if-js-off" data-bs-theme="auto"';
   $page_head_attr  = 'prefix="og: https://ogp.me/ns#"';

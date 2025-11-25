@@ -1,7 +1,7 @@
 
     <!-- Site Credits & Information -->
 
-    <link rel="canonical" href="<?php echo $page_canonical; ?>">
+    <link rel="canonical" href="<?php echo $base_url . $page_path; ?>">
     <link rel="author" href="<?php echo $base_url . 'humans.txt'; ?>">
     <link rel="sitemap" href="<?php echo $base_url . 'sitemap.xml'; ?>">
     <link rel="manifest" href="<?php echo $base_url . 'site.webmanifest'; ?>">

@@ -6,7 +6,7 @@
       $page_level      = '../';
       $page_path       = 'extras/';
 
-  //  $page_lang       = '';
+   // $page_lang       = '';
       $page_title      = '';
       $page_desc       = '';
 
@@ -21,7 +21,6 @@
       $page_robots     = '';
       $page_viewport   = '';
       $page_autoformat = '';
-      $page_canonical  = '';
 
    // $page_html_attr  = '';
    // $page_head_attr  = '';
