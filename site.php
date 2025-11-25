@@ -71,7 +71,7 @@
   }
 
   // Pages default values
-  // Check 'assets/inc/pages_head-meta.php' and 'assets/inc/pages_head-resources.php'
+  // Check 'assets/inc/pages_head-section.php'
 
   $page_charset    = 'utf-8';
   $page_csp        = $base_csp;
