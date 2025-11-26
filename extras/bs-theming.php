@@ -2265,20 +2265,20 @@
 
       // Initialize popovers
 
-     const popoverElements = document.querySelectorAll('[data-bs-toggle="popover"]');
+      const popoverElements = document.querySelectorAll('[data-bs-toggle="popover"]');
 
-     for (const popover of popoverElements) {
-       new bootstrap.Popover(popover);
-     }
+      for (const popover of popoverElements) {
+        new bootstrap.Popover(popover);
+      }
 
-     // Initialize tooltips
+      // Initialize tooltips
 
-     const tooltipElements = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+      const tooltipElements = document.querySelectorAll('[data-bs-toggle="tooltip"]');
 
-     for (const tooltip of tooltipElements) {
-       new bootstrap.Tooltip(tooltip);
-     }
- 
+      for (const tooltip of tooltipElements) {
+        new bootstrap.Tooltip(tooltip);
+      }
+
     </script>
 
   </body>
