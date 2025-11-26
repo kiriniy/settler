@@ -70,6 +70,11 @@
     $page_lang = $base_lang;
   }
 
+  // Ensure required page metadata is always defined
+
+  $page_title = $page_title ?? 'Untitled Page';
+  $page_desc  = $page_desc  ?? '';
+
   // Default values for <head> section
   // Check 'assets/inc/pages_head-section.php'
 
