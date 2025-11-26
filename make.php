@@ -17,7 +17,8 @@
 
    // Static Site Generator
    // ------------------------------------
-   // By default at 'dev' environment only
+   // BY DEFAULT AT 'DEV' ENVIRONMENT ONLY 
+   // NEVER DEPLOY THIS FILE TO PRODUCTION
 
       if ($base_env == 'dev') {
 
