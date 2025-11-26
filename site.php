@@ -18,7 +18,10 @@
   // It allows you to use single quotes within the string without needing to escape them.
   // The CSP directives themselves must use single quotes as per the specification.
   // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy
-  // Note that leaving 'base_csp' variable empty will disable CSP entirely.
+
+  // Note: CSP via <meta> does NOT support 'frame-ancestors' or 'report-uri'.
+  // For full CSP control, use HTTP headers (e.g. via .htaccess)
+  // Leaving 'base_csp' variable empty will disable CSP entirely.
 
   switch ($_SERVER['HTTP_HOST']) {
 
