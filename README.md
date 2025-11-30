@@ -20,7 +20,7 @@
 
 A blank PHP-based project template for not-quite-developers — when your future website is too complex for static HTML, but not complicated enough for a CMS and database.
 
-Prefer a completely empty template? Try the minimal **[Settler Lite](https://github.com/kiriniy/settler-lite)** version (~100 KB, no Bootstrap, no extras).  
+Prefer a completely empty template? Try the minimal **[Settler Lite](https://github.com/kiriniy/settler-lite)** version (~100 KB, no extras).  
 
 ## Philosophy
 
@@ -49,8 +49,7 @@ Tools like Webflow, Wix, or Squarespace let you build sites fast without coding.
 
 ## Browser Support
 
-Settler works in all modern browsers (Chrome, Firefox, Safari, Edge).
-Internet Explorer is not supported.
+Settler works in all modern browsers: Chrome, Firefox, Safari, Edge.
 
 ## Requirements
 
@@ -173,8 +172,8 @@ See [Releases](https://github.com/kiriniy/settler/releases) for the changelog.
 **Philosophy**
 
  - [Resilient Web Design](https://resilientwebdesign.com) by Jeremy Keith. Free web book.
- - [The Great Divide](https://css-tricks.com/the-great-divide/) by Chris Coyier on CSS-Tricks
- - [Web Development Is Getting Too Complex](https://www.smashingmagazine.com/2024/02/web-development-getting-too-complex/) by Juan Diego Rodríguez on Smashing Magazine
+ - [The Great Divide](https://css-tricks.com/the-great-divide/) by Chris Coyier on CSS-Tricks.
+ - [Web Development Is Getting Too Complex](https://www.smashingmagazine.com/2024/02/web-development-getting-too-complex/) by Juan Diego Rodríguez on Smashing Magazine.
 
  - [This is a motherf*g website](https://motherfuckingwebsite.com/)
  - [This is still a motherf*g website](http://bettermotherfuckingwebsite.com/)
