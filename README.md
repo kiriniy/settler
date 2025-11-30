@@ -36,7 +36,7 @@ WordPress, Joomla, and other content management systems (CMS) are powerful tools
 
 ### What about website builders?
 
-Tools like Webflow, Wix, or Squarespace let you build sites fast without coding. But they lock your content and design into proprietary platforms. Moving elsewhere means rebuilding from scratch. You’re stuck with what they offer and what they charge. Settler gives you plain files you own, full control over design, and the freedom to host anywhere — even on free services like GitHub Pages.
+Tools like Webflow, Wix, or Squarespace let you build sites fast without coding. But they lock your content and design into proprietary platforms. Moving elsewhere means rebuilding from scratch. You’re stuck with what they offer and what they charge. Settler gives you plain files you own, full control over design, and the freedom to host anywhere, even on free services like GitHub Pages.
 
 ### For whom?
 
