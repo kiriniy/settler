@@ -181,11 +181,11 @@ See [Releases](https://github.com/kiriniy/settler/releases) for the changelog.
  - [This is still a motherf*g website](http://bettermotherfuckingwebsite.com/)
  - [This is the final motherf*g website](https://perfectmotherfuckingwebsite.com/)
 
-**Misc**
+**Further Reading**
 
- - [Site Icons by Evil Martians](https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs)
- - [Open Graph: Twitter Card](https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/summary)
- - [Open Graph: Facebook Card](https://developers.facebook.com/docs/sharing/webmasters)
+ - [Site Icons](https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs) by Evil Martians
+ - [Facebook Card](https://developers.facebook.com/docs/sharing/webmasters)
+ - [Twitter Card](https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/summary)
 
 ## Contributing
 
