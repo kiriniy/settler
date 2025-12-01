@@ -1,10 +1,5 @@
 <?php
 
-  // Default timezone
-  // https://www.php.net/manual/en/timezones.php
-
-  date_default_timezone_set('UTC');
-
   // Replace 'localhost:8888' with your actual domain or IP on local server.
   // Replace 'dev.example.com' with your alt server if you have one. This is optional.
   // Replace 'example.com' with your live site if you have one. This is optional.
@@ -62,6 +57,11 @@
     break;
 
   }
+
+  // Default timezone
+  // https://www.php.net/manual/en/timezones.php
+
+  date_default_timezone_set('UTC');
 
   // Auto-path to 'assets' directory
 
