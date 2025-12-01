@@ -63,6 +63,12 @@
 
   date_default_timezone_set('UTC');
 
+  // Verification codes (webmaster tools)
+
+  $vrf_code_google = '';   // Google Search Console
+  $vrf_code_yandex = '';   // Yandex.Webmaster
+  $vrf_code_msbing = '';   // Bing Webmaster Tools
+
   // Auto-path to 'assets' directory
 
   $assets = __DIR__ . '/assets/';
