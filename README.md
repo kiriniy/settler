@@ -20,7 +20,7 @@
 
 A blank PHP-based project template for not-quite-developers — when your future website is too complex for static HTML, but not complicated enough for a CMS and database.
 
-Prefer a completely empty template? Try the minimal **[Settler Lite](https://github.com/kiriniy/settler-lite)** version (~100 KB, no extras).  
+Prefer a completely empty template? Try the minimal **[Settler Lite](https://github.com/kiriniy/settler-lite)** (~100 KB, no extras).  
 
 ## Philosophy
 
