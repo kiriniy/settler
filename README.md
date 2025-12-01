@@ -175,6 +175,8 @@ See [Releases](https://github.com/kiriniy/settler/releases) for the changelog.
  - [The Great Divide](https://css-tricks.com/the-great-divide/) by Chris Coyier on CSS-Tricks.
  - [Web Development Is Getting Too Complex](https://www.smashingmagazine.com/2024/02/web-development-getting-too-complex/) by Juan Diego Rodríguez on Smashing Magazine.
 
+**Also Philosophy**
+
  - [This is a motherf*g website](https://motherfuckingwebsite.com/)
  - [This is still a motherf*g website](http://bettermotherfuckingwebsite.com/)
  - [This is the final motherf*g website](https://perfectmotherfuckingwebsite.com/)
