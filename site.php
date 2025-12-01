@@ -58,6 +58,12 @@
 
   }
 
+  // Use page-specific language if set or fall back to the environment default
+
+  if (!isset($page_lang)) {
+    $page_lang = $base_lang;
+  }
+
   // Default timezone
   // https://www.php.net/manual/en/timezones.php
 
@@ -72,12 +78,6 @@
   // Auto-path to 'assets' directory
 
   $assets = __DIR__ . '/assets/';
-
-  // Use page-specific language if set or fall back to the environment default
-
-  if (!isset($page_lang)) {
-    $page_lang = $base_lang;
-  }
 
   // Ensure required page metadata is always defined
 
