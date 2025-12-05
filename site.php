@@ -23,7 +23,6 @@
     case 'localhost:8888':      // DEVELOPMENT ENVIRONMENT
 
       $base_env  = 'dev';
-      $base_lang = 'en';        // The default page language
       $base_url  = $page_level; // Relative to pages or url of choice (with slash)
       $base_csp  = "";          // Content Security Policy for dev-server (optional)
 
@@ -32,7 +31,6 @@
     case 'dev.example.com':     // STAGING ENVIRONMENT
 
       $base_env  = 'staging';
-      $base_lang = 'en';        // The default page language
       $base_url  = $page_level; // Relative to pages or url of choice (with slash)
       $base_csp  = "";          // Content Security Policy for staging-server (optional)
 
@@ -41,7 +39,6 @@
     case 'example.com':         // PRODUCTION ENVIRONMENT
 
       $base_env  = 'prod';
-      $base_lang = 'en';        // The default page language
       $base_url  = $page_level; // Relative to pages or url of choice (with slash)
       $base_csp  = "";          // Content Security Policy for prod-server
 
@@ -50,7 +47,6 @@
     default:                    // IF NONE OF THE ABOVE
 
       $base_env  = 'unknown';
-      $base_lang = 'en';        // The default page language
       $base_url  = $page_level; // Relative to pages or url of choice (with slash)
       $base_csp  = "";          // Content Security Policy
 
@@ -58,10 +54,11 @@
 
   }
 
-  // Use page-specific language if set or fall back to the environment default
+  // Default site language
+  // https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang
 
   if (!isset($page_lang)) {
-    $page_lang = $base_lang;
+    $page_lang = 'en';
   }
 
   // Default timezone
