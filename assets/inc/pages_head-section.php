@@ -55,6 +55,10 @@
 
     <?php endif; if ($page_styles): ?>
 
+    <!-- Flash of unstyled content (FOUC) -->
+
+    <script src="<?php echo $base_url . 'assets/js/fouc.js'; ?>"></script>
+
     <!-- Site Resources -->
 
     <link type="text/css" rel="stylesheet" href="<?php echo (addTime($page_level . 'assets/css/bootstrap.css')); ?>">
