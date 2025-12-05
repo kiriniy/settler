@@ -20,6 +20,10 @@
 
 </IfModule>
 
+# --- Index Files Priority --- #
+
+DirectoryIndex index.php index.html
+
 # --- Basic Security --- #
 
 <IfModule mod_autoindex.c>
