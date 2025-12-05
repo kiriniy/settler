@@ -19,19 +19,19 @@
 
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item"><a class="nav-link" href="<?php echo $base_url . 'assets/errors/400.php'; ?>">400: Bad Request</a></li>
-              <li class="nav-item"><a class="nav-link" href="<?php echo $base_url . 'assets/errors/401.php'; ?>">401: Unauthorized</a></li>
-              <li class="nav-item"><a class="nav-link" href="<?php echo $base_url . 'assets/errors/403.php'; ?>">403: Access Forbidden</a></li>
-              <li class="nav-item"><a class="nav-link" href="<?php echo $base_url . 'assets/errors/404.php'; ?>">404: Page not found</a></li>
-              <li class="nav-item"><a class="nav-link" href="<?php echo $base_url . 'assets/errors/500.php'; ?>">500: Server Error</a></li>
+              <li class="nav-item"><a class="nav-link" href="<?= $base_url . 'assets/errors/400.php'; ?>">400: Bad Request</a></li>
+              <li class="nav-item"><a class="nav-link" href="<?= $base_url . 'assets/errors/401.php'; ?>">401: Unauthorized</a></li>
+              <li class="nav-item"><a class="nav-link" href="<?= $base_url . 'assets/errors/403.php'; ?>">403: Access Forbidden</a></li>
+              <li class="nav-item"><a class="nav-link" href="<?= $base_url . 'assets/errors/404.php'; ?>">404: Page not found</a></li>
+              <li class="nav-item"><a class="nav-link" href="<?= $base_url . 'assets/errors/500.php'; ?>">500: Server Error</a></li>
               <hr>
 
-              <li class="nav-item"><a class="nav-link" href="<?php echo $base_url . 'extras/info.php'; ?>">PHP's Information</a></li>
-              <li class="nav-item"><a class="nav-link" href="<?php echo $base_url . 'make.php'; ?>">Static Site Generator</a></li>
-              <li class="nav-item"><a class="nav-link" href="<?php echo $base_url . 'extras/blank.html'; ?>">Blank HTML Template</a></li>
-              <li class="nav-item"><a class="nav-link" href="<?php echo $base_url . 'extras/blank.php'; ?>">Blank PHP Template</a></li>
-              <li class="nav-item"><a class="nav-link" href="<?php echo $base_url . 'extras/bs-theming.php'; ?>">BS5 Theming</a></li>
-              <li class="nav-item"><a class="nav-link" href="<?php echo $base_url . 'extras/bs-grid.php'; ?>">BS5 Grid</a></li>
+              <li class="nav-item"><a class="nav-link" href="<?= $base_url . 'extras/info.php'; ?>">PHP's Information</a></li>
+              <li class="nav-item"><a class="nav-link" href="<?= $base_url . 'make.php'; ?>">Static Site Generator</a></li>
+              <li class="nav-item"><a class="nav-link" href="<?= $base_url . 'extras/blank.html'; ?>">Blank HTML Template</a></li>
+              <li class="nav-item"><a class="nav-link" href="<?= $base_url . 'extras/blank.php'; ?>">Blank PHP Template</a></li>
+              <li class="nav-item"><a class="nav-link" href="<?= $base_url . 'extras/bs-theming.php'; ?>">BS5 Theming</a></li>
+              <li class="nav-item"><a class="nav-link" href="<?= $base_url . 'extras/bs-grid.php'; ?>">BS5 Grid</a></li>
           </div>
         </div>
       </div>

@@ -65,14 +65,14 @@
 
 <!DOCTYPE HTML>
 
-<html <?php echo $page_html_attr; ?>>
-  <head <?php echo $page_head_attr; ?>>
+<html <?= $page_html_attr; ?>>
+  <head <?= $page_head_attr; ?>>
 
     <?php include $assets . 'inc/pages_head-section.php'; ?>
 
   </head>
 
-  <body <?php echo $page_body_attr; ?>>
+  <body <?= $page_body_attr; ?>>
 
     <!-- PAGE CONTENT START -->
 
@@ -94,13 +94,13 @@
           </div>
 
           <div class="card-body">
-            <?php echo $result; ?>
+            <?= $result; ?>
           </div>
 
           <div class="card-footer">
           <ul class="list-inline m-0">
-            <li class="list-inline-item">Total files provided: <strong><?php echo count($files); ?></strong></li>
-            <li class="list-inline-item">Total files converted: <strong><?php echo count($successfulCopies); ?></strong></li>
+            <li class="list-inline-item">Total files provided: <strong><?= count($files); ?></strong></li>
+            <li class="list-inline-item">Total files converted: <strong><?= count($successfulCopies); ?></strong></li>
           </ul>
           </div>
         </div>

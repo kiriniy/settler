@@ -21,14 +21,14 @@
 
 <!DOCTYPE HTML>
 
-<html <?php echo $page_html_attr; ?>>
-  <head <?php echo $page_head_attr; ?>>
+<html <?= $page_html_attr; ?>>
+  <head <?= $page_head_attr; ?>>
 
     <?php include $assets . 'inc/pages_head-section.php'; ?>
 
   </head>
 
-  <body <?php echo $page_body_attr; ?>>
+  <body <?= $page_body_attr; ?>>
 
     <!-- PAGE CONTENT START -->
 
@@ -41,7 +41,7 @@
         <h1>Error 404
         <br>Page not found!</h1>
         <p>Oops! Seems like the page you are looking for no longer exists.
-        <br>You may go <a href='javascript:history.back(1)'>back</a> or <a href='<?php echo $base_url; ?>'>start over</a>.</p>
+        <br>You may go <a href='javascript:history.back(1)'>back</a> or <a href='<?= $base_url; ?>'>start over</a>.</p>
         <hr>
         <p class="small text-muted">Rename and edit <code>htaccess</code> file to activate custom error pages.</p>
       </div>

@@ -50,8 +50,8 @@
 
 <!DOCTYPE HTML>
 
-<html <?php echo $page_html_attr; ?>>
-  <head <?php echo $page_head_attr; ?>>
+<html <?= $page_html_attr; ?>>
+  <head <?= $page_head_attr; ?>>
 
     <?php include $assets . 'inc/pages_head-section.php'; ?>
 
@@ -72,7 +72,7 @@
 
   </head>
 
-  <body <?php echo $page_body_attr; ?>>
+  <body <?= $page_body_attr; ?>>
 
     <!-- PAGE CONTENT START -->
 
