@@ -63,7 +63,7 @@ Settler works in all modern browsers: Chrome, Firefox, Safari, Edge.
  - Graphic editor for icons, thumbnails etc.
  - FTP client for easy uploading to hosting.
 
-Settler ships with precompiled, unminified `main.css` and `main.js` files. However, you’re not required to use the bundled version of `main.js`. You can include individual source files directly from `assets/js/src/main/` (e.g. only if-mobile.js).
+Settler ships with precompiled, unminified `main.css` and `main.js` files. However, you’re not required to use the bundled version of `main.js`. You can include individual source files directly from `assets/js/src/main/`.
 
 Free image editors are available online, and most hosting control panels have a built-in file manager through which you can upload your files. Some IDEs also have compilers and FTP-clients built-in or as downloadable extensions.
 
