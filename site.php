@@ -4,11 +4,6 @@
   // Replace 'dev.example.com' with your alt server if you have one. This is optional.
   // Replace 'example.com' with your live site if you have one. This is optional.
 
-  // The following switch statement sets environment-specific defaults
-  // based on the HTTP_HOST value. It can also be used to assign
-  // a default language per domain for multilingual sites.
-  // e.g. 'example.com' → 'en', 'example.ru' → 'ru', 'ru.example.com' → 'ru'
-
   // The 'base_csp' variable containing the CSP directives is wrapped in double quotes.
   // It allows you to use single quotes within the string without needing to escape them.
   // The CSP directives themselves must use single quotes as per the specification.
